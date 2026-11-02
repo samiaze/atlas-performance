@@ -1,0 +1,541 @@
+[
+    {
+        "player": {
+            "id": 13969,
+            "name": "D. Chacón",
+            "firstname": "Daniel Alonso",
+            "lastname": "Chacón Salas",
+            "age": 24,
+            "birth": {
+                "date": "2001-04-11",
+                "place": "Turrialba",
+                "country": "Costa Rica"
+            },
+            "nationality": "Costa Rica",
+            "height": "183",
+            "weight": "69",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/13969.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 820,
+                    "name": "CS Cartagines",
+                    "logo": "https://media.api-sports.io/football/teams/820.png"
+                },
+                "league": {
+                    "id": 162,
+                    "name": "Primera División",
+                    "country": "Costa-Rica",
+                    "logo": "https://media.api-sports.io/football/leagues/162.png",
+                    "flag": "https://media.api-sports.io/flags/cr.svg",
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 11,
+                    "lineups": 11,
+                    "minutes": 946,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 3,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 820,
+                    "name": "CS Cartagines",
+                    "logo": "https://media.api-sports.io/football/teams/820.png"
+                },
+                "league": {
+                    "id": 767,
+                    "name": "CONCACAF League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/767.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 180,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 29,
+                    "name": "Costa Rica",
+                    "logo": "https://media.api-sports.io/football/teams/29.png"
+                },
+                "league": {
+                    "id": 536,
+                    "name": "CONCACAF Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/536.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 1,
+                    "minutes": 108,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 29,
+                    "name": "Costa Rica",
+                    "logo": "https://media.api-sports.io/football/teams/29.png"
+                },
+                "league": {
+                    "id": 37,
+                    "name": "World Cup - Qualification Intercontinental Play-offs",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/37.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 0,
+                    "minutes": 11,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.300000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 2,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 1,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 29,
+                    "name": "Costa Rica",
+                    "logo": "https://media.api-sports.io/football/teams/29.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 1,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 1,
+                    "won": 1
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 29,
+                    "name": "Costa Rica",
+                    "logo": "https://media.api-sports.io/football/teams/29.png"
+                },
+                "league": {
+                    "id": 31,
+                    "name": "World Cup - Qualification CONCACAF",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/31.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 4,
+                    "lineups": 1,
+                    "minutes": 125,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.466666",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 3,
+                    "out": 0,
+                    "bench": 5
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 32,
+                    "key": 2,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 2,
+                    "blocks": null,
+                    "interceptions": 5
+                },
+                "duels": {
+                    "total": 12,
+                    "won": 2
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": 6
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 29,
+                    "name": "Costa Rica",
+                    "logo": "https://media.api-sports.io/football/teams/29.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 136,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    }
+]

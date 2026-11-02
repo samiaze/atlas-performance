@@ -1,0 +1,689 @@
+[
+    {
+        "player": {
+            "id": 2897,
+            "name": "Kim Min-Jae",
+            "firstname": "Min-Jae",
+            "lastname": "Kim",
+            "age": 29,
+            "birth": {
+                "date": "1996-11-15",
+                "place": "Tongyeong",
+                "country": "Korea Republic"
+            },
+            "nationality": "Korea Republic",
+            "height": "190",
+            "weight": "88",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/2897.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 611,
+                    "name": "Fenerbahçe",
+                    "logo": "https://media.api-sports.io/football/teams/611.png"
+                },
+                "league": {
+                    "id": 2,
+                    "name": "UEFA Champions League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/2.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "7.177777",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": 1,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 611,
+                    "key": 1,
+                    "accuracy": 59
+                },
+                "tackles": {
+                    "total": 12,
+                    "blocks": 8,
+                    "interceptions": 22
+                },
+                "duels": {
+                    "total": 68,
+                    "won": 47
+                },
+                "dribbles": {
+                    "attempts": 2,
+                    "success": 2,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": 9
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 492,
+                    "name": "Napoli",
+                    "logo": "https://media.api-sports.io/football/teams/492.png"
+                },
+                "league": {
+                    "id": 135,
+                    "name": "Serie A",
+                    "country": "Italy",
+                    "logo": "https://media.api-sports.io/football/leagues/135.png",
+                    "flag": "https://media.api-sports.io/flags/it.svg",
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 37,
+                    "lineups": 36,
+                    "minutes": 3062,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "7.234285",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": null,
+                    "bench": null
+                },
+                "shots": {
+                    "total": 7,
+                    "on": 4
+                },
+                "goals": {
+                    "total": 2,
+                    "conceded": 0,
+                    "assists": 2,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 2799,
+                    "key": 10,
+                    "accuracy": 72
+                },
+                "tackles": {
+                    "total": 55,
+                    "blocks": 26,
+                    "interceptions": 41
+                },
+                "duels": {
+                    "total": 253,
+                    "won": 156
+                },
+                "dribbles": {
+                    "attempts": 6,
+                    "success": 3,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 7,
+                    "committed": 30
+                },
+                "cards": {
+                    "yellow": 5,
+                    "yellowred": null,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 611,
+                    "name": "Fenerbahçe",
+                    "logo": "https://media.api-sports.io/football/teams/611.png"
+                },
+                "league": {
+                    "id": 203,
+                    "name": "Süper Lig",
+                    "country": "Turkey",
+                    "logo": "https://media.api-sports.io/football/leagues/203.png",
+                    "flag": "https://media.api-sports.io/flags/tr.svg",
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 492,
+                    "name": "Napoli",
+                    "logo": "https://media.api-sports.io/football/teams/492.png"
+                },
+                "league": {
+                    "id": 2,
+                    "name": "UEFA Champions League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/2.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 9,
+                    "lineups": 9,
+                    "minutes": 786,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "7.177777",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": null,
+                    "bench": null
+                },
+                "shots": {
+                    "total": 1,
+                    "on": null
+                },
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 611,
+                    "key": 1,
+                    "accuracy": 59
+                },
+                "tackles": {
+                    "total": 12,
+                    "blocks": 8,
+                    "interceptions": 22
+                },
+                "duels": {
+                    "total": 68,
+                    "won": 47
+                },
+                "dribbles": {
+                    "attempts": 2,
+                    "success": 2,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": 9
+                },
+                "cards": {
+                    "yellow": 3,
+                    "yellowred": null,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 611,
+                    "name": "Fenerbahçe",
+                    "logo": "https://media.api-sports.io/football/teams/611.png"
+                },
+                "league": {
+                    "id": 667,
+                    "name": "Friendlies Clubs",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/667.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 3,
+                    "minutes": 244,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 17,
+                    "name": "South Korea",
+                    "logo": "https://media.api-sports.io/football/teams/17.png"
+                },
+                "league": {
+                    "id": 30,
+                    "name": "World Cup - Qualification Asia",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/30.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 16,
+                    "lineups": 15,
+                    "minutes": 1346,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 4,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 3,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 17,
+                    "name": "South Korea",
+                    "logo": "https://media.api-sports.io/football/teams/17.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 3,
+                    "minutes": 270,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.766666",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": 2,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 189,
+                    "key": null,
+                    "accuracy": 55
+                },
+                "tackles": {
+                    "total": 2,
+                    "blocks": 1,
+                    "interceptions": 2
+                },
+                "duels": {
+                    "total": 14,
+                    "won": 13
+                },
+                "dribbles": {
+                    "attempts": 1,
+                    "success": 1,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 17,
+                    "name": "South Korea",
+                    "logo": "https://media.api-sports.io/football/teams/17.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 180,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 492,
+                    "name": "Napoli",
+                    "logo": "https://media.api-sports.io/football/teams/492.png"
+                },
+                "league": {
+                    "id": 137,
+                    "name": "Coppa Italia",
+                    "country": "Italy",
+                    "logo": "https://media.api-sports.io/football/leagues/137.png",
+                    "flag": "https://media.api-sports.io/flags/it.svg",
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 0,
+                    "minutes": 38,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.900000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 51,
+                    "key": 1,
+                    "accuracy": 48
+                },
+                "tackles": {
+                    "total": 3,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 4,
+                    "won": 3
+                },
+                "dribbles": {
+                    "attempts": 1,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            }
+        ]
+    }
+]

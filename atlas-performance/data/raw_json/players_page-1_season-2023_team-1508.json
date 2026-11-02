@@ -1,0 +1,5454 @@
+[
+    {
+        "player": {
+            "id": 2108,
+            "name": "W. Balikwisha",
+            "firstname": "William",
+            "lastname": "Balikwisha",
+            "age": 26,
+            "birth": {
+                "date": "1999-05-12",
+                "place": "Brussels",
+                "country": "Belgium"
+            },
+            "nationality": "Congo DR",
+            "height": "174",
+            "weight": "68",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/2108.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 0,
+                    "minutes": 28,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 0,
+                    "minutes": 28,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.200000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 4
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 11,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 7,
+                    "won": 3
+                },
+                "dribbles": {
+                    "attempts": 4,
+                    "success": 2,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 0,
+                    "minutes": 31,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 2109,
+            "name": "S. Bastien",
+            "firstname": "Samuel Christopher",
+            "lastname": "Bastien Binda",
+            "age": 29,
+            "birth": {
+                "date": "1996-09-26",
+                "place": "Meux",
+                "country": "Belgium"
+            },
+            "nationality": "Congo DR",
+            "height": "175",
+            "weight": "75",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/2109.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 46,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 46,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 2110,
+            "name": "M. Bokadi",
+            "firstname": "Merveille Bopé",
+            "lastname": "Bokadi",
+            "age": 28,
+            "birth": {
+                "date": "1996-05-21",
+                "place": "Kinshasa",
+                "country": "Congo DR"
+            },
+            "nationality": "Congo DR",
+            "height": "186 cm",
+            "weight": "82 kg",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/2110.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 180,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 180,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.500000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 48,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": 2
+                },
+                "duels": {
+                    "total": 14,
+                    "won": 6
+                },
+                "dribbles": {
+                    "attempts": 1,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": 3
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 2117,
+            "name": "P. M&apos;Poku",
+            "firstname": "Paul-José",
+            "lastname": "M'Poku Ebunge",
+            "age": 33,
+            "birth": {
+                "date": "1992-04-19",
+                "place": "Kinshasa",
+                "country": "Congo DR"
+            },
+            "nationality": "Congo DR",
+            "height": "174 cm",
+            "weight": "65 kg",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/2117.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 3024,
+            "name": "G. Ngonda",
+            "firstname": "Glody",
+            "lastname": "Ngonda Muzinga",
+            "age": 31,
+            "birth": {
+                "date": "1994-12-31",
+                "place": "Kinshasa",
+                "country": "Congo DR"
+            },
+            "nationality": "Congo DR",
+            "height": "182 cm",
+            "weight": null,
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/3024.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 165,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 165,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 3027,
+            "name": "A. Zola",
+            "firstname": "Arsène",
+            "lastname": "Zola Kiaku",
+            "age": 29,
+            "birth": {
+                "date": "1997-02-23",
+                "place": "Lubumbashi",
+                "country": "Congo DR"
+            },
+            "nationality": "Congo DR",
+            "height": "182 cm",
+            "weight": "67 kg",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/3027.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 4
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 4
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 3037,
+            "name": "B. Malango",
+            "firstname": "Ben",
+            "lastname": "Malango Ngita",
+            "age": 32,
+            "birth": {
+                "date": "1993-11-10",
+                "place": "Kinshasa",
+                "country": "Congo DR"
+            },
+            "nationality": "Congo DR",
+            "height": "191 cm",
+            "weight": "93 kg",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/3037.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 180,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 180,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 8463,
+            "name": "J. Bolingi",
+            "firstname": "Jonathan",
+            "lastname": "Bolingi Mpangi Merikani",
+            "age": 31,
+            "birth": {
+                "date": "1994-06-30",
+                "place": "Kinshasa",
+                "country": "Congo DR"
+            },
+            "nationality": "Congo DR",
+            "height": "190 cm",
+            "weight": "83 kg",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/8463.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 0,
+                    "minutes": 51,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 2,
+                    "out": 0,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 0,
+                    "minutes": 51,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 2,
+                    "out": 0,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 8678,
+            "name": "A. Lusamba",
+            "firstname": "Arnaud Rene",
+            "lastname": "Lusamba",
+            "age": 28,
+            "birth": {
+                "date": "1997-01-04",
+                "place": "Metz",
+                "country": "France"
+            },
+            "nationality": "Congo DR",
+            "height": "180 cm",
+            "weight": "74 kg",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/8678.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 19767,
+            "name": "P. Mpanzu",
+            "firstname": "Pelly Ruddock",
+            "lastname": "Mpanzu",
+            "age": 31,
+            "birth": {
+                "date": "1994-03-22",
+                "place": "Hendon",
+                "country": "England"
+            },
+            "nationality": "Congo DR",
+            "height": "175",
+            "weight": "63",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/19767.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 0,
+                    "minutes": 32,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 20767,
+            "name": "V. N&apos;Simba",
+            "firstname": "Vital Manuel",
+            "lastname": "N'Simba",
+            "age": 32,
+            "birth": {
+                "date": "1993-07-08",
+                "place": "Cacuaco",
+                "country": "Angola"
+            },
+            "nationality": "Congo DR",
+            "height": "169",
+            "weight": "69",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/20767.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 21489,
+            "name": "J. Ikoko",
+            "firstname": "Jordan",
+            "lastname": "Ikoko",
+            "age": 31,
+            "birth": {
+                "date": "1994-02-03",
+                "place": "Montereau",
+                "country": "France"
+            },
+            "nationality": "Congo DR",
+            "height": "177",
+            "weight": "60",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/21489.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 90,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 25405,
+            "name": "M. Tisserand",
+            "firstname": "Marcel Jany Émile",
+            "lastname": "Tisserand",
+            "age": 32,
+            "birth": {
+                "date": "1993-01-10",
+                "place": "Meaux",
+                "country": "France"
+            },
+            "nationality": "Congo DR",
+            "height": "190",
+            "weight": "81",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/25405.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 180,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 180,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 26304,
+            "name": "C. Akolo",
+            "firstname": "Chadrac",
+            "lastname": "Akolo Ababa",
+            "age": 30,
+            "birth": {
+                "date": "1995-04-01",
+                "place": "Kinshasa",
+                "country": "Congo DR"
+            },
+            "nationality": "Congo DR",
+            "height": "172",
+            "weight": "72",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/26304.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 1,
+                    "minutes": 79,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 1,
+                    "bench": 4
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 0,
+                    "minutes": 26,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 2,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 1,
+                    "minutes": 79,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 1,
+                    "bench": 4
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 90,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 37382,
+            "name": "J. Okita",
+            "firstname": "Jonathan Yula",
+            "lastname": "Okita",
+            "age": 29,
+            "birth": {
+                "date": "1996-10-05",
+                "place": "Cologne",
+                "country": "Germany"
+            },
+            "nationality": "Congo DR",
+            "height": "181",
+            "weight": "75",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/37382.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 50804,
+            "name": "C. Mavinga",
+            "firstname": "Chris",
+            "lastname": "Mavinga",
+            "age": 32,
+            "birth": {
+                "date": "1991-05-26",
+                "place": "Meaux",
+                "country": "France"
+            },
+            "nationality": "Congo DR",
+            "height": "183 cm",
+            "weight": "81 kg",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/50804.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 85369,
+            "name": "G. Laura",
+            "firstname": "Gaëtan Loamba",
+            "lastname": "Laura",
+            "age": 30,
+            "birth": {
+                "date": "1995-08-06",
+                "place": "Argentan",
+                "country": "France"
+            },
+            "nationality": "Congo DR",
+            "height": "173 cm",
+            "weight": "68 kg",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/85369.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 144656,
+            "name": "J. Muleka",
+            "firstname": "Jackson",
+            "lastname": "Muleka Kyanvubu",
+            "age": 26,
+            "birth": {
+                "date": "1999-10-04",
+                "place": "Lubumbashi",
+                "country": "Congo DR"
+            },
+            "nationality": "Congo DR",
+            "height": "180",
+            "weight": "77",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/144656.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 46,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 46,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 1,
+                    "minutes": 103,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 1,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 175408,
+            "name": "D. Amale",
+            "firstname": "Dieumerci",
+            "lastname": "Mukoko Amale",
+            "age": 26,
+            "birth": {
+                "date": "1998-10-17",
+                "place": "Kinshasa",
+                "country": "Congo DR"
+            },
+            "nationality": "Congo DR",
+            "height": null,
+            "weight": null,
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/175408.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 5,
+                    "lineups": 5,
+                    "minutes": 450,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 5,
+                    "lineups": 5,
+                    "minutes": 450,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.550000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 43,
+                    "key": 1,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 5,
+                    "blocks": 1,
+                    "interceptions": 3
+                },
+                "duels": {
+                    "total": 18,
+                    "won": 10
+                },
+                "dribbles": {
+                    "attempts": 2,
+                    "success": 2,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": 2
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 297675,
+            "name": "N. Idumba",
+            "firstname": "Nathan",
+            "lastname": "Idumba Fasika",
+            "age": 26,
+            "birth": {
+                "date": "1999-02-28",
+                "place": null,
+                "country": "Congo DR"
+            },
+            "nationality": "Congo DR",
+            "height": null,
+            "weight": null,
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/297675.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 180,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 180,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    }
+]

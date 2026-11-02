@@ -1,0 +1,393 @@
+[
+    {
+        "player": {
+            "id": 138815,
+            "name": "T. Lamptey",
+            "firstname": "Tariq Kwame",
+            "lastname": "Nii-Lante Lamptey",
+            "age": 25,
+            "birth": {
+                "date": "2000-09-30",
+                "place": "Hillingdon",
+                "country": "England"
+            },
+            "nationality": "Ghana",
+            "height": "163",
+            "weight": "55",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/138815.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 51,
+                    "name": "Brighton",
+                    "logo": "https://media.api-sports.io/football/teams/51.png"
+                },
+                "league": {
+                    "id": 39,
+                    "name": "Premier League",
+                    "country": "England",
+                    "logo": "https://media.api-sports.io/football/leagues/39.png",
+                    "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 20,
+                    "lineups": 3,
+                    "minutes": 438,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.517647",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 17,
+                    "out": 2,
+                    "bench": 20
+                },
+                "shots": {
+                    "total": 4,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 232,
+                    "key": 4,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 11,
+                    "blocks": 3,
+                    "interceptions": 7
+                },
+                "duels": {
+                    "total": 65,
+                    "won": 35
+                },
+                "dribbles": {
+                    "attempts": 21,
+                    "success": 8,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 14,
+                    "committed": 6
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 51,
+                    "name": "Brighton",
+                    "logo": "https://media.api-sports.io/football/teams/51.png"
+                },
+                "league": {
+                    "id": 48,
+                    "name": "League Cup",
+                    "country": "England",
+                    "logo": "https://media.api-sports.io/football/leagues/48.png",
+                    "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 3,
+                    "minutes": 290,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "7.133333",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": 3,
+                    "on": 3
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 108,
+                    "key": 2,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 4,
+                    "blocks": 1,
+                    "interceptions": 6
+                },
+                "duels": {
+                    "total": 26,
+                    "won": 9
+                },
+                "dribbles": {
+                    "attempts": 3,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 4,
+                    "committed": 2
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 51,
+                    "name": "Brighton",
+                    "logo": "https://media.api-sports.io/football/teams/51.png"
+                },
+                "league": {
+                    "id": 45,
+                    "name": "FA Cup",
+                    "country": "England",
+                    "logo": "https://media.api-sports.io/football/leagues/45.png",
+                    "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 3,
+                    "minutes": 270,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "7.233333",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": 1,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 122,
+                    "key": 4,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 5,
+                    "blocks": 1,
+                    "interceptions": 3
+                },
+                "duels": {
+                    "total": 23,
+                    "won": 14
+                },
+                "dribbles": {
+                    "attempts": 4,
+                    "success": 3,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 5,
+                    "committed": 3
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1504,
+                    "name": "Ghana",
+                    "logo": "https://media.api-sports.io/football/teams/1504.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 1,
+                    "minutes": 102,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.300000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 1,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": 1,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 21,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 3,
+                    "blocks": 1,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 13,
+                    "won": 5
+                },
+                "dribbles": {
+                    "attempts": 2,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 2,
+                    "committed": 3
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1504,
+                    "name": "Ghana",
+                    "logo": "https://media.api-sports.io/football/teams/1504.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 1,
+                    "minutes": 98,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 1,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    }
+]

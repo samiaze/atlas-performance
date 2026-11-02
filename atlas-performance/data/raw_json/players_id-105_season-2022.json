@@ -1,0 +1,541 @@
+[
+    {
+        "player": {
+            "id": 105,
+            "name": "F. Ballo-Touré",
+            "firstname": "Fodé",
+            "lastname": "Ballo-Touré",
+            "age": 28,
+            "birth": {
+                "date": "1997-01-03",
+                "place": "Conflans-Sainte-Honorine",
+                "country": "France"
+            },
+            "nationality": "Senegal",
+            "height": "182",
+            "weight": "70",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/105.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 489,
+                    "name": "AC Milan",
+                    "logo": "https://media.api-sports.io/football/teams/489.png"
+                },
+                "league": {
+                    "id": 135,
+                    "name": "Serie A",
+                    "country": "Italy",
+                    "logo": "https://media.api-sports.io/football/leagues/135.png",
+                    "flag": "https://media.api-sports.io/flags/it.svg",
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 34,
+                    "lineups": 17,
+                    "minutes": 518,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.760000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 17,
+                    "out": null,
+                    "bench": null
+                },
+                "shots": {
+                    "total": 4,
+                    "on": 3
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 208,
+                    "key": 4,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 14,
+                    "blocks": 3,
+                    "interceptions": 2
+                },
+                "duels": {
+                    "total": 73,
+                    "won": 45
+                },
+                "dribbles": {
+                    "attempts": 14,
+                    "success": 5,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 13,
+                    "committed": 5
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": null,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 489,
+                    "name": "AC Milan",
+                    "logo": "https://media.api-sports.io/football/teams/489.png"
+                },
+                "league": {
+                    "id": 137,
+                    "name": "Coppa Italia",
+                    "country": "Italy",
+                    "logo": "https://media.api-sports.io/football/leagues/137.png",
+                    "flag": "https://media.api-sports.io/flags/it.svg",
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 489,
+                    "name": "AC Milan",
+                    "logo": "https://media.api-sports.io/football/teams/489.png"
+                },
+                "league": {
+                    "id": 2,
+                    "name": "UEFA Champions League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/2.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 12,
+                    "lineups": 6,
+                    "minutes": 132,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.350000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 6,
+                    "out": null,
+                    "bench": null
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 59,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 2,
+                    "blocks": 2,
+                    "interceptions": 5
+                },
+                "duels": {
+                    "total": 12,
+                    "won": 5
+                },
+                "dribbles": {
+                    "attempts": 2,
+                    "success": 1,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 2,
+                    "committed": 3
+                },
+                "cards": {
+                    "yellow": 2,
+                    "yellowred": null,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 489,
+                    "name": "AC Milan",
+                    "logo": "https://media.api-sports.io/football/teams/489.png"
+                },
+                "league": {
+                    "id": 667,
+                    "name": "Friendlies Clubs",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/667.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 5,
+                    "lineups": 2,
+                    "minutes": 214,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 3,
+                    "out": 3,
+                    "bench": 4
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 13,
+                    "name": "Senegal",
+                    "logo": "https://media.api-sports.io/football/teams/13.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 0,
+                    "minutes": 6,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.700000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 5,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 1,
+                    "won": 1
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 13,
+                    "name": "Senegal",
+                    "logo": "https://media.api-sports.io/football/teams/13.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 4,
+                    "lineups": 1,
+                    "minutes": 85,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 3,
+                    "out": 1,
+                    "bench": 5
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 13,
+                    "name": "Senegal",
+                    "logo": "https://media.api-sports.io/football/teams/13.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 85,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    }
+]

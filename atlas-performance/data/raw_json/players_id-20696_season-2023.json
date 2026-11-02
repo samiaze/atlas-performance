@@ -1,0 +1,689 @@
+[
+    {
+        "player": {
+            "id": 20696,
+            "name": "P. Gueye",
+            "firstname": "Pape Alassane",
+            "lastname": "Gueye",
+            "age": 26,
+            "birth": {
+                "date": "1999-01-24",
+                "place": "Montreuil",
+                "country": "France"
+            },
+            "nationality": "Senegal",
+            "height": "189",
+            "weight": "79",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/20696.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 81,
+                    "name": "Marseille",
+                    "logo": "https://media.api-sports.io/football/teams/81.png"
+                },
+                "league": {
+                    "id": 61,
+                    "name": "Ligue 1",
+                    "country": "France",
+                    "logo": "https://media.api-sports.io/football/leagues/61.png",
+                    "flag": "https://media.api-sports.io/flags/fr.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 15,
+                    "lineups": 9,
+                    "minutes": 766,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "6.973333",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 6,
+                    "out": 7,
+                    "bench": 7
+                },
+                "shots": {
+                    "total": 5,
+                    "on": 2
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 476,
+                    "key": 4,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 33,
+                    "blocks": 3,
+                    "interceptions": 13
+                },
+                "duels": {
+                    "total": 115,
+                    "won": 67
+                },
+                "dribbles": {
+                    "attempts": 6,
+                    "success": 1,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 18,
+                    "committed": 20
+                },
+                "cards": {
+                    "yellow": 2,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 81,
+                    "name": "Marseille",
+                    "logo": "https://media.api-sports.io/football/teams/81.png"
+                },
+                "league": {
+                    "id": 66,
+                    "name": "Coupe de France",
+                    "country": "France",
+                    "logo": "https://media.api-sports.io/football/leagues/66.png",
+                    "flag": "https://media.api-sports.io/flags/fr.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 81,
+                    "name": "Marseille",
+                    "logo": "https://media.api-sports.io/football/teams/81.png"
+                },
+                "league": {
+                    "id": 3,
+                    "name": "UEFA Europa League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/3.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 81,
+                    "name": "Marseille",
+                    "logo": "https://media.api-sports.io/football/teams/81.png"
+                },
+                "league": {
+                    "id": 2,
+                    "name": "UEFA Champions League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/2.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 536,
+                    "name": "Sevilla",
+                    "logo": "https://media.api-sports.io/football/teams/536.png"
+                },
+                "league": {
+                    "id": 667,
+                    "name": "Friendlies Clubs",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/667.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 13,
+                    "name": "Senegal",
+                    "logo": "https://media.api-sports.io/football/teams/13.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 3,
+                    "minutes": 240,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "7.133333",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": null,
+                    "bench": null
+                },
+                "shots": {
+                    "total": 1,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 129,
+                    "key": 1,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 3,
+                    "blocks": 1,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 21,
+                    "won": 10
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 4,
+                    "committed": 2
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": null,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 13,
+                    "name": "Senegal",
+                    "logo": "https://media.api-sports.io/football/teams/13.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 1,
+                    "minutes": 74,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 1,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 13,
+                    "name": "Senegal",
+                    "logo": "https://media.api-sports.io/football/teams/13.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 2,
+                    "minutes": 165,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 2,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 13,
+                    "name": "Senegal",
+                    "logo": "https://media.api-sports.io/football/teams/13.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 83,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    }
+]

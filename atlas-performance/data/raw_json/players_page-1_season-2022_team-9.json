@@ -1,0 +1,3382 @@
+[
+    {
+        "player": {
+            "id": 50,
+            "name": "Koke",
+            "firstname": "Jorge",
+            "lastname": "Resurrección Merodio",
+            "age": 33,
+            "birth": {
+                "date": "1992-01-08",
+                "place": "Madrid",
+                "country": "Spain"
+            },
+            "nationality": "Spain",
+            "height": "176",
+            "weight": "77",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/50.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 5,
+                    "lineups": 3,
+                    "minutes": 255,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "6.860000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 2,
+                    "out": 3,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 233,
+                    "key": 2,
+                    "accuracy": 43
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 16,
+                    "won": 11
+                },
+                "dribbles": {
+                    "attempts": 3,
+                    "success": 2,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 7,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 0,
+                    "minutes": 50,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "6.450000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 2,
+                    "out": 0,
+                    "bench": 4
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 60,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 1,
+                    "won": 1
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 148,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 144,
+            "name": "Sergio Busquets",
+            "firstname": "Sergio",
+            "lastname": "Busquets Burgos",
+            "age": 37,
+            "birth": {
+                "date": "1988-07-16",
+                "place": "Sabadell",
+                "country": "Spain"
+            },
+            "nationality": "Spain",
+            "height": "189",
+            "weight": "74",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/144.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 6,
+                    "lineups": 3,
+                    "minutes": 354,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "7.033333",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 3,
+                    "out": 0,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 300,
+                    "key": 5,
+                    "accuracy": 45
+                },
+                "tackles": {
+                    "total": 7,
+                    "blocks": null,
+                    "interceptions": 10
+                },
+                "duels": {
+                    "total": 36,
+                    "won": 22
+                },
+                "dribbles": {
+                    "attempts": 3,
+                    "success": 3,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 7,
+                    "committed": 6
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 4,
+                    "lineups": 4,
+                    "minutes": 364,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "6.750000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": 1,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 288,
+                    "key": 3,
+                    "accuracy": 65
+                },
+                "tackles": {
+                    "total": 7,
+                    "blocks": null,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 31,
+                    "won": 19
+                },
+                "dribbles": {
+                    "attempts": 1,
+                    "success": 1,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 3,
+                    "committed": 3
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 736,
+            "name": "Fran García",
+            "firstname": "Francisco José",
+            "lastname": "García Torres",
+            "age": 26,
+            "birth": {
+                "date": "1999-08-14",
+                "place": "Bolaños de Calatrava",
+                "country": "Spain"
+            },
+            "nationality": "Spain",
+            "height": "169",
+            "weight": "63",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/736.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 753,
+            "name": "Marcos Llorente",
+            "firstname": "Marcos",
+            "lastname": "Llorente Moreno",
+            "age": 30,
+            "birth": {
+                "date": "1995-01-30",
+                "place": "Madrid",
+                "country": "Spain"
+            },
+            "nationality": "Spain",
+            "height": "183",
+            "weight": "74",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/753.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 4,
+                    "lineups": 1,
+                    "minutes": 127,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "6.975000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 3,
+                    "out": 1,
+                    "bench": 5
+                },
+                "shots": {
+                    "total": 2,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": 1,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 68,
+                    "key": 1,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 2,
+                    "blocks": 1,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 12,
+                    "won": 7
+                },
+                "dribbles": {
+                    "attempts": 6,
+                    "success": 4,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": 2
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 120,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "6.300000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 90,
+                    "key": null,
+                    "accuracy": 82
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 5,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 90,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 918,
+            "name": "José Gayà",
+            "firstname": "José Luis",
+            "lastname": "Gayà Peña",
+            "age": 30,
+            "birth": {
+                "date": "1995-05-25",
+                "place": "Pedreguer",
+                "country": "Spain"
+            },
+            "nationality": "Spain",
+            "height": "172",
+            "weight": "66",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/918.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 90,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "7.700000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 84,
+                    "key": 2,
+                    "accuracy": 78
+                },
+                "tackles": {
+                    "total": 2,
+                    "blocks": 1,
+                    "interceptions": 5
+                },
+                "duels": {
+                    "total": 8,
+                    "won": 4
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 2,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 919,
+            "name": "Hugo Guillamón",
+            "firstname": "Hugo",
+            "lastname": "Guillamón Sanmartín",
+            "age": 25,
+            "birth": {
+                "date": "2000-01-31",
+                "place": "L'Eliana",
+                "country": "Spain"
+            },
+            "nationality": "Spain",
+            "height": "178",
+            "weight": "62",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/919.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 46,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "6.700000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 64,
+                    "key": null,
+                    "accuracy": 61
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 2,
+                    "won": 1
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 4
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 90,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 1570,
+            "name": "Sergio Canales",
+            "firstname": "Sergio",
+            "lastname": "Canales Madrazo",
+            "age": 34,
+            "birth": {
+                "date": "1991-02-16",
+                "place": "Santander",
+                "country": "Spain"
+            },
+            "nationality": "Spain",
+            "height": "176",
+            "weight": "65",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/1570.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 0,
+                    "minutes": 22,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "6.200000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 10,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 1707,
+            "name": "Gerard Moreno",
+            "firstname": "Gerard",
+            "lastname": "Moreno Balagueró",
+            "age": 33,
+            "birth": {
+                "date": "1992-04-07",
+                "place": "Santa Perpètua de Mogoda",
+                "country": "Spain"
+            },
+            "nationality": "Spain",
+            "height": "180",
+            "weight": "77",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/1707.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 2670,
+            "name": "Íñigo Martínez",
+            "firstname": "Íñigo",
+            "lastname": "Martínez Berridi",
+            "age": 34,
+            "birth": {
+                "date": "1991-05-17",
+                "place": "Ondarroa",
+                "country": "Spain"
+            },
+            "nationality": "Spain",
+            "height": "182",
+            "weight": "76",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/2670.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 180,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "7.200000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": 1,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 257,
+                    "key": null,
+                    "accuracy": 120
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": 3
+                },
+                "duels": {
+                    "total": 8,
+                    "won": 6
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 2,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 46653,
+            "name": "David García",
+            "firstname": "David",
+            "lastname": "García Zubiria",
+            "age": 31,
+            "birth": {
+                "date": "1994-02-14",
+                "place": "Pamplona",
+                "country": "Spain"
+            },
+            "nationality": "Spain",
+            "height": "185 cm",
+            "weight": "72 kg",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/46653.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 47270,
+            "name": "Unai Simón",
+            "firstname": "Unai",
+            "lastname": "Simón Mendibil",
+            "age": 28,
+            "birth": {
+                "date": "1997-06-11",
+                "place": "Vitoria-Gasteiz",
+                "country": "Spain"
+            },
+            "nationality": "Spain",
+            "height": "190",
+            "weight": "88",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/47270.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 8,
+                    "lineups": 8,
+                    "minutes": 750,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": "7.262500",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": null,
+                    "bench": null
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": null,
+                    "conceded": 6,
+                    "assists": null,
+                    "saves": 18
+                },
+                "passes": {
+                    "total": 306,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 4,
+                    "won": 3
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 2,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": null,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": 0
+                }
+            },
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 4,
+                    "lineups": 4,
+                    "minutes": 390,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": "6.675000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 3,
+                    "assists": null,
+                    "saves": 6
+                },
+                "passes": {
+                    "total": 141,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 2,
+                    "won": 2
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": 0
+                }
+            },
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 90,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 47301,
+            "name": "Robin Le Normand",
+            "firstname": "Robin Aime Robert",
+            "lastname": "Le Normand",
+            "age": 29,
+            "birth": {
+                "date": "1996-11-11",
+                "place": "Pabu",
+                "country": "France"
+            },
+            "nationality": "Spain",
+            "height": "187",
+            "weight": "80",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/47301.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 168,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.800000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": null,
+                    "bench": null
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 117,
+                    "key": 1,
+                    "accuracy": 52
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": 4
+                },
+                "duels": {
+                    "total": 12,
+                    "won": 7
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 2,
+                    "committed": 5
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": null,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 47323,
+            "name": "Mikel Oyarzabal",
+            "firstname": "Mikel",
+            "lastname": "Oyarzabal Ugarte",
+            "age": 28,
+            "birth": {
+                "date": "1997-04-21",
+                "place": "Eibar",
+                "country": "Spain"
+            },
+            "nationality": "Spain",
+            "height": "181",
+            "weight": "79",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/47323.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 47440,
+            "name": "Brais Méndez",
+            "firstname": "Brais",
+            "lastname": "Méndez Portela",
+            "age": 28,
+            "birth": {
+                "date": "1997-01-07",
+                "place": "Mos",
+                "country": "Spain"
+            },
+            "nationality": "Spain",
+            "height": "187",
+            "weight": "76",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/47440.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 47551,
+            "name": "Raúl de Tomás",
+            "firstname": "Raúl",
+            "lastname": "de Tomás Gómez",
+            "age": 31,
+            "birth": {
+                "date": "1994-10-17",
+                "place": "Madrid",
+                "country": "Spain"
+            },
+            "nationality": "Spain",
+            "height": "180 cm",
+            "weight": "72 kg",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/47551.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 1,
+                    "minutes": 81,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.800000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 1,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": 1,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 30,
+                    "key": 1,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 10,
+                    "won": 6
+                },
+                "dribbles": {
+                    "attempts": 2,
+                    "success": 2,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 2,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 133609,
+            "name": "Pedri",
+            "firstname": "Pedro",
+            "lastname": "González López",
+            "age": 23,
+            "birth": {
+                "date": "2002-11-25",
+                "place": "Tegueste",
+                "country": "Spain"
+            },
+            "nationality": "Spain",
+            "height": "174",
+            "weight": "68",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/133609.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 100,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "6.450000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": null,
+                    "bench": null
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 78,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 8,
+                    "won": 3
+                },
+                "dribbles": {
+                    "attempts": 4,
+                    "success": 1,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": null,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 4,
+                    "lineups": 4,
+                    "minutes": 357,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "7.150000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 430,
+                    "key": 5,
+                    "accuracy": 97
+                },
+                "tackles": {
+                    "total": 4,
+                    "blocks": null,
+                    "interceptions": 4
+                },
+                "duels": {
+                    "total": 32,
+                    "won": 15
+                },
+                "dribbles": {
+                    "attempts": 11,
+                    "success": 6,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 3,
+                    "committed": 2
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 1,
+                    "minutes": 99,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 161928,
+            "name": "Alejandro Balde",
+            "firstname": "Alejandro",
+            "lastname": "Balde Martínez",
+            "age": 22,
+            "birth": {
+                "date": "2003-10-18",
+                "place": "Barcelona",
+                "country": "Spain"
+            },
+            "nationality": "Spain",
+            "height": "177",
+            "weight": "76",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/161928.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 4,
+                    "lineups": 1,
+                    "minutes": 124,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.650000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 3,
+                    "out": 1,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 110,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 6,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 14,
+                    "won": 7
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": 2
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 162473,
+            "name": "Arnau Tenas",
+            "firstname": "Arnau",
+            "lastname": "Tenas Ureña",
+            "age": 24,
+            "birth": {
+                "date": "2001-05-30",
+                "place": "Vic",
+                "country": "Spain"
+            },
+            "nationality": "Spain",
+            "height": "185",
+            "weight": "85",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/162473.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 183799,
+            "name": "Nico Williams",
+            "firstname": "Nicholas",
+            "lastname": "Williams Arthuer",
+            "age": 23,
+            "birth": {
+                "date": "2002-07-12",
+                "place": "Pamplona",
+                "country": "Spain"
+            },
+            "nationality": "Spain",
+            "height": "181",
+            "weight": "67",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/183799.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 1,
+                    "minutes": 44,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "7.000000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": null,
+                    "bench": null
+                },
+                "shots": {
+                    "total": 2,
+                    "on": 2
+                },
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 1,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 22,
+                    "key": 1,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 11,
+                    "won": 5
+                },
+                "dribbles": {
+                    "attempts": 4,
+                    "success": 2,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": null,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 4,
+                    "lineups": 1,
+                    "minutes": 145,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.550000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 3,
+                    "out": 2,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": 1,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 54,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 4,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 25,
+                    "won": 11
+                },
+                "dribbles": {
+                    "attempts": 15,
+                    "success": 5,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 0,
+                    "minutes": 18,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 296667,
+            "name": "Gavi",
+            "firstname": "Pablo Martín",
+            "lastname": "Páez Gavira",
+            "age": 21,
+            "birth": {
+                "date": "2004-08-05",
+                "place": "Los Palacios y Villafranca",
+                "country": "Spain"
+            },
+            "nationality": "Spain",
+            "height": "174",
+            "weight": "69",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/296667.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 8,
+                    "lineups": 6,
+                    "minutes": 550,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "6.900000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 2,
+                    "out": 4,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": 3,
+                    "on": 2
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 310,
+                    "key": 6,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 11,
+                    "blocks": null,
+                    "interceptions": 5
+                },
+                "duels": {
+                    "total": 92,
+                    "won": 47
+                },
+                "dribbles": {
+                    "attempts": 13,
+                    "success": 8,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 20,
+                    "committed": 17
+                },
+                "cards": {
+                    "yellow": 2,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 4,
+                    "lineups": 4,
+                    "minutes": 287,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "6.925000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 3,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": 1,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 150,
+                    "key": 1,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 8,
+                    "blocks": null,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 50,
+                    "won": 27
+                },
+                "dribbles": {
+                    "attempts": 4,
+                    "success": 3,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 14,
+                    "committed": 9
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 9,
+                    "name": "Spain",
+                    "logo": "https://media.api-sports.io/football/teams/9.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 2,
+                    "minutes": 143,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 2,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    }
+]

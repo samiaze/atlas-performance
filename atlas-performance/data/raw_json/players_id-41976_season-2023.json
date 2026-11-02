@@ -1,0 +1,467 @@
+[
+    {
+        "player": {
+            "id": 41976,
+            "name": "Y. Neyou",
+            "firstname": "Yvan Latour",
+            "lastname": "Neyou Noupa",
+            "age": 28,
+            "birth": {
+                "date": "1997-01-03",
+                "place": "Douala",
+                "country": "Cameroon"
+            },
+            "nationality": "Cameroon",
+            "height": "180",
+            "weight": "63",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/41976.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 1063,
+                    "name": "Saint Etienne",
+                    "logo": "https://media.api-sports.io/football/teams/1063.png"
+                },
+                "league": {
+                    "id": 62,
+                    "name": "Ligue 2",
+                    "country": "France",
+                    "logo": "https://media.api-sports.io/football/leagues/62.png",
+                    "flag": "https://media.api-sports.io/flags/fr.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": null,
+                    "lineups": null,
+                    "minutes": null,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": null,
+                    "out": null,
+                    "bench": null
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": null,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": null,
+                    "yellowred": null,
+                    "red": null
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 537,
+                    "name": "Leganes",
+                    "logo": "https://media.api-sports.io/football/teams/537.png"
+                },
+                "league": {
+                    "id": 143,
+                    "name": "Copa del Rey",
+                    "country": "Spain",
+                    "logo": "https://media.api-sports.io/football/leagues/143.png",
+                    "flag": "https://media.api-sports.io/flags/es.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 46,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 537,
+                    "name": "Leganes",
+                    "logo": "https://media.api-sports.io/football/teams/537.png"
+                },
+                "league": {
+                    "id": 141,
+                    "name": "Segunda División",
+                    "country": "Spain",
+                    "logo": "https://media.api-sports.io/football/leagues/141.png",
+                    "flag": "https://media.api-sports.io/flags/es.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 35,
+                    "lineups": 30,
+                    "minutes": 2599,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.888571",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 5,
+                    "out": 15,
+                    "bench": 5
+                },
+                "shots": {
+                    "total": 15,
+                    "on": 6
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 1312,
+                    "key": 13,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 69,
+                    "blocks": 10,
+                    "interceptions": 31
+                },
+                "duels": {
+                    "total": 281,
+                    "won": 160
+                },
+                "dribbles": {
+                    "attempts": 26,
+                    "success": 15,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 36,
+                    "committed": 47
+                },
+                "cards": {
+                    "yellow": 12,
+                    "yellowred": 0,
+                    "red": 1
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 1,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 546,
+                    "name": "Getafe",
+                    "logo": "https://media.api-sports.io/football/teams/546.png"
+                },
+                "league": {
+                    "id": 143,
+                    "name": "Copa del Rey",
+                    "country": "Spain",
+                    "logo": "https://media.api-sports.io/football/leagues/143.png",
+                    "flag": "https://media.api-sports.io/flags/es.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 55,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.800000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": null,
+                    "bench": null
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 35,
+                    "key": 1,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 8,
+                    "won": 4
+                },
+                "dribbles": {
+                    "attempts": 2,
+                    "success": 1,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 2,
+                    "committed": 2
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": null,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1530,
+                    "name": "Cameroon",
+                    "logo": "https://media.api-sports.io/football/teams/1530.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 4,
+                    "lineups": 3,
+                    "minutes": 79,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.300000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": null,
+                    "bench": null
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 43,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 5,
+                    "won": 2
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": null,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1530,
+                    "name": "Cameroon",
+                    "logo": "https://media.api-sports.io/football/teams/1530.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 83,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    }
+]

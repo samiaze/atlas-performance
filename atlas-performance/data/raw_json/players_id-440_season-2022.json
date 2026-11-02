@@ -1,0 +1,541 @@
+[
+    {
+        "player": {
+            "id": 440,
+            "name": "Y. Nagatomo",
+            "firstname": "Yuto",
+            "lastname": "Nagatomo",
+            "age": 39,
+            "birth": {
+                "date": "1986-09-12",
+                "place": "Saijo",
+                "country": "Japan"
+            },
+            "nationality": "Japan",
+            "height": "170",
+            "weight": "68",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/440.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 292,
+                    "name": "FC Tokyo",
+                    "logo": "https://media.api-sports.io/football/teams/292.png"
+                },
+                "league": {
+                    "id": 98,
+                    "name": "J1 League",
+                    "country": "Japan",
+                    "logo": "https://media.api-sports.io/football/leagues/98.png",
+                    "flag": "https://media.api-sports.io/flags/jp.svg",
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 30,
+                    "lineups": 25,
+                    "minutes": 2225,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.576923",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 5,
+                    "out": 8,
+                    "bench": 6
+                },
+                "shots": {
+                    "total": 2,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 1001,
+                    "key": 10,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 32,
+                    "blocks": 2,
+                    "interceptions": 17
+                },
+                "duels": {
+                    "total": 150,
+                    "won": 79
+                },
+                "dribbles": {
+                    "attempts": 15,
+                    "success": 7,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 7,
+                    "committed": 16
+                },
+                "cards": {
+                    "yellow": 2,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 292,
+                    "name": "FC Tokyo",
+                    "logo": "https://media.api-sports.io/football/teams/292.png"
+                },
+                "league": {
+                    "id": 101,
+                    "name": "J-League Cup",
+                    "country": "Japan",
+                    "logo": "https://media.api-sports.io/football/leagues/101.png",
+                    "flag": "https://media.api-sports.io/flags/jp.svg",
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 292,
+                    "name": "FC Tokyo",
+                    "logo": "https://media.api-sports.io/football/teams/292.png"
+                },
+                "league": {
+                    "id": 102,
+                    "name": "Emperor Cup",
+                    "country": "Japan",
+                    "logo": "https://media.api-sports.io/football/leagues/102.png",
+                    "flag": "https://media.api-sports.io/flags/jp.svg",
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 91,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 12,
+                    "name": "Japan",
+                    "logo": "https://media.api-sports.io/football/teams/12.png"
+                },
+                "league": {
+                    "id": 30,
+                    "name": "World Cup - Qualification Asia",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/30.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 14,
+                    "lineups": 14,
+                    "minutes": 1117,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 8,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 12,
+                    "name": "Japan",
+                    "logo": "https://media.api-sports.io/football/teams/12.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 4,
+                    "lineups": 4,
+                    "minutes": 213,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.500000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 4,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 85,
+                    "key": 1,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 4,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 18,
+                    "won": 8
+                },
+                "dribbles": {
+                    "attempts": 4,
+                    "success": 3,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": 6
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 12,
+                    "name": "Japan",
+                    "logo": "https://media.api-sports.io/football/teams/12.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 2,
+                    "minutes": 188,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 2,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 12,
+                    "name": "Japan",
+                    "logo": "https://media.api-sports.io/football/teams/12.png"
+                },
+                "league": {
+                    "id": 916,
+                    "name": "Kirin Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/916.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 82,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    }
+]

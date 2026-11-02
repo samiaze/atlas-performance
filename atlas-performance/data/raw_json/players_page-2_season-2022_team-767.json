@@ -1,0 +1,3319 @@
+[
+    {
+        "player": {
+            "id": 138780,
+            "name": "N. Williams",
+            "firstname": "Neco Shay",
+            "lastname": "Williams",
+            "age": 24,
+            "birth": {
+                "date": "2001-04-13",
+                "place": "Wrexham",
+                "country": "Wales"
+            },
+            "nationality": "Wales",
+            "height": "183",
+            "weight": "72",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/138780.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 4,
+                    "lineups": 3,
+                    "minutes": 299,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.633333",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": 2,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 102,
+                    "key": 2,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 7,
+                    "blocks": 2,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 41,
+                    "won": 18
+                },
+                "dribbles": {
+                    "attempts": 9,
+                    "success": 3,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 4,
+                    "committed": 3
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 3,
+                    "minutes": 205,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.766666",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 2,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": 2,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 70,
+                    "key": 1,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 5,
+                    "blocks": 1,
+                    "interceptions": 4
+                },
+                "duels": {
+                    "total": 22,
+                    "won": 13
+                },
+                "dribbles": {
+                    "attempts": 4,
+                    "success": 1,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 5,
+                    "committed": 3
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 19331,
+            "name": "C. Roberts",
+            "firstname": "Connor Richard John",
+            "lastname": "Roberts",
+            "age": 30,
+            "birth": {
+                "date": "1995-09-23",
+                "place": "Neath",
+                "country": "Wales"
+            },
+            "nationality": "Wales",
+            "height": "175",
+            "weight": "72",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/19331.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 5,
+                    "lineups": 4,
+                    "minutes": 370,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "7.025000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 2,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": 1,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 124,
+                    "key": 5,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 5,
+                    "blocks": 1,
+                    "interceptions": 5
+                },
+                "duels": {
+                    "total": 23,
+                    "won": 14
+                },
+                "dribbles": {
+                    "attempts": 3,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 4,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 2,
+                    "minutes": 201,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.700000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 1,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 92,
+                    "key": 1,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 3,
+                    "blocks": 2,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 7,
+                    "won": 5
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 19602,
+            "name": "C. Gunter",
+            "firstname": "Christopher Ross",
+            "lastname": "Gunter",
+            "age": 34,
+            "birth": {
+                "date": "1989-07-21",
+                "place": "Newport",
+                "country": "Wales"
+            },
+            "nationality": "Wales",
+            "height": "180 cm",
+            "weight": "76 kg",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/19602.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 1,
+                    "minutes": 113,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.500000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 5
+                },
+                "shots": {
+                    "total": 1,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 47,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 3,
+                    "blocks": 1,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 7,
+                    "won": 4
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 19804,
+            "name": "K. Moore",
+            "firstname": "Kieffer Roberto Francisco",
+            "lastname": "Moore",
+            "age": 33,
+            "birth": {
+                "date": "1992-08-08",
+                "place": "Torquay",
+                "country": "England"
+            },
+            "nationality": "Wales",
+            "height": "196",
+            "weight": "89",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/19804.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 2,
+                    "minutes": 142,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.800000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 2,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": 4,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 29,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 28,
+                    "won": 12
+                },
+                "dribbles": {
+                    "attempts": 3,
+                    "success": 2,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": 5
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 2,
+                    "minutes": 224,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.766666",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": 5,
+                    "on": 2
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 56,
+                    "key": 4,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": 1,
+                    "interceptions": 2
+                },
+                "duels": {
+                    "total": 29,
+                    "won": 16
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 4,
+                    "committed": 5
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 18146,
+            "name": "D. Ward",
+            "firstname": "Daniel",
+            "lastname": "Ward",
+            "age": 32,
+            "birth": {
+                "date": "1993-06-22",
+                "place": "Wrexham",
+                "country": "Wales"
+            },
+            "nationality": "Wales",
+            "height": "191",
+            "weight": "88",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/18146.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 92,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": "6.550000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 2,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": 1
+                },
+                "passes": {
+                    "total": 14,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": 0
+                }
+            },
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 1,
+                    "minutes": 93,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": "5.700000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 5,
+                    "assists": null,
+                    "saves": 4
+                },
+                "passes": {
+                    "total": 37,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": 0
+                }
+            },
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 126791,
+            "name": "N. Broadhead",
+            "firstname": "Nathan Paul",
+            "lastname": "Broadhead",
+            "age": 27,
+            "birth": {
+                "date": "1998-04-05",
+                "place": "Bangor",
+                "country": "Wales"
+            },
+            "nationality": "Wales",
+            "height": "178",
+            "weight": "73",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/126791.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 18331,
+            "name": "R. Norrington-Davies",
+            "firstname": "Rhys",
+            "lastname": "Llewelyn Norrington-Davies",
+            "age": 26,
+            "birth": {
+                "date": "1999-04-22",
+                "place": "Riyadh",
+                "country": "Saudi Arabia"
+            },
+            "nationality": "Wales",
+            "height": "181",
+            "weight": "68",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/18331.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 5,
+                    "lineups": 4,
+                    "minutes": 351,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.850000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 2,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": 2,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 131,
+                    "key": 2,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 3,
+                    "blocks": 4,
+                    "interceptions": 4
+                },
+                "duels": {
+                    "total": 38,
+                    "won": 20
+                },
+                "dribbles": {
+                    "attempts": 4,
+                    "success": 2,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 4,
+                    "committed": 6
+                },
+                "cards": {
+                    "yellow": 3,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 90,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 284475,
+            "name": "L. Harris",
+            "firstname": "Luke Bernard",
+            "lastname": "Harris",
+            "age": 20,
+            "birth": {
+                "date": "2005-03-04",
+                "place": null,
+                "country": "Jersey"
+            },
+            "nationality": "Wales",
+            "height": "177",
+            "weight": null,
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/284475.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 19139,
+            "name": "T. Roberts",
+            "firstname": "Tyler",
+            "lastname": "D'Whyte Roberts",
+            "age": 26,
+            "birth": {
+                "date": "1999-01-12",
+                "place": "Gloucester",
+                "country": "England"
+            },
+            "nationality": "Wales",
+            "height": "180",
+            "weight": "75",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/19139.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 0,
+                    "minutes": 6,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.200000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 1,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 2,
+                    "won": 1
+                },
+                "dribbles": {
+                    "attempts": 1,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 19837,
+            "name": "J. Williams",
+            "firstname": "Jonathan Peter",
+            "lastname": "Williams",
+            "age": 32,
+            "birth": {
+                "date": "1993-10-09",
+                "place": "Pembury",
+                "country": "England"
+            },
+            "nationality": "Wales",
+            "height": "168",
+            "weight": "60",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/19837.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 77,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "7.300000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 5
+                },
+                "shots": {
+                    "total": 1,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 23,
+                    "key": 1,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 5,
+                    "won": 4
+                },
+                "dribbles": {
+                    "attempts": 1,
+                    "success": 1,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 0,
+                    "minutes": 19,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 20089,
+            "name": "W. Burns",
+            "firstname": "Wesley James",
+            "lastname": "Burns",
+            "age": 31,
+            "birth": {
+                "date": "1994-11-23",
+                "place": "Cardiff",
+                "country": "Wales"
+            },
+            "nationality": "Wales",
+            "height": "173",
+            "weight": "68",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/20089.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 2,
+                    "minutes": 124,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.550000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 2,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 33,
+                    "key": 1,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 3,
+                    "blocks": null,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 13,
+                    "won": 7
+                },
+                "dribbles": {
+                    "attempts": 1,
+                    "success": 1,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 2,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 19779,
+            "name": "A. Davies",
+            "firstname": "Adam Rhys",
+            "lastname": "Davies",
+            "age": 33,
+            "birth": {
+                "date": "1992-07-17",
+                "place": "Rheinstein",
+                "country": "Germany"
+            },
+            "nationality": "Wales",
+            "height": "185",
+            "weight": "75",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/19779.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 0,
+                    "minutes": 44,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": "5.900000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 4
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 8,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": 0
+                }
+            },
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": 0
+                }
+            },
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 0,
+                    "minutes": 30,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 758,
+            "name": "G. Bale",
+            "firstname": "Gareth Frank",
+            "lastname": "Bale",
+            "age": 34,
+            "birth": {
+                "date": "1989-07-16",
+                "place": "Cardiff",
+                "country": "Wales"
+            },
+            "nationality": "Wales",
+            "height": "186 cm",
+            "weight": "81 kg",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/758.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 5,
+                    "lineups": 2,
+                    "minutes": 222,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.750000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 3,
+                    "out": 1,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": 3,
+                    "on": 2
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 48,
+                    "key": 2,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 24,
+                    "won": 9
+                },
+                "dribbles": {
+                    "attempts": 4,
+                    "success": 4,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 3,
+                    "committed": 4
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 1,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 3,
+                    "minutes": 226,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.766666",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": 2,
+                    "on": 2
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 49,
+                    "key": 2,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 27,
+                    "won": 11
+                },
+                "dribbles": {
+                    "attempts": 2,
+                    "success": 1,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 5,
+                    "committed": 2
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 1,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 0,
+                    "minutes": 9,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 20203,
+            "name": "T. Lockyer",
+            "firstname": "Thomas Alun",
+            "lastname": "Lockyer",
+            "age": 31,
+            "birth": {
+                "date": "1994-12-03",
+                "place": "Cardiff",
+                "country": "Wales"
+            },
+            "nationality": "Wales",
+            "height": "185 cm",
+            "weight": "72 kg",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/20203.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 18836,
+            "name": "W. Hennessey",
+            "firstname": "Wayne Robert",
+            "lastname": "Hennessey",
+            "age": 38,
+            "birth": {
+                "date": "1987-01-24",
+                "place": "Bangor",
+                "country": "Wales"
+            },
+            "nationality": "Wales",
+            "height": "198 cm",
+            "weight": "90 kg",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/18836.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 5,
+                    "lineups": 4,
+                    "minutes": 404,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": "6.425000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 6,
+                    "assists": null,
+                    "saves": 9
+                },
+                "passes": {
+                    "total": 94,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": 0
+                }
+            },
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 176,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": "6.700000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 1,
+                    "assists": null,
+                    "saves": 5
+                },
+                "passes": {
+                    "total": 48,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 2,
+                    "won": 1
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 1
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": 0
+                }
+            },
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 60,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 19502,
+            "name": "J. Allen",
+            "firstname": "Joseph Michael",
+            "lastname": "Allen",
+            "age": 35,
+            "birth": {
+                "date": "1990-03-14",
+                "place": "Carmarthen",
+                "country": "Wales"
+            },
+            "nationality": "Wales",
+            "height": "170",
+            "weight": "62",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/19502.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 38,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 1,
+                    "minutes": 94,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "6.450000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 1,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": 1,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 36,
+                    "key": 1,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 5,
+                    "won": 3
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 2,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 1459,
+            "name": "A. Ramsey",
+            "firstname": "Aaron James",
+            "lastname": "Ramsey",
+            "age": 35,
+            "birth": {
+                "date": "1990-12-26",
+                "place": "Caerphilly",
+                "country": "Wales"
+            },
+            "nationality": "Wales",
+            "height": "178",
+            "weight": "76",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/1459.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 5,
+                    "name": "UEFA Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/5.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 0,
+                    "minutes": 79,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "6.900000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 2,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 19,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 2,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 4,
+                    "won": 4
+                },
+                "dribbles": {
+                    "attempts": 2,
+                    "success": 2,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 3,
+                    "minutes": 267,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "6.266666",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": 1,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 106,
+                    "key": 1,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 2,
+                    "blocks": 1,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 23,
+                    "won": 7
+                },
+                "dribbles": {
+                    "attempts": 7,
+                    "success": 2,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 3,
+                    "committed": 3
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 767,
+                    "name": "Wales",
+                    "logo": "https://media.api-sports.io/football/teams/767.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    }
+]

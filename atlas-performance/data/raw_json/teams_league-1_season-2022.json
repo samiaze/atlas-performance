@@ -1,0 +1,642 @@
+[
+    {
+        "team": {
+            "id": 1,
+            "name": "Belgium",
+            "code": "BEL",
+            "country": "Belgium",
+            "founded": 1895,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/1.png"
+        },
+        "venue": {
+            "id": 173,
+            "name": "Stade Roi Baudouin",
+            "address": "Avenue de Marathon 135/2, Laken",
+            "city": "Brussel",
+            "capacity": 50093,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/173.png"
+        }
+    },
+    {
+        "team": {
+            "id": 2,
+            "name": "France",
+            "code": "FRA",
+            "country": "France",
+            "founded": 1919,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/2.png"
+        },
+        "venue": {
+            "id": 20332,
+            "name": "Stade de France",
+            "address": "Rue Jules Rimet",
+            "city": "Saint-Denis",
+            "capacity": 81338,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/20332.png"
+        }
+    },
+    {
+        "team": {
+            "id": 3,
+            "name": "Croatia",
+            "code": "CRO",
+            "country": "Croatia",
+            "founded": 1912,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/3.png"
+        },
+        "venue": {
+            "id": 412,
+            "name": "Stadion Maksimir",
+            "address": "Maksimirska cesta 128",
+            "city": "Zagreb",
+            "capacity": 37168,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/412.png"
+        }
+    },
+    {
+        "team": {
+            "id": 6,
+            "name": "Brazil",
+            "code": "BRA",
+            "country": "Brazil",
+            "founded": 1914,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/6.png"
+        },
+        "venue": {
+            "id": 11531,
+            "name": "Neo Química Arena",
+            "address": "Avenida Miguel Inácio Curi, 111, Vila Carmosina, Itaquera",
+            "city": "São Paulo, São Paulo",
+            "capacity": 49205,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/11531.png"
+        }
+    },
+    {
+        "team": {
+            "id": 7,
+            "name": "Uruguay",
+            "code": "URU",
+            "country": "Uruguay",
+            "founded": 1900,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/7.png"
+        },
+        "venue": {
+            "id": 1624,
+            "name": "Estadio Centenario",
+            "address": "Avenida Dr. Alfredo Navarro y Dr. Américo Ricaldoni, Parque Batlle",
+            "city": "Montevideo",
+            "capacity": 60235,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/1624.png"
+        }
+    },
+    {
+        "team": {
+            "id": 9,
+            "name": "Spain",
+            "code": "SPA",
+            "country": "Spain",
+            "founded": 1913,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/9.png"
+        },
+        "venue": {
+            "id": 1456,
+            "name": "Estadio Santiago Bernabéu",
+            "address": "Avenida de Concha Espina 1, Chamartín",
+            "city": "Madrid",
+            "capacity": 85454,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/1456.png"
+        }
+    },
+    {
+        "team": {
+            "id": 10,
+            "name": "England",
+            "code": "ENG",
+            "country": "England",
+            "founded": 1863,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/10.png"
+        },
+        "venue": {
+            "id": 566,
+            "name": "The City Ground",
+            "address": "Pavilion Road",
+            "city": "Nottingham, Nottinghamshire",
+            "capacity": 30576,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/566.png"
+        }
+    },
+    {
+        "team": {
+            "id": 12,
+            "name": "Japan",
+            "code": "JAP",
+            "country": "Japan",
+            "founded": 1921,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/12.png"
+        },
+        "venue": {
+            "id": 18623,
+            "name": "Panasonic Stadium Suita",
+            "address": "Senribanpakukōen, 3",
+            "city": "Suita",
+            "capacity": 40322,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/18623.png"
+        }
+    },
+    {
+        "team": {
+            "id": 13,
+            "name": "Senegal",
+            "code": "SEN",
+            "country": "Senegal",
+            "founded": 1960,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/13.png"
+        },
+        "venue": {
+            "id": 22435,
+            "name": "Stade Me Abdoulaye Wade",
+            "address": "Route de l’Aéroport de Yoff",
+            "city": "Diamniadio",
+            "capacity": 50000,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/22435.png"
+        }
+    },
+    {
+        "team": {
+            "id": 14,
+            "name": "Serbia",
+            "code": "SER",
+            "country": "Serbia",
+            "founded": 1919,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/14.png"
+        },
+        "venue": {
+            "id": 1406,
+            "name": "Stadion Rajko Mitić",
+            "address": "Ljutice Bogdana 1a",
+            "city": "Beograd",
+            "capacity": 51862,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/1406.png"
+        }
+    },
+    {
+        "team": {
+            "id": 15,
+            "name": "Switzerland",
+            "code": "SWI",
+            "country": "Switzerland",
+            "founded": 1895,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/15.png"
+        },
+        "venue": {
+            "id": 1543,
+            "name": "kybunpark",
+            "address": "Zürcher Strasse 464",
+            "city": "St. Gallen",
+            "capacity": 20029,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/1543.png"
+        }
+    },
+    {
+        "team": {
+            "id": 16,
+            "name": "Mexico",
+            "code": "MEX",
+            "country": "Mexico",
+            "founded": 1927,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/16.png"
+        },
+        "venue": {
+            "id": 22432,
+            "name": "Oakland-Alameda County Coliseum",
+            "address": "7000 Coliseum Way",
+            "city": "Oakland, California",
+            "capacity": 63026,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/22432.png"
+        }
+    },
+    {
+        "team": {
+            "id": 17,
+            "name": "South Korea",
+            "code": "SOU",
+            "country": "South-Korea",
+            "founded": 1933,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/17.png"
+        },
+        "venue": {
+            "id": 22429,
+            "name": "Yongin Mireu Stadium",
+            "address": "61 Dongbaekjukjeondaero",
+            "city": "Yongin",
+            "capacity": 37155,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/22429.png"
+        }
+    },
+    {
+        "team": {
+            "id": 20,
+            "name": "Australia",
+            "code": "AUS",
+            "country": "Australia",
+            "founded": 1961,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/20.png"
+        },
+        "venue": {
+            "id": 18601,
+            "name": "CommBank Stadium",
+            "address": "O&apos;Connell Street, Parramatta",
+            "city": "Sydney",
+            "capacity": 30000,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/18601.png"
+        }
+    },
+    {
+        "team": {
+            "id": 21,
+            "name": "Denmark",
+            "code": "DEN",
+            "country": "Denmark",
+            "founded": 1889,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/21.png"
+        },
+        "venue": {
+            "id": 456,
+            "name": "Nature Energy Park",
+            "address": "Højstrupvej 7B",
+            "city": "Odense",
+            "capacity": 15790,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/456.png"
+        }
+    },
+    {
+        "team": {
+            "id": 22,
+            "name": "Iran",
+            "code": "IRA",
+            "country": "Iran",
+            "founded": 1920,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/22.png"
+        },
+        "venue": {
+            "id": 22428,
+            "name": "Imam Reza Stadium",
+            "address": "Khayyam Boulevard",
+            "city": "Mashhad",
+            "capacity": 25000,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/22428.png"
+        }
+    },
+    {
+        "team": {
+            "id": 23,
+            "name": "Saudi Arabia",
+            "code": "SAU",
+            "country": "Saudi-Arabia",
+            "founded": 1956,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/23.png"
+        },
+        "venue": {
+            "id": 22434,
+            "name": "EGO Stadium",
+            "address": "Al-Amir Bandar Ibn Abdul Aziz Street",
+            "city": "Ad Dammām (Dammam)",
+            "capacity": 15000,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/22434.png"
+        }
+    },
+    {
+        "team": {
+            "id": 24,
+            "name": "Poland",
+            "code": "POL",
+            "country": "Poland",
+            "founded": 1919,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/24.png"
+        },
+        "venue": {
+            "id": 20760,
+            "name": "Stadion Śląski",
+            "address": "ul. Katowicka 10",
+            "city": "Chorzów",
+            "capacity": 55211,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/20760.png"
+        }
+    },
+    {
+        "team": {
+            "id": 25,
+            "name": "Germany",
+            "code": "GER",
+            "country": "Germany",
+            "founded": 1900,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/25.png"
+        },
+        "venue": {
+            "id": 694,
+            "name": "Olympiastadion Berlin",
+            "address": "Olympischer Platz 3",
+            "city": "Berlin",
+            "capacity": 74667,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/694.png"
+        }
+    },
+    {
+        "team": {
+            "id": 26,
+            "name": "Argentina",
+            "code": "ARG",
+            "country": "Argentina",
+            "founded": 1893,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/26.png"
+        },
+        "venue": {
+            "id": 46,
+            "name": "Estadio Alberto José Armando",
+            "address": "Brandsen 805, La Boca",
+            "city": "Ciudad de Buenos Aires",
+            "capacity": 57200,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/46.png"
+        }
+    },
+    {
+        "team": {
+            "id": 27,
+            "name": "Portugal",
+            "code": "POR",
+            "country": "Portugal",
+            "founded": 1914,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/27.png"
+        },
+        "venue": {
+            "id": 1262,
+            "name": "Estádio Nacional",
+            "address": null,
+            "city": "Jamor, Oeiras",
+            "capacity": 38000,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/1262.png"
+        }
+    },
+    {
+        "team": {
+            "id": 28,
+            "name": "Tunisia",
+            "code": "TUN",
+            "country": "Tunisia",
+            "founded": 1957,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/28.png"
+        },
+        "venue": {
+            "id": 21412,
+            "name": "Stade olympique Hammadi-Agrebi",
+            "address": "Cité Olympique du 7 novembre",
+            "city": "Radès",
+            "capacity": 65000,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/21412.png"
+        }
+    },
+    {
+        "team": {
+            "id": 29,
+            "name": "Costa Rica",
+            "code": "COS",
+            "country": "Costa-Rica",
+            "founded": 1921,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/29.png"
+        },
+        "venue": {
+            "id": 22425,
+            "name": "Snapdragon Stadium",
+            "address": "2101 Stadium Way",
+            "city": "San Diego, California",
+            "capacity": 35000,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/22425.png"
+        }
+    },
+    {
+        "team": {
+            "id": 31,
+            "name": "Morocco",
+            "code": "MOR",
+            "country": "Morocco",
+            "founded": 1955,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/31.png"
+        },
+        "venue": {
+            "id": 2260,
+            "name": "Complexe Sportif de Fès",
+            "address": "Boulevard Mohammed V",
+            "city": "Fès",
+            "capacity": 45000,
+            "surface": "artificial turf",
+            "image": "https://media.api-sports.io/football/venues/2260.png"
+        }
+    },
+    {
+        "team": {
+            "id": 767,
+            "name": "Wales",
+            "code": "WAL",
+            "country": "Wales",
+            "founded": 1876,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/767.png"
+        },
+        "venue": {
+            "id": 12273,
+            "name": "Swansea.com Stadium",
+            "address": "Normandy Road",
+            "city": "Swansea",
+            "capacity": 21028,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/12273.png"
+        }
+    },
+    {
+        "team": {
+            "id": 1118,
+            "name": "Netherlands",
+            "code": "NET",
+            "country": "Netherlands",
+            "founded": 1889,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/1118.png"
+        },
+        "venue": {
+            "id": 1117,
+            "name": "Johan Cruijff ArenA",
+            "address": "ArenA Boulevard 1",
+            "city": "Amsterdam",
+            "capacity": 55885,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/1117.png"
+        }
+    },
+    {
+        "team": {
+            "id": 1504,
+            "name": "Ghana",
+            "code": "GHA",
+            "country": "Ghana",
+            "founded": 1957,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/1504.png"
+        },
+        "venue": {
+            "id": 21410,
+            "name": "Accra Sports Stadium",
+            "address": "Malam Awudu Road",
+            "city": "Accra",
+            "capacity": 35000,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/21410.png"
+        }
+    },
+    {
+        "team": {
+            "id": 1530,
+            "name": "Cameroon",
+            "code": "CAM",
+            "country": "Cameroon",
+            "founded": 1959,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/1530.png"
+        },
+        "venue": {
+            "id": 4074,
+            "name": "Stade Omnisports de Bafoussam",
+            "address": "Route de Bamenda, Kouekong, 1er",
+            "city": "Bafoussam",
+            "capacity": 20000,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/4074.png"
+        }
+    },
+    {
+        "team": {
+            "id": 1569,
+            "name": "Qatar",
+            "code": "QAT",
+            "country": "Qatar",
+            "founded": 1960,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/1569.png"
+        },
+        "venue": {
+            "id": 22430,
+            "name": "Khalifa International Stadium",
+            "address": "Al Waab Street",
+            "city": "Al Rayyan (Ar-Rayyan)",
+            "capacity": 45857,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/22430.png"
+        }
+    },
+    {
+        "team": {
+            "id": 2382,
+            "name": "Ecuador",
+            "code": "ECU",
+            "country": "Ecuador",
+            "founded": 1925,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/2382.png"
+        },
+        "venue": {
+            "id": 471,
+            "name": "Estadio Rodrigo Paz Delgado",
+            "address": "Avenida John F. Kennedy y Calle Gustavo Lemos, Ponceano, Cotocollao",
+            "city": "Quito",
+            "capacity": 55104,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/471.png"
+        }
+    },
+    {
+        "team": {
+            "id": 2384,
+            "name": "USA",
+            "code": "USA",
+            "country": "USA",
+            "founded": 1913,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/2384.png"
+        },
+        "venue": {
+            "id": 19357,
+            "name": "GEODIS Park",
+            "address": "513 Benton Avenue",
+            "city": "Nashville, Tennessee",
+            "capacity": 30109,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/19357.png"
+        }
+    },
+    {
+        "team": {
+            "id": 5529,
+            "name": "Canada",
+            "code": "CAN",
+            "country": "Canada",
+            "founded": 1912,
+            "national": true,
+            "logo": "https://media.api-sports.io/football/teams/5529.png"
+        },
+        "venue": {
+            "id": 312,
+            "name": "BMO Field",
+            "address": "170 Princes’ Boulevard",
+            "city": "Toronto, Ontario",
+            "capacity": 36045,
+            "surface": "grass",
+            "image": "https://media.api-sports.io/football/venues/312.png"
+        }
+    }
+]

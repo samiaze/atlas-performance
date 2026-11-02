@@ -1,0 +1,541 @@
+[
+    {
+        "player": {
+            "id": 2668,
+            "name": "Mostafa Mohamed",
+            "firstname": "Mostafa Mohamed Ahmed",
+            "lastname": "Abdallah",
+            "age": 28,
+            "birth": {
+                "date": "1997-11-28",
+                "place": "Giza",
+                "country": "Egypt"
+            },
+            "nationality": "Egypt",
+            "height": "185",
+            "weight": "78",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/2668.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 83,
+                    "name": "Nantes",
+                    "logo": "https://media.api-sports.io/football/teams/83.png"
+                },
+                "league": {
+                    "id": 61,
+                    "name": "Ligue 1",
+                    "country": "France",
+                    "logo": "https://media.api-sports.io/football/leagues/61.png",
+                    "flag": "https://media.api-sports.io/flags/fr.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 29,
+                    "lineups": 24,
+                    "minutes": 2015,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "7.031034",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 5,
+                    "out": 18,
+                    "bench": 5
+                },
+                "shots": {
+                    "total": 49,
+                    "on": 26
+                },
+                "goals": {
+                    "total": 8,
+                    "conceded": 0,
+                    "assists": 2,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 351,
+                    "key": 23,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 21,
+                    "blocks": 5,
+                    "interceptions": 12
+                },
+                "duels": {
+                    "total": 316,
+                    "won": 144
+                },
+                "dribbles": {
+                    "attempts": 33,
+                    "success": 15,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 36,
+                    "committed": 34
+                },
+                "cards": {
+                    "yellow": 3,
+                    "yellowred": 0,
+                    "red": 1
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 3,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 83,
+                    "name": "Nantes",
+                    "logo": "https://media.api-sports.io/football/teams/83.png"
+                },
+                "league": {
+                    "id": 66,
+                    "name": "Coupe de France",
+                    "country": "France",
+                    "logo": "https://media.api-sports.io/football/leagues/66.png",
+                    "flag": "https://media.api-sports.io/flags/fr.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 83,
+                    "name": "Nantes",
+                    "logo": "https://media.api-sports.io/football/teams/83.png"
+                },
+                "league": {
+                    "id": 667,
+                    "name": "Friendlies Clubs",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/667.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 32,
+                    "name": "Egypt",
+                    "logo": "https://media.api-sports.io/football/teams/32.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 4,
+                    "lineups": 4,
+                    "minutes": 390,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "7.200000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": null,
+                    "bench": null
+                },
+                "shots": {
+                    "total": 9,
+                    "on": 7
+                },
+                "goals": {
+                    "total": 4,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 75,
+                    "key": 2,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 3,
+                    "blocks": 1,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 72,
+                    "won": 33
+                },
+                "dribbles": {
+                    "attempts": 9,
+                    "success": 5,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 7,
+                    "committed": 4
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": null,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 1,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 32,
+                    "name": "Egypt",
+                    "logo": "https://media.api-sports.io/football/teams/32.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 6,
+                    "lineups": 5,
+                    "minutes": 339,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 5,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 32,
+                    "name": "Egypt",
+                    "logo": "https://media.api-sports.io/football/teams/32.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 6,
+                    "lineups": 5,
+                    "minutes": 468,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "7.100000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 3,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": 14,
+                    "on": 7
+                },
+                "goals": {
+                    "total": 2,
+                    "conceded": 0,
+                    "assists": 1,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 69,
+                    "key": 2,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": 5
+                },
+                "duels": {
+                    "total": 27,
+                    "won": 13
+                },
+                "dribbles": {
+                    "attempts": 4,
+                    "success": 2,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 5,
+                    "committed": 3
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 32,
+                    "name": "Egypt",
+                    "logo": "https://media.api-sports.io/football/teams/32.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 3,
+                    "minutes": 266,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    }
+]

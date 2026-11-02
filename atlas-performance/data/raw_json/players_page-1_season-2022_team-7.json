@@ -1,0 +1,3234 @@
+[
+    {
+        "player": {
+            "id": 31,
+            "name": "J. Giménez",
+            "firstname": "José María",
+            "lastname": "Giménez de Vargas",
+            "age": 30,
+            "birth": {
+                "date": "1995-01-20",
+                "place": "Toledo",
+                "country": "Uruguay"
+            },
+            "nationality": "Uruguay",
+            "height": "186",
+            "weight": "77",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/31.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 3,
+                    "minutes": 270,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "7.066666",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": 3,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 170,
+                    "key": null,
+                    "accuracy": 46
+                },
+                "tackles": {
+                    "total": 4,
+                    "blocks": 5,
+                    "interceptions": 7
+                },
+                "duels": {
+                    "total": 27,
+                    "won": 15
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 3,
+                    "committed": 4
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 13,
+                    "lineups": 13,
+                    "minutes": 1139,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.807692",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 2,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": 4,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 538,
+                    "key": 2,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 11,
+                    "blocks": 4,
+                    "interceptions": 17
+                },
+                "duels": {
+                    "total": 89,
+                    "won": 47
+                },
+                "dribbles": {
+                    "attempts": 2,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 12,
+                    "committed": 9
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 125,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 756,
+            "name": "F. Valverde",
+            "firstname": "Federico Santiago",
+            "lastname": "Valverde Dipetta",
+            "age": 27,
+            "birth": {
+                "date": "1998-07-22",
+                "place": "Montevideo",
+                "country": "Uruguay"
+            },
+            "nationality": "Uruguay",
+            "height": "182",
+            "weight": "78",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/756.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 3,
+                    "minutes": 270,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "7.400000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": 7,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 180,
+                    "key": 4,
+                    "accuracy": 51
+                },
+                "tackles": {
+                    "total": 6,
+                    "blocks": null,
+                    "interceptions": 5
+                },
+                "duels": {
+                    "total": 24,
+                    "won": 10
+                },
+                "dribbles": {
+                    "attempts": 3,
+                    "success": 1,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 2,
+                    "committed": 6
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 14,
+                    "lineups": 14,
+                    "minutes": 1235,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "7.285714",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 4,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": 16,
+                    "on": 9
+                },
+                "goals": {
+                    "total": 2,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 654,
+                    "key": 15,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 29,
+                    "blocks": 2,
+                    "interceptions": 30
+                },
+                "duels": {
+                    "total": 123,
+                    "won": 64
+                },
+                "dribbles": {
+                    "attempts": 35,
+                    "success": 23,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 5,
+                    "committed": 19
+                },
+                "cards": {
+                    "yellow": 2,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 5,
+                    "lineups": 4,
+                    "minutes": 366,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 2,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 2608,
+            "name": "M. Campaña",
+            "firstname": "Martín Nicolás",
+            "lastname": "Campaña Delgado",
+            "age": 36,
+            "birth": {
+                "date": "1989-05-29",
+                "place": "Maldonado",
+                "country": "Uruguay"
+            },
+            "nationality": "Uruguay",
+            "height": "186",
+            "weight": "85",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/2608.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 4,
+                    "lineups": 4,
+                    "minutes": 360,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": "6.575000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 12
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 7,
+                    "assists": null,
+                    "saves": 9
+                },
+                "passes": {
+                    "total": 113,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 2,
+                    "won": 2
+                },
+                "dribbles": {
+                    "attempts": 1,
+                    "success": 1,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": 0
+                }
+            },
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 2610,
+            "name": "G. González",
+            "firstname": "Giovanni Alessandro",
+            "lastname": "González Apud",
+            "age": 31,
+            "birth": {
+                "date": "1994-09-20",
+                "place": "Montevideo",
+                "country": "Uruguay"
+            },
+            "nationality": "Uruguay",
+            "height": "173",
+            "weight": "73",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/2610.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 5,
+                    "lineups": 2,
+                    "minutes": 249,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.760000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 3,
+                    "out": 0,
+                    "bench": 8
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 122,
+                    "key": 4,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 7,
+                    "blocks": 1,
+                    "interceptions": 3
+                },
+                "duels": {
+                    "total": 30,
+                    "won": 17
+                },
+                "dribbles": {
+                    "attempts": 4,
+                    "success": 3,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": 3
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 2615,
+            "name": "M. Gómez",
+            "firstname": "Maximiliano",
+            "lastname": "Gómez González",
+            "age": 29,
+            "birth": {
+                "date": "1996-08-14",
+                "place": "Paysandú",
+                "country": "Uruguay"
+            },
+            "nationality": "Uruguay",
+            "height": "186",
+            "weight": "91",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/2615.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 6,
+                    "lineups": 2,
+                    "minutes": 172,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.550000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 4,
+                    "out": 2,
+                    "bench": 5
+                },
+                "shots": {
+                    "total": 3,
+                    "on": 2
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 45,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": 1,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 28,
+                    "won": 12
+                },
+                "dribbles": {
+                    "attempts": 1,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 4,
+                    "committed": 5
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 0,
+                    "minutes": 28,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.800000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 2,
+                    "out": 0,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": 2,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 7,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 4,
+                    "won": 3
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 1,
+                    "minutes": 101,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 2,
+                    "out": 1,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 28337,
+            "name": "F. Gorriarán",
+            "firstname": "Fernando",
+            "lastname": "Gorriarán Fontes",
+            "age": 31,
+            "birth": {
+                "date": "1994-11-27",
+                "place": "Montevideo",
+                "country": "Uruguay"
+            },
+            "nationality": "Uruguay",
+            "height": "168",
+            "weight": "69",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/28337.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 0,
+                    "minutes": 29,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "6.450000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 3,
+                    "out": 0,
+                    "bench": 10
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 19,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": 1,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 7,
+                    "won": 3
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 2,
+                    "committed": 3
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 1,
+                    "minutes": 94,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 2,
+                    "out": 1,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 35931,
+            "name": "S. Sosa",
+            "firstname": "Carlos Sebastián",
+            "lastname": "Sosa Silva",
+            "age": 39,
+            "birth": {
+                "date": "1986-08-19",
+                "place": "Montevideo",
+                "country": "Uruguay"
+            },
+            "nationality": "Uruguay",
+            "height": "183",
+            "weight": "77",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/35931.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": 0
+                }
+            },
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": 0
+                }
+            },
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 0,
+                    "minutes": 14,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 5
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 36494,
+            "name": "Y. Irrazábal",
+            "firstname": "Yonatan",
+            "lastname": "Irrazábal Condines",
+            "age": 37,
+            "birth": {
+                "date": "1988-02-12",
+                "place": "Montevideo",
+                "country": "Uruguay"
+            },
+            "nationality": "Uruguay",
+            "height": "181 cm",
+            "weight": "81 kg",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/36494.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": 0
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 47258,
+            "name": "M. Arambarri",
+            "firstname": "Mauro Wilney",
+            "lastname": "Arambarri Rosa",
+            "age": 30,
+            "birth": {
+                "date": "1995-09-30",
+                "place": "Tropezón",
+                "country": "Uruguay"
+            },
+            "nationality": "Uruguay",
+            "height": "175",
+            "weight": "71",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/47258.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 10,
+                    "lineups": 0,
+                    "minutes": 172,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "6.566666",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 10,
+                    "out": 0,
+                    "bench": 11
+                },
+                "shots": {
+                    "total": 3,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 95,
+                    "key": 1,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 3,
+                    "blocks": null,
+                    "interceptions": 7
+                },
+                "duels": {
+                    "total": 19,
+                    "won": 11
+                },
+                "dribbles": {
+                    "attempts": 1,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 3,
+                    "committed": 4
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 1,
+                    "minutes": 74,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 1,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 51535,
+            "name": "S. Cáceres",
+            "firstname": "Sebastián Enzo",
+            "lastname": "Cáceres Ramos",
+            "age": 26,
+            "birth": {
+                "date": "1999-08-18",
+                "place": "Montevideo",
+                "country": "Uruguay"
+            },
+            "nationality": "Uruguay",
+            "height": "180",
+            "weight": "77",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/51535.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 180,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 51553,
+            "name": "F. Martínez",
+            "firstname": "Federico Andrés",
+            "lastname": "Martínez Berroa",
+            "age": 29,
+            "birth": {
+                "date": "1996-02-28",
+                "place": "Montevideo",
+                "country": "Uruguay"
+            },
+            "nationality": "Uruguay",
+            "height": "175",
+            "weight": "72",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/51553.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 0,
+                    "minutes": 6,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.300000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 1,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 3,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 51588,
+            "name": "B. Ocampo",
+            "firstname": "Brian Alexis",
+            "lastname": "Ocampo Ferreira",
+            "age": 26,
+            "birth": {
+                "date": "1999-06-25",
+                "place": "Florida",
+                "country": "Uruguay"
+            },
+            "nationality": "Uruguay",
+            "height": "173",
+            "weight": "70",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/51588.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 51592,
+            "name": "K. Dawson",
+            "firstname": "Kevin Emiliano",
+            "lastname": "Dawson Blanco",
+            "age": 33,
+            "birth": {
+                "date": "1992-02-08",
+                "place": "Colonia del Sacramento",
+                "country": "Uruguay"
+            },
+            "nationality": "Uruguay",
+            "height": "179",
+            "weight": "83",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/51592.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": 0
+                }
+            },
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 51618,
+            "name": "B. Rodríguez",
+            "firstname": "Paul Brian",
+            "lastname": "Rodríguez Bravo",
+            "age": 25,
+            "birth": {
+                "date": "2000-05-20",
+                "place": "Tranqueras",
+                "country": "Uruguay"
+            },
+            "nationality": "Uruguay",
+            "height": "174",
+            "weight": "68",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/51618.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 11,
+                    "lineups": 8,
+                    "minutes": 578,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.745454",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 3,
+                    "out": 7,
+                    "bench": 6
+                },
+                "shots": {
+                    "total": 6,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": 1,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 145,
+                    "key": 11,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 5,
+                    "blocks": null,
+                    "interceptions": 3
+                },
+                "duels": {
+                    "total": 89,
+                    "won": 46
+                },
+                "dribbles": {
+                    "attempts": 40,
+                    "success": 23,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 16,
+                    "committed": 4
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 51689,
+            "name": "A. Oliveros",
+            "firstname": "Agustín",
+            "lastname": "Oliveros Cano",
+            "age": 27,
+            "birth": {
+                "date": "1998-08-17",
+                "place": "Montevideo",
+                "country": "Uruguay"
+            },
+            "nationality": "Uruguay",
+            "height": "183",
+            "weight": "79",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/51689.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 90,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.700000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 41,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 2,
+                    "blocks": null,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 3,
+                    "won": 2
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 51733,
+            "name": "G. Olveira",
+            "firstname": "Gastón Hernán",
+            "lastname": "Olveira Echeverría",
+            "age": 32,
+            "birth": {
+                "date": "1993-04-21",
+                "place": "Montevideo",
+                "country": "Uruguay"
+            },
+            "nationality": "Uruguay",
+            "height": "191",
+            "weight": "81",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/51733.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": 0
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 70544,
+            "name": "R. Muñoz",
+            "firstname": "Rodrigo Martín",
+            "lastname": "Muñoz Salomón",
+            "age": 42,
+            "birth": {
+                "date": "1982-01-22",
+                "place": "Montevideo",
+                "country": "Uruguay"
+            },
+            "nationality": "Uruguay",
+            "height": "181 cm",
+            "weight": "79 kg",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/70544.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": 0
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 101814,
+            "name": "R. Araújo",
+            "firstname": "Ronald Federico",
+            "lastname": "Araújo da Silva",
+            "age": 26,
+            "birth": {
+                "date": "1999-03-07",
+                "place": "Rivera",
+                "country": "Uruguay"
+            },
+            "nationality": "Uruguay",
+            "height": "191",
+            "weight": "96",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/101814.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 9,
+                    "lineups": 7,
+                    "minutes": 648,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.811111",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 2,
+                    "out": 1,
+                    "bench": 8
+                },
+                "shots": {
+                    "total": 3,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": 1,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 247,
+                    "key": 3,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 13,
+                    "blocks": 5,
+                    "interceptions": 10
+                },
+                "duels": {
+                    "total": 66,
+                    "won": 46
+                },
+                "dribbles": {
+                    "attempts": 5,
+                    "success": 3,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 5,
+                    "committed": 7
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 3,
+                    "minutes": 97,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 3,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 197063,
+            "name": "F. Díaz",
+            "firstname": "Fabricio",
+            "lastname": "Díaz Badaracco",
+            "age": 22,
+            "birth": {
+                "date": "2003-02-03",
+                "place": "La Paz",
+                "country": "Uruguay"
+            },
+            "nationality": "Uruguay",
+            "height": "179",
+            "weight": "76",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/197063.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 363122,
+            "name": "A. Scarone",
+            "firstname": "Augusto Sebastián",
+            "lastname": "Scarone Segovia",
+            "age": 21,
+            "birth": {
+                "date": "2004-06-03",
+                "place": "Montevideo",
+                "country": "Uruguay"
+            },
+            "nationality": "Uruguay",
+            "height": "170 cm",
+            "weight": "64 kg",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/363122.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 7,
+                    "name": "Uruguay",
+                    "logo": "https://media.api-sports.io/football/teams/7.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    }
+]

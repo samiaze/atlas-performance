@@ -1,0 +1,4048 @@
+[
+    {
+        "player": {
+            "id": 53,
+            "name": "Á. Correa",
+            "firstname": "Ángel Martín",
+            "lastname": "Correa Martínez",
+            "age": 30,
+            "birth": {
+                "date": "1995-03-09",
+                "place": "Rosario",
+                "country": "Argentina"
+            },
+            "nationality": "Argentina",
+            "height": "173",
+            "weight": "68",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/53.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 0,
+                    "minutes": 4,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.700000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 7
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 3,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 2,
+                    "won": 2
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 7,
+                    "lineups": 0,
+                    "minutes": 174,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.542857",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 7,
+                    "out": 0,
+                    "bench": 12
+                },
+                "shots": {
+                    "total": 1,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 94,
+                    "key": 3,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 17,
+                    "won": 9
+                },
+                "dribbles": {
+                    "attempts": 5,
+                    "success": 3,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 5,
+                    "committed": 2
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 0,
+                    "minutes": 18,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 154,
+            "name": "L. Messi",
+            "firstname": "Lionel Andrés",
+            "lastname": "Messi Cuccittini",
+            "age": 38,
+            "birth": {
+                "date": "1987-06-24",
+                "place": "Rosario",
+                "country": "Argentina"
+            },
+            "nationality": "Argentina",
+            "height": "170",
+            "weight": "67",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/154.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 7,
+                    "lineups": 7,
+                    "minutes": 690,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "8.314285",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": 29,
+                    "on": 18
+                },
+                "goals": {
+                    "total": 7,
+                    "conceded": 0,
+                    "assists": 3,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 347,
+                    "key": 21,
+                    "accuracy": 42
+                },
+                "tackles": {
+                    "total": 5,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 98,
+                    "won": 44
+                },
+                "dribbles": {
+                    "attempts": 27,
+                    "success": 15,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 22,
+                    "committed": 10
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 4,
+                    "missed": 1,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 15,
+                    "lineups": 14,
+                    "minutes": 1274,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "7.726666",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": 39,
+                    "on": 23
+                },
+                "goals": {
+                    "total": 7,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 829,
+                    "key": 31,
+                    "accuracy": 47
+                },
+                "tackles": {
+                    "total": 11,
+                    "blocks": null,
+                    "interceptions": 4
+                },
+                "duels": {
+                    "total": 201,
+                    "won": 113
+                },
+                "dribbles": {
+                    "attempts": 99,
+                    "success": 59,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 37,
+                    "committed": 8
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 2,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 4,
+                    "lineups": 3,
+                    "minutes": 304,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 10,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 913,
+                    "name": "CONMEBOL - UEFA Finalissima",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/913.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 90,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 217,
+            "name": "Lautaro Martínez",
+            "firstname": "Lautaro Javier",
+            "lastname": "Martínez",
+            "age": 28,
+            "birth": {
+                "date": "1997-08-22",
+                "place": "Bahía Blanca",
+                "country": "Argentina"
+            },
+            "nationality": "Argentina",
+            "height": "174",
+            "weight": "72",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/217.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 14,
+                    "lineups": 14,
+                    "minutes": 1061,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "7.142857",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 12,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": 28,
+                    "on": 16
+                },
+                "goals": {
+                    "total": 7,
+                    "conceded": 0,
+                    "assists": 3,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 146,
+                    "key": 14,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 11,
+                    "blocks": null,
+                    "interceptions": 9
+                },
+                "duels": {
+                    "total": 134,
+                    "won": 63
+                },
+                "dribbles": {
+                    "attempts": 17,
+                    "success": 9,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 30,
+                    "committed": 14
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 6,
+                    "lineups": 2,
+                    "minutes": 238,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.400000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 4,
+                    "out": 1,
+                    "bench": 5
+                },
+                "shots": {
+                    "total": 11,
+                    "on": 4
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 63,
+                    "key": 1,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": 1,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 29,
+                    "won": 13
+                },
+                "dribbles": {
+                    "attempts": 5,
+                    "success": 2,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 5,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 102,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 2,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 913,
+                    "name": "CONMEBOL - UEFA Finalissima",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/913.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 85,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 529,
+            "name": "N. Tagliafico",
+            "firstname": "Nicolás Alejandro",
+            "lastname": "Tagliafico",
+            "age": 33,
+            "birth": {
+                "date": "1992-08-31",
+                "place": "Rafael Calzada",
+                "country": "Argentina"
+            },
+            "nationality": "Argentina",
+            "height": "172",
+            "weight": "67",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/529.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 9,
+                    "lineups": 8,
+                    "minutes": 753,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.966666",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 6
+                },
+                "shots": {
+                    "total": 5,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 385,
+                    "key": 7,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 13,
+                    "blocks": 1,
+                    "interceptions": 15
+                },
+                "duels": {
+                    "total": 71,
+                    "won": 38
+                },
+                "dribbles": {
+                    "attempts": 4,
+                    "success": 3,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 13,
+                    "committed": 21
+                },
+                "cards": {
+                    "yellow": 3,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 6,
+                    "lineups": 3,
+                    "minutes": 372,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.616666",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 3,
+                    "out": 2,
+                    "bench": 4
+                },
+                "shots": {
+                    "total": 3,
+                    "on": 2
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 143,
+                    "key": 2,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 7,
+                    "blocks": 1,
+                    "interceptions": 9
+                },
+                "duels": {
+                    "total": 27,
+                    "won": 17
+                },
+                "dribbles": {
+                    "attempts": 2,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 6,
+                    "committed": 6
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 180,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 913,
+                    "name": "CONMEBOL - UEFA Finalissima",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/913.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 90,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 576,
+            "name": "E. Salvio",
+            "firstname": "Eduardo Antonio",
+            "lastname": "Salvio",
+            "age": 35,
+            "birth": {
+                "date": "1990-07-13",
+                "place": "Avellaneda",
+                "country": "Argentina"
+            },
+            "nationality": "Argentina",
+            "height": "172",
+            "weight": "68",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/576.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 0,
+                    "minutes": 24,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "6.700000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": 1,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 13,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 5,
+                    "won": 2
+                },
+                "dribbles": {
+                    "attempts": 1,
+                    "success": 1,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 875,
+            "name": "P. Dybala",
+            "firstname": "Paulo Exequiel",
+            "lastname": "Dybala",
+            "age": 32,
+            "birth": {
+                "date": "1993-11-15",
+                "place": "Laguna Larga",
+                "country": "Argentina"
+            },
+            "nationality": "Argentina",
+            "height": "177",
+            "weight": "75",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/875.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 0,
+                    "minutes": 16,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "7.000000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 2,
+                    "out": 0,
+                    "bench": 7
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 12,
+                    "key": 1,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 3,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 11,
+                    "won": 7
+                },
+                "dribbles": {
+                    "attempts": 2,
+                    "success": 1,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 1,
+                    "minutes": 77,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.966666",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 2,
+                    "out": 1,
+                    "bench": 4
+                },
+                "shots": {
+                    "total": 3,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": 1,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 43,
+                    "key": 3,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 3,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 10,
+                    "won": 5
+                },
+                "dribbles": {
+                    "attempts": 1,
+                    "success": 1,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": 2
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 0,
+                    "minutes": 28,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 913,
+                    "name": "CONMEBOL - UEFA Finalissima",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/913.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 1493,
+            "name": "M. Acuña",
+            "firstname": "Marcos Javier",
+            "lastname": "Acuña",
+            "age": 34,
+            "birth": {
+                "date": "1991-10-28",
+                "place": "Zapala",
+                "country": "Argentina"
+            },
+            "nationality": "Argentina",
+            "height": "172",
+            "weight": "76",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/1493.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 6,
+                    "lineups": 4,
+                    "minutes": 374,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "7.000000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 2,
+                    "out": 3,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": 2,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 173,
+                    "key": 5,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 12,
+                    "blocks": 1,
+                    "interceptions": 2
+                },
+                "duels": {
+                    "total": 53,
+                    "won": 28
+                },
+                "dribbles": {
+                    "attempts": 6,
+                    "success": 2,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 9,
+                    "committed": 9
+                },
+                "cards": {
+                    "yellow": 3,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 10,
+                    "lineups": 9,
+                    "minutes": 773,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.730000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 2,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": 1,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": 1,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 441,
+                    "key": 8,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 16,
+                    "blocks": null,
+                    "interceptions": 8
+                },
+                "duels": {
+                    "total": 96,
+                    "won": 37
+                },
+                "dribbles": {
+                    "attempts": 18,
+                    "success": 6,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 11,
+                    "committed": 16
+                },
+                "cards": {
+                    "yellow": 2,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 119,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 2,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 913,
+                    "name": "CONMEBOL - UEFA Finalissima",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/913.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 2462,
+            "name": "E. Andrada",
+            "firstname": "Esteban Maximiliano",
+            "lastname": "Andrada",
+            "age": 34,
+            "birth": {
+                "date": "1991-01-26",
+                "place": "Mendoza",
+                "country": "Argentina"
+            },
+            "nationality": "Argentina",
+            "height": "193",
+            "weight": "83",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/2462.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 6
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": 0
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 2463,
+            "name": "F. Armani",
+            "firstname": "Franco",
+            "lastname": "Armani",
+            "age": 39,
+            "birth": {
+                "date": "1986-10-16",
+                "place": "Casilda",
+                "country": "Argentina"
+            },
+            "nationality": "Argentina",
+            "height": "189",
+            "weight": "88",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/2463.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 5,
+                    "lineups": 5,
+                    "minutes": 450,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": "6.820000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 8
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 2,
+                    "assists": null,
+                    "saves": 5
+                },
+                "passes": {
+                    "total": 115,
+                    "key": 1,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 2,
+                    "won": 2
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": 0
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 7
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": 1
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 90,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 913,
+                    "name": "CONMEBOL - UEFA Finalissima",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/913.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 6231,
+            "name": "F. Medina",
+            "firstname": "Facundo Axel",
+            "lastname": "Medina",
+            "age": 26,
+            "birth": {
+                "date": "1999-05-28",
+                "place": "Buenos Aires",
+                "country": "Argentina"
+            },
+            "nationality": "Argentina",
+            "height": "184",
+            "weight": "78",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/6231.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 0,
+                    "minutes": 10,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.700000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 2,
+                    "out": 0,
+                    "bench": 4
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 23,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 1,
+                    "won": 1
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 6492,
+            "name": "J. Ledesma",
+            "firstname": "Jeremías Conan",
+            "lastname": "Ledesma",
+            "age": 32,
+            "birth": {
+                "date": "1993-02-13",
+                "place": "Pergamino",
+                "country": "Argentina"
+            },
+            "nationality": "Argentina",
+            "height": "187",
+            "weight": "70",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/6492.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 30414,
+            "name": "G. Simeone",
+            "firstname": "Giovanni Pablo",
+            "lastname": "Simeone Baldini",
+            "age": 30,
+            "birth": {
+                "date": "1995-07-05",
+                "place": "Madrid",
+                "country": "Spain"
+            },
+            "nationality": "Argentina",
+            "height": "180",
+            "weight": "81",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/30414.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 35550,
+            "name": "M. Meza",
+            "firstname": "Maximiliano Eduardo",
+            "lastname": "Meza",
+            "age": 33,
+            "birth": {
+                "date": "1992-12-15",
+                "place": "Caá Catí",
+                "country": "Argentina"
+            },
+            "nationality": "Argentina",
+            "height": "180",
+            "weight": "69",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/35550.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 0,
+                    "minutes": 32,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "6.200000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 9,
+                    "key": 1,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 7,
+                    "won": 2
+                },
+                "dribbles": {
+                    "attempts": 1,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 47296,
+            "name": "G. Rulli",
+            "firstname": "Gerónimo",
+            "lastname": "Rulli",
+            "age": 33,
+            "birth": {
+                "date": "1992-05-20",
+                "place": "La Plata",
+                "country": "Argentina"
+            },
+            "nationality": "Argentina",
+            "height": "189",
+            "weight": "84",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/47296.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 90,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": "7.200000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 1,
+                    "assists": null,
+                    "saves": 2
+                },
+                "passes": {
+                    "total": 19,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 1,
+                    "won": 1
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": 0
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 7
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": 1
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 90,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 913,
+                    "name": "CONMEBOL - UEFA Finalissima",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/913.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 237143,
+            "name": "S. Simón",
+            "firstname": "Santiago",
+            "lastname": "Simón",
+            "age": 23,
+            "birth": {
+                "date": "2002-06-13",
+                "place": "José C. Paz",
+                "country": "Argentina"
+            },
+            "nationality": "Argentina",
+            "height": "178",
+            "weight": "76",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/237143.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 237186,
+            "name": "C. Medina",
+            "firstname": "Cristian Nicolás",
+            "lastname": "Medina",
+            "age": 23,
+            "birth": {
+                "date": "2002-06-01",
+                "place": "Moreno",
+                "country": "Argentina"
+            },
+            "nationality": "Argentina",
+            "height": "179",
+            "weight": "73",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/237186.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 278339,
+            "name": "F. Gomes Gerth",
+            "firstname": "Federico",
+            "lastname": "Gomes Gerth",
+            "age": 21,
+            "birth": {
+                "date": "2004-03-05",
+                "place": "San Isidro",
+                "country": "Argentina"
+            },
+            "nationality": "Argentina",
+            "height": "194 cm",
+            "weight": "87 kg",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/278339.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Goalkeeper",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 323936,
+            "name": "M. Soulé",
+            "firstname": "Matías",
+            "lastname": "Soulé Malvano",
+            "age": 22,
+            "birth": {
+                "date": "2003-04-15",
+                "place": "Mar del Plata",
+                "country": "Argentina"
+            },
+            "nationality": "Argentina",
+            "height": "182",
+            "weight": "76",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/323936.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 333667,
+            "name": "T. Geralnik",
+            "firstname": "Tiago José",
+            "lastname": "Geralnik",
+            "age": 22,
+            "birth": {
+                "date": "2003-03-31",
+                "place": "Rosario",
+                "country": "Argentina"
+            },
+            "nationality": "Argentina",
+            "height": null,
+            "weight": null,
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/333667.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    },
+    {
+        "player": {
+            "id": 350037,
+            "name": "N. Paz",
+            "firstname": "Nicolás",
+            "lastname": "Paz Martínez",
+            "age": 21,
+            "birth": {
+                "date": "2004-09-08",
+                "place": "Santa Cruz de Tenerife",
+                "country": "Spain"
+            },
+            "nationality": "Argentina",
+            "height": "186",
+            "weight": "74",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/350037.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 34,
+                    "name": "World Cup - Qualification South America",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/34.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 26,
+                    "name": "Argentina",
+                    "logo": "https://media.api-sports.io/football/teams/26.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    }
+]

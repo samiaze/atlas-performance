@@ -1,0 +1,689 @@
+[
+    {
+        "player": {
+            "id": 276670,
+            "name": "F. Chaïbi",
+            "firstname": "Farès",
+            "lastname": "Chaïbi",
+            "age": 23,
+            "birth": {
+                "date": "2002-11-28",
+                "place": "Lyon",
+                "country": "France"
+            },
+            "nationality": "Algeria",
+            "height": "183",
+            "weight": "69",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/276670.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 169,
+                    "name": "Eintracht Frankfurt",
+                    "logo": "https://media.api-sports.io/football/teams/169.png"
+                },
+                "league": {
+                    "id": 78,
+                    "name": "Bundesliga",
+                    "country": "Germany",
+                    "logo": "https://media.api-sports.io/football/leagues/78.png",
+                    "flag": "https://media.api-sports.io/flags/de.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 28,
+                    "lineups": 21,
+                    "minutes": 1920,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "7.128571",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 7,
+                    "out": 15,
+                    "bench": 8
+                },
+                "shots": {
+                    "total": 28,
+                    "on": 14
+                },
+                "goals": {
+                    "total": 2,
+                    "conceded": 0,
+                    "assists": 4,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 714,
+                    "key": 50,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 27,
+                    "blocks": 1,
+                    "interceptions": 5
+                },
+                "duels": {
+                    "total": 162,
+                    "won": 55
+                },
+                "dribbles": {
+                    "attempts": 20,
+                    "success": 7,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 11,
+                    "committed": 14
+                },
+                "cards": {
+                    "yellow": 2,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 96,
+                    "name": "Toulouse",
+                    "logo": "https://media.api-sports.io/football/teams/96.png"
+                },
+                "league": {
+                    "id": 61,
+                    "name": "Ligue 1",
+                    "country": "France",
+                    "logo": "https://media.api-sports.io/football/leagues/61.png",
+                    "flag": "https://media.api-sports.io/flags/fr.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 0,
+                    "minutes": 56,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "6.600000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 2,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": 1,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 33,
+                    "key": 2,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 4,
+                    "won": 1
+                },
+                "dribbles": {
+                    "attempts": 2,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 169,
+                    "name": "Eintracht Frankfurt",
+                    "logo": "https://media.api-sports.io/football/teams/169.png"
+                },
+                "league": {
+                    "id": 81,
+                    "name": "DFB Pokal",
+                    "country": "Germany",
+                    "logo": "https://media.api-sports.io/football/leagues/81.png",
+                    "flag": "https://media.api-sports.io/flags/de.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 172,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "7.100000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": 1,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 83,
+                    "key": 4,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 8,
+                    "won": 3
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 169,
+                    "name": "Eintracht Frankfurt",
+                    "logo": "https://media.api-sports.io/football/teams/169.png"
+                },
+                "league": {
+                    "id": 848,
+                    "name": "UEFA Europa Conference League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/848.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 7,
+                    "lineups": 6,
+                    "minutes": 538,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "8.014285",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 3,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": 13,
+                    "on": 10
+                },
+                "goals": {
+                    "total": 2,
+                    "conceded": 0,
+                    "assists": 6,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 193,
+                    "key": 24,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 6,
+                    "blocks": 1,
+                    "interceptions": 2
+                },
+                "duels": {
+                    "total": 38,
+                    "won": 13
+                },
+                "dribbles": {
+                    "attempts": 4,
+                    "success": 3,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": 6
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 96,
+                    "name": "Toulouse",
+                    "logo": "https://media.api-sports.io/football/teams/96.png"
+                },
+                "league": {
+                    "id": 667,
+                    "name": "Friendlies Clubs",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/667.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1532,
+                    "name": "Algeria",
+                    "logo": "https://media.api-sports.io/football/teams/1532.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 4,
+                    "lineups": 3,
+                    "minutes": 256,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 2,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1532,
+                    "name": "Algeria",
+                    "logo": "https://media.api-sports.io/football/teams/1532.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 2,
+                    "minutes": 201,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "7.233333",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": 4,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 128,
+                    "key": 6,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 4,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 13,
+                    "won": 7
+                },
+                "dribbles": {
+                    "attempts": 2,
+                    "success": 1,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": 5
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1532,
+                    "name": "Algeria",
+                    "logo": "https://media.api-sports.io/football/teams/1532.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 1,
+                    "minutes": 106,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "7.050000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": 3,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 54,
+                    "key": 3,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 1,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1532,
+                    "name": "Algeria",
+                    "logo": "https://media.api-sports.io/football/teams/1532.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 4,
+                    "lineups": 3,
+                    "minutes": 287,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 2,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,541 @@
+[
+    {
+        "player": {
+            "id": 334429,
+            "name": "O. Diakité",
+            "firstname": "Oumar",
+            "lastname": "Diakité",
+            "age": 22,
+            "birth": {
+                "date": "2003-12-20",
+                "place": "Bingerville",
+                "country": "Côte d'Ivoire"
+            },
+            "nationality": "Côte d'Ivoire",
+            "height": "182",
+            "weight": "76",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/334429.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 93,
+                    "name": "Reims",
+                    "logo": "https://media.api-sports.io/football/teams/93.png"
+                },
+                "league": {
+                    "id": 61,
+                    "name": "Ligue 1",
+                    "country": "France",
+                    "logo": "https://media.api-sports.io/football/leagues/61.png",
+                    "flag": "https://media.api-sports.io/flags/fr.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 28,
+                    "lineups": 18,
+                    "minutes": 1589,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.682142",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 10,
+                    "out": 13,
+                    "bench": 12
+                },
+                "shots": {
+                    "total": 30,
+                    "on": 12
+                },
+                "goals": {
+                    "total": 5,
+                    "conceded": 0,
+                    "assists": 1,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 302,
+                    "key": 15,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 25,
+                    "blocks": null,
+                    "interceptions": 7
+                },
+                "duels": {
+                    "total": 273,
+                    "won": 100
+                },
+                "dribbles": {
+                    "attempts": 59,
+                    "success": 25,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 27,
+                    "committed": 34
+                },
+                "cards": {
+                    "yellow": 4,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 1,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 93,
+                    "name": "Reims",
+                    "logo": "https://media.api-sports.io/football/teams/93.png"
+                },
+                "league": {
+                    "id": 66,
+                    "name": "Coupe de France",
+                    "country": "France",
+                    "logo": "https://media.api-sports.io/football/leagues/66.png",
+                    "flag": "https://media.api-sports.io/flags/fr.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 571,
+                    "name": "Red Bull Salzburg",
+                    "logo": "https://media.api-sports.io/football/teams/571.png"
+                },
+                "league": {
+                    "id": 667,
+                    "name": "Friendlies Clubs",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/667.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1501,
+                    "name": "Ivory Coast",
+                    "logo": "https://media.api-sports.io/football/teams/1501.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 5,
+                    "lineups": 2,
+                    "minutes": 208,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 3,
+                    "out": 2,
+                    "bench": 4
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1501,
+                    "name": "Ivory Coast",
+                    "logo": "https://media.api-sports.io/football/teams/1501.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 90,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.900000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 45,
+                    "key": 1,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 6,
+                    "won": 3
+                },
+                "dribbles": {
+                    "attempts": 3,
+                    "success": 2,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1501,
+                    "name": "Ivory Coast",
+                    "logo": "https://media.api-sports.io/football/teams/1501.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 5,
+                    "lineups": 2,
+                    "minutes": 225,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.600000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 3,
+                    "out": 2,
+                    "bench": 4
+                },
+                "shots": {
+                    "total": 3,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 77,
+                    "key": 2,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 4,
+                    "blocks": 1,
+                    "interceptions": 3
+                },
+                "duels": {
+                    "total": 55,
+                    "won": 16
+                },
+                "dribbles": {
+                    "attempts": 17,
+                    "success": 6,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 4,
+                    "committed": 14
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 1,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1501,
+                    "name": "Ivory Coast",
+                    "logo": "https://media.api-sports.io/football/teams/1501.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 1,
+                    "minutes": 97,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 1,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    }
+]

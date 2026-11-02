@@ -1,0 +1,319 @@
+[
+    {
+        "player": {
+            "id": 47294,
+            "name": "I. Williams",
+            "firstname": "Iñaki Arthuer",
+            "lastname": "Dannis Williams",
+            "age": 31,
+            "birth": {
+                "date": "1994-06-15",
+                "place": "Bilbao",
+                "country": "Spain"
+            },
+            "nationality": "Ghana",
+            "height": "186",
+            "weight": "81",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/47294.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 531,
+                    "name": "Athletic Club",
+                    "logo": "https://media.api-sports.io/football/teams/531.png"
+                },
+                "league": {
+                    "id": 140,
+                    "name": "La Liga",
+                    "country": "Spain",
+                    "logo": "https://media.api-sports.io/football/leagues/140.png",
+                    "flag": "https://media.api-sports.io/flags/es.svg",
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 36,
+                    "lineups": 36,
+                    "minutes": 2850,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.880555",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": null,
+                    "bench": null
+                },
+                "shots": {
+                    "total": 66,
+                    "on": 35
+                },
+                "goals": {
+                    "total": 10,
+                    "conceded": 0,
+                    "assists": 3,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 710,
+                    "key": 39,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 22,
+                    "blocks": 3,
+                    "interceptions": 7
+                },
+                "duels": {
+                    "total": 303,
+                    "won": 131
+                },
+                "dribbles": {
+                    "attempts": 95,
+                    "success": 46,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 31,
+                    "committed": 31
+                },
+                "cards": {
+                    "yellow": 2,
+                    "yellowred": null,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 1,
+                    "missed": 1,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 531,
+                    "name": "Athletic Club",
+                    "logo": "https://media.api-sports.io/football/teams/531.png"
+                },
+                "league": {
+                    "id": 143,
+                    "name": "Copa del Rey",
+                    "country": "Spain",
+                    "logo": "https://media.api-sports.io/football/leagues/143.png",
+                    "flag": "https://media.api-sports.io/flags/es.svg",
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 6,
+                    "lineups": 3,
+                    "minutes": 387,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.800000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 3,
+                    "out": 2,
+                    "bench": 4
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": 0,
+                    "assists": 2,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 35,
+                    "key": 2,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 9,
+                    "won": 3
+                },
+                "dribbles": {
+                    "attempts": 4,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1504,
+                    "name": "Ghana",
+                    "logo": "https://media.api-sports.io/football/teams/1504.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 3,
+                    "minutes": 252,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.433333",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": 1,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": 1,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 41,
+                    "key": 2,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 4,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 22,
+                    "won": 9
+                },
+                "dribbles": {
+                    "attempts": 1,
+                    "success": 1,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 3,
+                    "committed": 4
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1504,
+                    "name": "Ghana",
+                    "logo": "https://media.api-sports.io/football/teams/1504.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 2,
+                    "minutes": 192,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 2,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    }
+]

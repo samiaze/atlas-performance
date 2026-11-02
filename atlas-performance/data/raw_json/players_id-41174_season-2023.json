@@ -1,0 +1,541 @@
+[
+    {
+        "player": {
+            "id": 41174,
+            "name": "Jonathan Buatu",
+            "firstname": "Jonathan",
+            "lastname": "Buatu Mananga",
+            "age": 32,
+            "birth": {
+                "date": "1993-09-27",
+                "place": "Liège",
+                "country": "Belgium"
+            },
+            "nationality": "Angola",
+            "height": "187",
+            "weight": "87",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/41174.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 762,
+                    "name": "GIL Vicente",
+                    "logo": "https://media.api-sports.io/football/teams/762.png"
+                },
+                "league": {
+                    "id": 94,
+                    "name": "Primeira Liga",
+                    "country": "Portugal",
+                    "logo": "https://media.api-sports.io/football/leagues/94.png",
+                    "flag": "https://media.api-sports.io/flags/pt.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 12,
+                    "lineups": 8,
+                    "minutes": 450,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "7.220000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 4,
+                    "out": null,
+                    "bench": null
+                },
+                "shots": {
+                    "total": 2,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 220,
+                    "key": 1,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 7,
+                    "blocks": 3,
+                    "interceptions": 2
+                },
+                "duels": {
+                    "total": 29,
+                    "won": 21
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 4,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": null,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 105,
+                    "name": "Valenciennes",
+                    "logo": "https://media.api-sports.io/football/teams/105.png"
+                },
+                "league": {
+                    "id": 62,
+                    "name": "Ligue 2",
+                    "country": "France",
+                    "logo": "https://media.api-sports.io/football/leagues/62.png",
+                    "flag": "https://media.api-sports.io/flags/fr.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 16,
+                    "lineups": 16,
+                    "minutes": 1403,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "7.150000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 2,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": 5,
+                    "on": 3
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 791,
+                    "key": 2,
+                    "accuracy": 42
+                },
+                "tackles": {
+                    "total": 33,
+                    "blocks": 10,
+                    "interceptions": 25
+                },
+                "duels": {
+                    "total": 147,
+                    "won": 91
+                },
+                "dribbles": {
+                    "attempts": 7,
+                    "success": 6,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 23,
+                    "committed": 16
+                },
+                "cards": {
+                    "yellow": 3,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 105,
+                    "name": "Valenciennes",
+                    "logo": "https://media.api-sports.io/football/teams/105.png"
+                },
+                "league": {
+                    "id": 66,
+                    "name": "Coupe de France",
+                    "country": "France",
+                    "logo": "https://media.api-sports.io/football/leagues/66.png",
+                    "flag": "https://media.api-sports.io/flags/fr.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1529,
+                    "name": "Angola",
+                    "logo": "https://media.api-sports.io/football/teams/1529.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 5,
+                    "lineups": 4,
+                    "minutes": 360,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.900000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": null,
+                    "bench": null
+                },
+                "shots": {
+                    "total": 2,
+                    "on": 1
+                },
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 141,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 5,
+                    "blocks": 3,
+                    "interceptions": 3
+                },
+                "duels": {
+                    "total": 27,
+                    "won": 13
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 2,
+                    "committed": 7
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": null,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1529,
+                    "name": "Angola",
+                    "logo": "https://media.api-sports.io/football/teams/1529.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 180,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1529,
+                    "name": "Angola",
+                    "logo": "https://media.api-sports.io/football/teams/1529.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 6,
+                    "lineups": 6,
+                    "minutes": 540,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.700000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": 1,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 102,
+                    "key": 1,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 2,
+                    "blocks": 1,
+                    "interceptions": 2
+                },
+                "duels": {
+                    "total": 13,
+                    "won": 6
+                },
+                "dribbles": {
+                    "attempts": 1,
+                    "success": 1,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 2,
+                    "committed": 3
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1529,
+                    "name": "Angola",
+                    "logo": "https://media.api-sports.io/football/teams/1529.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 90,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    }
+]

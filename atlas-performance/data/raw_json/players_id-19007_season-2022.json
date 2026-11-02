@@ -1,0 +1,541 @@
+[
+    {
+        "player": {
+            "id": 19007,
+            "name": "J. Hoilett",
+            "firstname": "David Junior Wayne",
+            "lastname": "Hoilett",
+            "age": 35,
+            "birth": {
+                "date": "1990-06-05",
+                "place": "Brampton",
+                "country": "Canada"
+            },
+            "nationality": "Canada",
+            "height": "173",
+            "weight": "70",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/19007.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 53,
+                    "name": "Reading",
+                    "logo": "https://media.api-sports.io/football/teams/53.png"
+                },
+                "league": {
+                    "id": 40,
+                    "name": "Championship",
+                    "country": "England",
+                    "logo": "https://media.api-sports.io/football/leagues/40.png",
+                    "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 34,
+                    "lineups": 30,
+                    "minutes": 2564,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.766666",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 4,
+                    "out": 17,
+                    "bench": 5
+                },
+                "shots": {
+                    "total": 24,
+                    "on": 13
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 748,
+                    "key": 44,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 68,
+                    "blocks": 5,
+                    "interceptions": 28
+                },
+                "duels": {
+                    "total": 302,
+                    "won": 142
+                },
+                "dribbles": {
+                    "attempts": 48,
+                    "success": 23,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 25,
+                    "committed": 40
+                },
+                "cards": {
+                    "yellow": 4,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 53,
+                    "name": "Reading",
+                    "logo": "https://media.api-sports.io/football/teams/53.png"
+                },
+                "league": {
+                    "id": 45,
+                    "name": "FA Cup",
+                    "country": "England",
+                    "logo": "https://media.api-sports.io/football/leagues/45.png",
+                    "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 69,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "5.700000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": 1,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 10,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 2,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 9,
+                    "won": 3
+                },
+                "dribbles": {
+                    "attempts": 1,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": 2
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 53,
+                    "name": "Reading",
+                    "logo": "https://media.api-sports.io/football/teams/53.png"
+                },
+                "league": {
+                    "id": 48,
+                    "name": "League Cup",
+                    "country": "England",
+                    "logo": "https://media.api-sports.io/football/leagues/48.png",
+                    "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 5529,
+                    "name": "Canada",
+                    "logo": "https://media.api-sports.io/football/teams/5529.png"
+                },
+                "league": {
+                    "id": 536,
+                    "name": "CONCACAF Nations League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/536.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 1,
+                    "minutes": 16,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.700000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": null,
+                    "bench": null
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 7,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 2,
+                    "won": 1
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": null,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 5529,
+                    "name": "Canada",
+                    "logo": "https://media.api-sports.io/football/teams/5529.png"
+                },
+                "league": {
+                    "id": 31,
+                    "name": "World Cup - Qualification CONCACAF",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/31.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 13,
+                    "lineups": 7,
+                    "minutes": 591,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "7.366666",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 6,
+                    "out": 6,
+                    "bench": 9
+                },
+                "shots": {
+                    "total": 6,
+                    "on": 4
+                },
+                "goals": {
+                    "total": 3,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 189,
+                    "key": 13,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 13,
+                    "blocks": 1,
+                    "interceptions": 2
+                },
+                "duels": {
+                    "total": 75,
+                    "won": 45
+                },
+                "dribbles": {
+                    "attempts": 19,
+                    "success": 14,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 14,
+                    "committed": 10
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 5529,
+                    "name": "Canada",
+                    "logo": "https://media.api-sports.io/football/teams/5529.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 2,
+                    "minutes": 162,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "7.033333",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 2,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": 3,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 44,
+                    "key": 4,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 8,
+                    "blocks": null,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 22,
+                    "won": 15
+                },
+                "dribbles": {
+                    "attempts": 5,
+                    "success": 2,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 5,
+                    "committed": 1
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 5529,
+                    "name": "Canada",
+                    "logo": "https://media.api-sports.io/football/teams/5529.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 2,
+                    "minutes": 224,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 0,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,136 @@
+{% extends "layout/base.html" %}
+
+{% block title %}À Propos{% endblock %}
+{% block header_title %}À Propos{% endblock %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto space-y-8">
+
+    <!-- Project Card -->
+    <div class="card-premium p-8 relative overflow-hidden">
+        <!-- Background Glow -->
+        <div
+            class="absolute top-0 right-0 w-64 h-64 bg-atlas-cyan/10 blur-3xl rounded-full -mr-16 -mt-16 pointer-events-none">
+        </div>
+
+        <div class="relative z-10">
+            <h2 class="text-3xl font-bold text-white mb-4">AtlasPerformance</h2>
+            <p class="text-slate-400 text-lg leading-relaxed mb-6">
+                AtlasPerformance est une plateforme d'analyse statistique de football dédiée aux compétitions majeures.
+                Ce projet universitaire vise à fournir une interface moderne et intuitive pour visualiser les
+                performances des équipes et des joueurs.
+            </p>
+
+            <div class="flex flex-wrap gap-4">
+                <span class="px-4 py-2 bg-slate-800 rounded-full text-atlas-cyan font-bold border border-atlas-cyan/20">
+                    <i class="fas fa-university mr-2"></i>Projet Universitaire
+                </span>
+                <span
+                    class="px-4 py-2 bg-slate-800 rounded-full text-emerald-400 font-bold border border-emerald-500/20">
+                    <i class="fas fa-database mr-2"></i>API-Football v3
+                </span>
+                <span class="px-4 py-2 bg-slate-800 rounded-full text-blue-400 font-bold border border-blue-500/20">
+                    <i class="fab fa-python mr-2"></i>FastAPI & Tailwind
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features / Credits -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="card-premium p-6">
+            <h3 class="text-xl font-bold text-white mb-6 flex items-center gap-2">
+                <i class="fas fa-code text-atlas-cyan"></i> Stack Technique
+            </h3>
+
+            <div class="space-y-6">
+                <!-- Backend -->
+                <div>
+                    <h4 class="text-white font-semibold mb-2 flex items-center gap-2"><i
+                            class="fab fa-python text-blue-400"></i> Backend</h4>
+                    <ul class="text-sm text-slate-400 space-y-1 pl-6 list-disc marker:text-atlas-cyan">
+                        <li>Python 3.11 & FastAPI (Asynchrone)</li>
+                        <li>SQLAlchemy 2.0 (ORM) & Pydantic V2</li>
+                    </ul>
+                </div>
+
+                <!-- Frontend -->
+                <div>
+                    <h4 class="text-white font-semibold mb-2 flex items-center gap-2"><i
+                            class="fab fa-html5 text-orange-500"></i> Frontend</h4>
+                    <ul class="text-sm text-slate-400 space-y-1 pl-6 list-disc marker:text-atlas-cyan">
+                        <li>Jinja2 Templates (Server-Side Rendering)</li>
+                        <li>Tailwind CSS (Styling) & Vanilla JS</li>
+                        <li>Plotly.js (Visualisation de données)</li>
+                    </ul>
+                </div>
+
+                <!-- Data & Infra -->
+                <div>
+                    <h4 class="text-white font-semibold mb-2 flex items-center gap-2"><i
+                            class="fas fa-database text-emerald-400"></i> Data & Ops</h4>
+                    <ul class="text-sm text-slate-400 space-y-1 pl-6 list-disc marker:text-atlas-cyan">
+                        <li>PostgreSQL 15 (Dockerised)</li>
+                        <li>ETL Pipeline (Pandas & Scripts Python)</li>
+                        <li>Docker & Docker Compose</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-premium p-6">
+            <h3 class="text-xl font-bold text-white mb-6 flex items-center gap-2">
+                <i class="fas fa-users text-atlas-cyan"></i> Réalisé par
+            </h3>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+                <!-- Member 1 -->
+                <div
+                    class="flex items-center gap-3 p-3 rounded-xl bg-slate-800/50 border border-slate-700/50 hover:border-atlas-cyan/50 transition-colors">
+                    <div
+                        class="w-10 h-10 rounded-full bg-gradient-to-br from-atlas-cyan to-blue-600 flex items-center justify-center font-bold text-white text-xs shadow-lg">
+                        AB
+                    </div>
+                    <div class="font-bold text-white text-sm">ABBA BADREDDINE</div>
+                </div>
+
+                <!-- Member 2 -->
+                <div
+                    class="flex items-center gap-3 p-3 rounded-xl bg-slate-800/50 border border-slate-700/50 hover:border-atlas-cyan/50 transition-colors">
+                    <div
+                        class="w-10 h-10 rounded-full bg-gradient-to-br from-emerald-400 to-green-600 flex items-center justify-center font-bold text-white text-xs shadow-lg">
+                        ZS
+                    </div>
+                    <div class="font-bold text-white text-sm">ZENBILE SAMIA</div>
+                </div>
+
+                <!-- Member 3 -->
+                <div
+                    class="flex items-center gap-3 p-3 rounded-xl bg-slate-800/50 border border-slate-700/50 hover:border-atlas-cyan/50 transition-colors">
+                    <div
+                        class="w-10 h-10 rounded-full bg-gradient-to-br from-purple-400 to-indigo-600 flex items-center justify-center font-bold text-white text-xs shadow-lg">
+                        RK
+                    </div>
+                    <div class="font-bold text-white text-sm">RAJI KHOULOUD</div>
+                </div>
+
+                <!-- Member 4 -->
+                <div
+                    class="flex items-center gap-3 p-3 rounded-xl bg-slate-800/50 border border-slate-700/50 hover:border-atlas-cyan/50 transition-colors">
+                    <div
+                        class="w-10 h-10 rounded-full bg-gradient-to-br from-pink-400 to-rose-600 flex items-center justify-center font-bold text-white text-xs shadow-lg">
+                        BI
+                    </div>
+                    <div class="font-bold text-white text-sm">BOUDALI ILHAM</div>
+                </div>
+            </div>
+
+            <div class="mt-6 text-center space-y-1">
+                <p class="text-xs text-slate-500">© 2026 AtlasPerformance. Tous droits réservés.</p>
+                <p class="text-xs text-slate-500">Données fournies par API-Football v3. Projet Universitaire.</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+{% endblock %}

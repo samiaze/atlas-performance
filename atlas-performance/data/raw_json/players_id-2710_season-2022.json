@@ -1,0 +1,541 @@
+[
+    {
+        "player": {
+            "id": 2710,
+            "name": "S. Boufal",
+            "firstname": "Sofiane",
+            "lastname": "Boufal",
+            "age": 32,
+            "birth": {
+                "date": "1993-09-17",
+                "place": "Paris",
+                "country": "France"
+            },
+            "nationality": "Morocco",
+            "height": "175",
+            "weight": "70",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/2710.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 2897,
+                    "name": "Al-Rayyan SC",
+                    "logo": "https://media.api-sports.io/football/teams/2897.png"
+                },
+                "league": {
+                    "id": 305,
+                    "name": "Stars League",
+                    "country": "Qatar",
+                    "logo": "https://media.api-sports.io/football/leagues/305.png",
+                    "flag": "https://media.api-sports.io/flags/qa.svg",
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 9,
+                    "lineups": 9,
+                    "minutes": 786,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 4,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 3,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 4,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 77,
+                    "name": "Angers",
+                    "logo": "https://media.api-sports.io/football/teams/77.png"
+                },
+                "league": {
+                    "id": 61,
+                    "name": "Ligue 1",
+                    "country": "France",
+                    "logo": "https://media.api-sports.io/football/leagues/61.png",
+                    "flag": "https://media.api-sports.io/flags/fr.svg",
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 13,
+                    "lineups": 9,
+                    "minutes": 837,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "7.076923",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 4,
+                    "out": 6,
+                    "bench": 4
+                },
+                "shots": {
+                    "total": 18,
+                    "on": 12
+                },
+                "goals": {
+                    "total": 4,
+                    "conceded": 0,
+                    "assists": 3,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 438,
+                    "key": 27,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 14,
+                    "blocks": null,
+                    "interceptions": 5
+                },
+                "duels": {
+                    "total": 168,
+                    "won": 74
+                },
+                "dribbles": {
+                    "attempts": 75,
+                    "success": 39,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 20,
+                    "committed": 20
+                },
+                "cards": {
+                    "yellow": 2,
+                    "yellowred": 1,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 2,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 77,
+                    "name": "Angers",
+                    "logo": "https://media.api-sports.io/football/teams/77.png"
+                },
+                "league": {
+                    "id": 66,
+                    "name": "Coupe de France",
+                    "country": "France",
+                    "logo": "https://media.api-sports.io/football/leagues/66.png",
+                    "flag": "https://media.api-sports.io/flags/fr.svg",
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 2897,
+                    "name": "Al-Rayyan SC",
+                    "logo": "https://media.api-sports.io/football/teams/2897.png"
+                },
+                "league": {
+                    "id": 17,
+                    "name": "AFC Champions League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/17.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 31,
+                    "name": "Morocco",
+                    "logo": "https://media.api-sports.io/football/teams/31.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 8,
+                    "lineups": 1,
+                    "minutes": 184,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 7,
+                    "out": 1,
+                    "bench": 7
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 31,
+                    "name": "Morocco",
+                    "logo": "https://media.api-sports.io/football/teams/31.png"
+                },
+                "league": {
+                    "id": 1,
+                    "name": "World Cup",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/1.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 7,
+                    "lineups": 7,
+                    "minutes": 482,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.828571",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 7,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": 5,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 124,
+                    "key": 4,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 11,
+                    "blocks": null,
+                    "interceptions": 2
+                },
+                "duels": {
+                    "total": 78,
+                    "won": 42
+                },
+                "dribbles": {
+                    "attempts": 24,
+                    "success": 14,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 13,
+                    "committed": 11
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 31,
+                    "name": "Morocco",
+                    "logo": "https://media.api-sports.io/football/teams/31.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2022
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 3,
+                    "minutes": 242,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 2,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 2,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    }
+]

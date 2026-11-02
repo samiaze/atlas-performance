@@ -1,0 +1,177 @@
+{% extends "layout/base.html" %}
+
+{% block title %}Joueurs{% endblock %}
+{% block header_title %}Joueurs{% endblock %}
+
+{% block content %}
+<div class="space-y-6">
+
+    <!-- SEARCH & FILTER BAR -->
+    <div class="card-premium p-4 flex flex-col items-center gap-4">
+        <!-- Top Row: Search + Global Filters -->
+        <div class="w-full flex flex-col md:flex-row items-center justify-between gap-4">
+            <div class="w-full md:w-auto relative">
+                <i class="fas fa-search absolute left-3 top-1/2 -translate-y-1/2 text-slate-500"></i>
+                <input type="text" name="search" value="{{ selected_search or '' }}"
+                    placeholder="Rechercher un joueur..."
+                    class="w-full md:w-64 bg-slate-800 border-none rounded-lg py-2 pl-10 pr-4 text-slate-200 focus:ring-1 focus:ring-atlas-brand placeholder-slate-600">
+            </div>
+
+            <div class="flex flex-wrap gap-2">
+                <a href="/players"
+                    class="px-4 py-2 rounded-full text-sm font-bold transition-colors {{ 'bg-atlas-brand text-white shadow-lg shadow-atlas-brand/20' if not selected_competition_id else 'bg-slate-800 text-slate-400 hover:bg-slate-700 hover:text-white' }}">
+                    Global
+                </a>
+                {% for comp in competitions_list %}
+                <a href="/players?competition_id={{ comp.id }}"
+                    class="px-4 py-2 rounded-full text-sm font-bold transition-colors {{ 'bg-atlas-brand text-white shadow-lg shadow-atlas-brand/20' if selected_competition_id == comp.id else 'bg-slate-800 text-slate-400 hover:bg-slate-700 hover:text-white' }}">
+                    {{ comp.name }}
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- Secondary Filters (Team, Position) -->
+        <form action="/players" method="GET"
+            class="w-full flex flex-wrap gap-2 justify-end border-t border-slate-700/50 pt-4">
+            {% if selected_competition_id %}
+            <input type="hidden" name="competition_id" value="{{ selected_competition_id }}">
+            {% endif %}
+
+            <select name="team_id" onchange="this.form.submit()"
+                class="bg-slate-800 text-slate-300 text-sm rounded-lg px-3 py-2 border-none focus:ring-1 focus:ring-atlas-brand">
+                <option value="">Toutes les équipes</option>
+                {% for team in teams_filter %}
+                <option value="{{ team.id }}" {% if selected_team_id|string==team.id|string %}selected{% endif %}>{{
+                    team.name }}</option>
+                {% endfor %}
+            </select>
+            <select name="position" onchange="this.form.submit()"
+                class="bg-slate-800 text-slate-300 text-sm rounded-lg px-3 py-2 border-none focus:ring-1 focus:ring-atlas-brand">
+                <option value="">Tous les postes</option>
+                <option value="GK" {% if selected_position=='GK' %}selected{% endif %}>Gardien</option>
+                <option value="DF" {% if selected_position=='DF' %}selected{% endif %}>Défenseur</option>
+                <option value="MF" {% if selected_position=='MF' %}selected{% endif %}>Milieu</option>
+                <option value="FW" {% if selected_position=='FW' %}selected{% endif %}>Attaquant</option>
+            </select>
+            <!-- Auto-submit on change, but keep button just in case -->
+        </form>
+    </div>
+
+    <!-- PLAYERS LIST (Desktop Table / Mobile Cards) -->
+    <div id="players-list">
+        <div class="card-premium p-0 overflow-hidden">
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead class="bg-slate-800/50">
+                        <tr class="text-xs text-slate-400 uppercase border-b border-slate-700">
+                            <th class="p-4">Joueur</th>
+                            <th class="p-4">Équipe</th>
+                            <th class="p-4">Poste</th>
+                            <th class="p-4 text-center">Matchs</th>
+                            <th class="p-4 text-center">Buts</th>
+                            <th class="p-4 text-center">Note</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-sm divide-y divide-slate-800">
+                        {% for player in players %}
+                        <tr onclick="window.location='/players/{{ player.id }}{% if selected_competition_id %}?competition_id={{ selected_competition_id }}{% endif %}'"
+                            class="hover:bg-slate-700/30 transition-colors group cursor-pointer">
+                            <td class="p-4">
+                                <div class="flex items-center gap-3">
+                                    <div
+                                        class="w-10 h-10 rounded-full bg-slate-700 overflow-hidden border border-slate-600">
+                                        {% if player.photo %}
+                                        <img src="{{ player.photo }}" alt="{{ player.name }}"
+                                            class="w-full h-full object-cover">
+                                        {% else %}
+                                        <img src="https://ui-avatars.com/api/?name={{ player.name }}&background=random"
+                                            class="w-full h-full object-cover">
+                                        {% endif %}
+                                    </div>
+                                    <div>
+                                        <div class="font-bold text-white">{{ player.name }}</div>
+                                        <div class="text-xs text-slate-500">{{ player.nationality }}</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="p-4 text-slate-300">
+                                <div class="flex items-center gap-2">
+                                    {% if player.team_logo %}
+                                    <img src="{{ player.team_logo }}" class="w-5 h-5 object-contain">
+                                    {% endif %}
+                                    <span>{{ player.team_name }}</span>
+                                </div>
+                            </td>
+                            <td class="p-4 text-slate-400">
+                                <span class="px-2 py-1 rounded bg-slate-800 border border-slate-700 text-xs">{{
+                                    player.position }}</span>
+                            </td>
+                            <td class="p-4 text-center text-slate-300">{{ player.stats.matches }}</td>
+                            <td class="p-4 text-center font-bold text-atlas-green">{{ player.stats.goals }}</td>
+                            <td class="p-4 text-center">
+                                {% if player.stats.rating %}
+                                <span
+                                    class="px-2 py-1 rounded font-bold text-xs {{ 'bg-emerald-500/10 text-emerald-500' if player.stats.rating >= 7 else 'bg-amber-500/10 text-amber-500' }}">
+                                    {{ player.stats.rating }}
+                                </span>
+                                {% else %}
+                                <span class="text-slate-600">-</span>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Pagination Mock -->
+            <div class="p-4 border-t border-slate-800 flex justify-between items-center text-sm text-slate-500">
+                <span>Affichage de 1 à 50 sur {{ total_players }} joueurs</span>
+                <div class="flex gap-2">
+                    <button class="px-3 py-1 rounded bg-slate-800 hover:bg-slate-700 disabled:opacity-50"
+                        disabled>Précédent</button>
+                    <button class="px-3 py-1 rounded bg-slate-800 hover:bg-slate-700">Suivant</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        {% if not request.headers.get('HX-Request') %}
+        const searchInput = document.querySelector('input[name="search"]');
+        let debounceTimer;
+
+        if (searchInput) {
+            searchInput.addEventListener('input', function (e) {
+                clearTimeout(debounceTimer);
+                const val = e.target.value;
+
+                debounceTimer = setTimeout(() => {
+                    const url = new URL(window.location);
+                    url.searchParams.set('search', val);
+
+                    // Fetch and replace grid
+                    fetch(url)
+                        .then(response => response.text())
+                        .then(html => {
+                            const parser = new DOMParser();
+                            const doc = parser.parseFromString(html, 'text/html');
+                            const newList = doc.querySelector('#players-list');
+                            const currentList = document.querySelector('#players-list');
+
+                            if (newList && currentList) {
+                                currentList.innerHTML = newList.innerHTML;
+                            }
+
+                            // Update URL
+                            window.history.pushState({}, '', url);
+                        })
+                        .catch(err => console.error('Search failed', err));
+                }, 300);
+            });
+        }
+        {% endif %}
+    </script>
+    {% endblock %}

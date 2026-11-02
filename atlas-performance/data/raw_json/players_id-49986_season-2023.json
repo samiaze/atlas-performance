@@ -1,0 +1,689 @@
+[
+    {
+        "player": {
+            "id": 49986,
+            "name": "Fredy",
+            "firstname": "Alfredo",
+            "lastname": "Kulembe Ribeiro",
+            "age": 35,
+            "birth": {
+                "date": "1990-03-27",
+                "place": "Luanda",
+                "country": "Angola"
+            },
+            "nationality": "Angola",
+            "height": "170",
+            "weight": "68",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/49986.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 3588,
+                    "name": "Eyüpspor",
+                    "logo": "https://media.api-sports.io/football/teams/3588.png"
+                },
+                "league": {
+                    "id": 204,
+                    "name": "1. Lig",
+                    "country": "Turkey",
+                    "logo": "https://media.api-sports.io/football/leagues/204.png",
+                    "flag": "https://media.api-sports.io/flags/tr.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 24,
+                    "lineups": 22,
+                    "minutes": 1803,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "7.344444",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 2,
+                    "out": 16,
+                    "bench": 5
+                },
+                "shots": {
+                    "total": 11,
+                    "on": 3
+                },
+                "goals": {
+                    "total": 2,
+                    "conceded": 0,
+                    "assists": 5,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 397,
+                    "key": 17,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 18,
+                    "blocks": 1,
+                    "interceptions": 17
+                },
+                "duels": {
+                    "total": 101,
+                    "won": 54
+                },
+                "dribbles": {
+                    "attempts": 19,
+                    "success": 9,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 19,
+                    "committed": 13
+                },
+                "cards": {
+                    "yellow": 2,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1005,
+                    "name": "Antalyaspor",
+                    "logo": "https://media.api-sports.io/football/teams/1005.png"
+                },
+                "league": {
+                    "id": 203,
+                    "name": "Süper Lig",
+                    "country": "Turkey",
+                    "logo": "https://media.api-sports.io/football/leagues/203.png",
+                    "flag": "https://media.api-sports.io/flags/tr.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 3,
+                    "minutes": 141,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "6.533333",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": null,
+                    "bench": null
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 56,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 3,
+                    "blocks": null,
+                    "interceptions": 2
+                },
+                "duels": {
+                    "total": 16,
+                    "won": 8
+                },
+                "dribbles": {
+                    "attempts": 2,
+                    "success": 2,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 2,
+                    "committed": 4
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": null,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 3583,
+                    "name": "BB Bodrumspor",
+                    "logo": "https://media.api-sports.io/football/teams/3583.png"
+                },
+                "league": {
+                    "id": 204,
+                    "name": "1. Lig",
+                    "country": "Turkey",
+                    "logo": "https://media.api-sports.io/football/leagues/204.png",
+                    "flag": "https://media.api-sports.io/flags/tr.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 10,
+                    "lineups": 10,
+                    "minutes": 730,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "7.344444",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": null,
+                    "bench": null
+                },
+                "shots": {
+                    "total": 11,
+                    "on": 3
+                },
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 5,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 397,
+                    "key": 17,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 18,
+                    "blocks": 1,
+                    "interceptions": 17
+                },
+                "duels": {
+                    "total": 101,
+                    "won": 54
+                },
+                "dribbles": {
+                    "attempts": 19,
+                    "success": 9,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 19,
+                    "committed": 13
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": null,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 3588,
+                    "name": "Eyüpspor",
+                    "logo": "https://media.api-sports.io/football/teams/3588.png"
+                },
+                "league": {
+                    "id": 206,
+                    "name": "Türkiye Kupası",
+                    "country": "Turkey",
+                    "logo": "https://media.api-sports.io/football/leagues/206.png",
+                    "flag": "https://media.api-sports.io/flags/tr.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1005,
+                    "name": "Antalyaspor",
+                    "logo": "https://media.api-sports.io/football/teams/1005.png"
+                },
+                "league": {
+                    "id": 667,
+                    "name": "Friendlies Clubs",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/667.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1529,
+                    "name": "Angola",
+                    "logo": "https://media.api-sports.io/football/teams/1529.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 5,
+                    "lineups": 5,
+                    "minutes": 387,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "7.120000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": null,
+                    "bench": null
+                },
+                "shots": {
+                    "total": 2,
+                    "on": null
+                },
+                "goals": {
+                    "total": null,
+                    "conceded": 0,
+                    "assists": 3,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 168,
+                    "key": 11,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 8,
+                    "blocks": 1,
+                    "interceptions": 2
+                },
+                "duels": {
+                    "total": 48,
+                    "won": 22
+                },
+                "dribbles": {
+                    "attempts": 4,
+                    "success": 1,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 11,
+                    "committed": 7
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": null,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1529,
+                    "name": "Angola",
+                    "logo": "https://media.api-sports.io/football/teams/1529.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 6,
+                    "lineups": 6,
+                    "minutes": 523,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 2,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1529,
+                    "name": "Angola",
+                    "logo": "https://media.api-sports.io/football/teams/1529.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 6,
+                    "lineups": 6,
+                    "minutes": 514,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": "7.233333",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 3,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": 4,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 132,
+                    "key": 6,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 5,
+                    "blocks": 2,
+                    "interceptions": 3
+                },
+                "duels": {
+                    "total": 26,
+                    "won": 11
+                },
+                "dribbles": {
+                    "attempts": 3,
+                    "success": 1,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 4,
+                    "committed": 3
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1529,
+                    "name": "Angola",
+                    "logo": "https://media.api-sports.io/football/teams/1529.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 76,
+                    "number": null,
+                    "position": "Midfielder",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    }
+]

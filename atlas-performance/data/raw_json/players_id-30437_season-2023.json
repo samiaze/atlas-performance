@@ -1,0 +1,541 @@
+[
+    {
+        "player": {
+            "id": 30437,
+            "name": "M. Barrow",
+            "firstname": "Musa",
+            "lastname": "Barrow",
+            "age": 27,
+            "birth": {
+                "date": "1998-11-14",
+                "place": "Banjul",
+                "country": "Gambia"
+            },
+            "nationality": "Gambia",
+            "height": "183",
+            "weight": "77",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/30437.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 2936,
+                    "name": "Al Taawon",
+                    "logo": "https://media.api-sports.io/football/teams/2936.png"
+                },
+                "league": {
+                    "id": 307,
+                    "name": "Pro League",
+                    "country": "Saudi-Arabia",
+                    "logo": "https://media.api-sports.io/football/leagues/307.png",
+                    "flag": "https://media.api-sports.io/flags/sa.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 21,
+                    "lineups": 20,
+                    "minutes": 1590,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "7.233333",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": null,
+                    "bench": null
+                },
+                "shots": {
+                    "total": 46,
+                    "on": 23
+                },
+                "goals": {
+                    "total": 6,
+                    "conceded": 0,
+                    "assists": 2,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 572,
+                    "key": 28,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 9,
+                    "blocks": null,
+                    "interceptions": 5
+                },
+                "duels": {
+                    "total": 143,
+                    "won": 56
+                },
+                "dribbles": {
+                    "attempts": 62,
+                    "success": 27,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 12,
+                    "committed": 11
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": null,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 1,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 500,
+                    "name": "Bologna",
+                    "logo": "https://media.api-sports.io/football/teams/500.png"
+                },
+                "league": {
+                    "id": 135,
+                    "name": "Serie A",
+                    "country": "Italy",
+                    "logo": "https://media.api-sports.io/football/leagues/135.png",
+                    "flag": "https://media.api-sports.io/flags/it.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 2936,
+                    "name": "Al Taawon",
+                    "logo": "https://media.api-sports.io/football/teams/2936.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "King's Cup",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 21,
+                    "lineups": 20,
+                    "minutes": 1590,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "7.233333",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": null,
+                    "bench": null
+                },
+                "shots": {
+                    "total": 46,
+                    "on": 23
+                },
+                "goals": {
+                    "total": 6,
+                    "conceded": 0,
+                    "assists": 2,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 572,
+                    "key": 28,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 9,
+                    "blocks": null,
+                    "interceptions": 5
+                },
+                "duels": {
+                    "total": 143,
+                    "won": 56
+                },
+                "dribbles": {
+                    "attempts": 62,
+                    "success": 27,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 12,
+                    "committed": 11
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": null,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 1,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 500,
+                    "name": "Bologna",
+                    "logo": "https://media.api-sports.io/football/teams/500.png"
+                },
+                "league": {
+                    "id": 137,
+                    "name": "Coppa Italia",
+                    "country": "Italy",
+                    "logo": "https://media.api-sports.io/football/leagues/137.png",
+                    "flag": "https://media.api-sports.io/flags/it.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 0,
+                    "lineups": 0,
+                    "minutes": 0,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1492,
+                    "name": "Gambia",
+                    "logo": "https://media.api-sports.io/football/teams/1492.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 6,
+                    "lineups": 6,
+                    "minutes": 529,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 2,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 3,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1492,
+                    "name": "Gambia",
+                    "logo": "https://media.api-sports.io/football/teams/1492.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 6,
+                    "lineups": 6,
+                    "minutes": 540,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "7.200000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": 11,
+                    "on": 5
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": 1,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 133,
+                    "key": 4,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 3,
+                    "blocks": null,
+                    "interceptions": 3
+                },
+                "duels": {
+                    "total": 38,
+                    "won": 19
+                },
+                "dribbles": {
+                    "attempts": 19,
+                    "success": 11,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 4,
+                    "committed": 4
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1492,
+                    "name": "Gambia",
+                    "logo": "https://media.api-sports.io/football/teams/1492.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 3,
+                    "minutes": 270,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "6.966666",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": 6,
+                    "on": 2
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 93,
+                    "key": 9,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 32,
+                    "won": 9
+                },
+                "dribbles": {
+                    "attempts": 7,
+                    "success": 3,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 3,
+                    "committed": 3
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            }
+        ]
+    }
+]

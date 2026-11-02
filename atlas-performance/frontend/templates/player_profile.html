@@ -1,0 +1,248 @@
+{% extends "layout/base.html" %}
+
+{% block title %}{{ player.name}}{% endblock %}
+{% block header_title %}Profil Joueur{% endblock %}
+
+{% block content %}
+<div class="space-y-6">
+
+    <!-- HERO SECTION -->
+    <div class="card-premium relative overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]">
+        </div>
+        <div class="absolute right-0 top-0 h-full w-1/3 bg-gradient-to-l from-atlas-brand/20 to-transparent"></div>
+
+        <div class="relative p-6 lg:p-10 flex flex-col md:flex-row items-center md:items-start gap-8">
+            <!-- Avatar -->
+            <div class="relative group">
+                <div
+                    class="w-32 h-32 md:w-40 md:h-40 rounded-full p-1 bg-gradient-to-br from-atlas-brand to-purple-600 shadow-2xl shadow-indigo-500/30">
+                    <img src="{{ player.photo }}" alt="{{ player.name}}"
+                        class="w-full h-full rounded-full object-cover bg-slate-800 border-4 border-slate-900">
+                </div>
+                <div class="absolute -bottom-2 -right-4 drop-shadow-md filter z-20">
+                    <div class="relative w-16 h-10">
+                        <div
+                            class="absolute inset-0 bg-white [clip-path:polygon(15%_0%,85%_0%,100%_50%,85%_100%,15%_100%,0%_50%)]">
+                        </div>
+                        <div
+                            class="absolute inset-[2px] bg-slate-900 [clip-path:polygon(15%_0%,85%_0%,100%_50%,85%_100%,15%_100%,0%_50%)] flex items-center justify-center overflow-hidden">
+                            <img src="{{ player.team_logo }}" alt="Team Logo"
+                                class="w-full h-full object-cover transform scale-110">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Info -->
+            <div class="text-center md:text-left flex-1">
+                <div class="flex items-center justify-center md:justify-start gap-3 mb-2">
+                    <h1 class="text-3xl md:text-5xl font-bold text-white tracking-tight">{{ player.name }}</h1>
+                    {% if player.number %}
+                    <span
+                        class="px-3 py-1 rounded bg-slate-700/50 border border-slate-600 text-slate-300 font-mono text-lg">#{{
+                        player.number }}</span>
+                    {% endif %}
+                    <!-- Flag (Optional: could map nationality to flag later) -->
+                    <!-- <span class="text-3xl" title="{{ player.nationality }}"></span> -->
+                    <span class="text-sm bg-slate-800 px-2 py-1 rounded text-slate-400 border border-slate-700">{{
+                        player.nationality }}</span>
+                </div>
+                <p class="text-xl text-atlas-brand font-medium mb-4">{{ player.position }} &bull; {{ player.team }}</p>
+
+                <div class="flex flex-wrap justify-center md:justify-start gap-6 text-sm text-slate-400">
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-cake-candles text-slate-500"></i>
+                        <span>{{ player.age }} ans</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-ruler-vertical text-slate-500"></i>
+                        <span>{{ player.height }} cm</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-weight-hanging text-slate-500"></i>
+                        <span>{{ player.weight }} kg</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Global Rating Block -->
+            <div
+                class="flex flex-col items-center justify-center p-4 bg-slate-800/50 rounded-xl border border-slate-700/50 backdrop-blur-sm">
+                <span class="text-slate-400 text-xs uppercase tracking-wider mb-1">Note Moy.</span>
+                <div class="flex items-baseline md:flex-col lg:flex-row gap-1">
+                    <span
+                        class="text-5xl font-bold {{ 'text-atlas-green' if player.rating >= 7.5 else 'text-atlas-gold' }}">{{
+                        player.rating }}</span>
+                    <span class="text-sm text-slate-500 font-medium">/ 10</span>
+                </div>
+                <!-- Mini trend -->
+
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN GRID 2 COLS -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+        <!-- COL LEFT (STATS GRID + CHART) -->
+        <div class="lg:col-span-2 space-y-6">
+
+            <!-- STATS GRID -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                {% for stat in player.key_stats %}
+                <div
+                    class="card-premium p-4 flex flex-col items-center justify-center text-center hover:-translate-y-1 transition-transform">
+                    <span class="text-slate-500 text-xs uppercase">{{ stat.label }}</span>
+                    <span class="text-2xl font-bold text-white mt-1">{{ stat.value }}</span>
+
+                </div>
+                {% endfor %}
+            </div>
+
+            <!-- RADAR CHART -->
+            <div class="card-premium p-6">
+                <div class="flex items-center justify-between mb-4">
+                    <h3 class="font-semibold text-white">Analyse de Performance</h3>
+                    <select id="radarFilter"
+                        class="bg-slate-900 border border-slate-700 text-xs rounded px-2 py-1 text-slate-400 focus:outline-none">
+                        <option value="season">Cette Saison</option>
+                        <option value="last5">5 Derniers Matchs</option>
+                    </select>
+                </div>
+                <div id="radarChart" class="w-full h-[350px]"></div>
+            </div>
+
+        </div>
+
+        <!-- COL RIGHT (FORM & HEATMAP) -->
+        <div class="space-y-6">
+
+            <!-- FORM GUIDE -->
+            <div class="card-premium p-6">
+                <!-- ... content unchanged ... -->
+                <h3 class="font-semibold text-white mb-4">Forme Actuelle</h3>
+                <div class="flex items-center justify-between mb-6">
+                    {% for match in player.recent_matches %}
+                    <div class="flex flex-col items-center group cursor-pointer">
+                        <div class="w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm mb-2 shadow-lg
+                                {% if match.result == 'W' %}bg-emerald-500 text-white shadow-emerald-500/20
+                                {% elif match.result == 'D' %}bg-slate-500 text-white shadow-slate-500/20
+                                {% else %}bg-rose-500 text-white shadow-rose-500/20{% endif %}">
+                            {{ match.result }}
+                        </div>
+                        <span class="text-[10px] text-slate-500 group-hover:text-white transition-colors">{{ match.opp
+                            }}</span>
+                        <span
+                            class="text-[10px] font-bold {{ 'text-atlas-green' if match.rating >= 7 else 'text-slate-400' }}">{{
+                            match.rating }}</span>
+                    </div>
+                    {% endfor %}
+                </div>
+                <div class="border-t border-slate-700/50 pt-4">
+                    <div class="flex justify-between items-center text-sm mb-2">
+                        <span class="text-slate-400">Titulaire</span>
+                        <span class="text-white">92%</span>
+                    </div>
+                    <div class="w-full bg-slate-700 rounded-full h-1.5">
+                        <div class="bg-atlas-brand h-1.5 rounded-full" style="width: 92%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EVOLUTION CHART -->
+            <div class="card-premium p-6">
+                <h3 class="font-semibold text-white mb-4">Évolution de la Note</h3>
+                <div id="evolutionChart" class="w-full h-[200px]"></div>
+                <p class="text-xs text-slate-500 mt-2 text-center">Historique des 10 derniers matchs.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- PLOTLY SCRIPT -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // RADAR CHART (Existing)
+        const chartData = {{ chart_data | tojson
+    }};
+    let currentValues = chartData.season;
+    let currentRawValues = chartData.season_raw;
+
+    function drawRadar(values, rawValues) {
+        const data = [{
+            type: 'scatterpolar',
+            r: values,
+            theta: chartData.labels,
+            text: rawValues, // Raw values for tooltip
+            hovertemplate: '<b>%{theta}</b>: %{text}<extra></extra>', // Custom tooltip format
+            fill: 'toself',
+            fillcolor: 'rgba(79, 70, 229, 0.4)',
+            line: { color: '#4F46E5', width: 2 },
+            marker: { color: '#fff', size: 4 }
+        }];
+
+        const layout = {
+            polar: {
+                radialaxis: { visible: true, range: [0, 100], tickfont: { color: '#64748b', size: 10 }, gridcolor: '#334155', linecolor: '#334155' },
+                angularaxis: { tickfont: { color: '#cbd5e1', size: 12, family: 'Inter' }, gridcolor: '#334155', linecolor: '#334155' },
+                bgcolor: 'rgba(0,0,0,0)'
+            },
+            paper_bgcolor: 'rgba(0,0,0,0)',
+            plot_bgcolor: 'rgba(0,0,0,0)',
+            font: { family: 'Inter, sans-serif' },
+            showlegend: false,
+            margin: { t: 20, b: 20, l: 40, r: 40 }
+        };
+
+        const config = { displayModeBar: false, responsive: true };
+        Plotly.newPlot('radarChart', data, layout, config);
+    }
+
+    drawRadar(currentValues, currentRawValues);
+
+    const filterSelect = document.getElementById('radarFilter');
+    filterSelect.addEventListener('change', function () {
+        if (this.value === 'last5') {
+            drawRadar(chartData.last5, chartData.last5_raw);
+        } else {
+            drawRadar(chartData.season, chartData.season_raw);
+        }
+    });
+
+    const evoData = {{ evolution_data | tojson }};
+    const traceEvo = {
+        x: evoData.dates,
+        y: evoData.ratings,
+        type: 'scatter',
+        mode: 'lines+markers+text', // Added text mode
+        text: evoData.ratings,      // Use ratings as labels
+        textposition: 'top center', // Position above points
+        textfont: {
+            family: 'Inter, sans-serif',
+            size: 11,
+            color: '#cbd5e1'
+        },
+        line: { shape: 'spline', color: '#10B981', width: 3 }, // Emerald color
+        marker: { size: 6, color: '#fff', line: { color: '#10B981', width: 2 } },
+        fill: 'tozeroy',
+        fillcolor: 'rgba(16, 185, 129, 0.1)'
+    };
+
+    const layoutEvo = {
+        paper_bgcolor: 'rgba(0,0,0,0)',
+        plot_bgcolor: 'rgba(0,0,0,0)',
+        xaxis: { showgrid: false, zeroline: false, showline: true, linecolor: '#334155', tickfont: { color: '#94a3b8', size: 10 } },
+        yaxis: { showgrid: true, gridcolor: '#334155', tickfont: { color: '#94a3b8', size: 10 }, range: [0, 10] },
+        margin: { t: 10, b: 30, l: 30, r: 10 },
+        font: { family: 'Inter, sans-serif' }
+    };
+    Plotly.newPlot('evolutionChart', [traceEvo], layoutEvo, { displayModeBar: false, responsive: true });
+
+    });
+</script>
+{% endblock %}

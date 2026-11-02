@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.pytest_cache/
+*.pyc
+*.pyo
+*.pyd
+
+# Docker
+.docker/
+docker-compose.override.yml
+postgres_data/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Database
+*.sqlite3
+*.db
+
+# Logs
+logs/
+*.log
+
+
+# Builds, distributions
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.bak
+*.tmp
+*.swp
+
+# Node modules (si jamais utilisé)
+node_modules/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+data/archive/

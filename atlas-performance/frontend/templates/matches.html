@@ -1,0 +1,118 @@
+{% extends "layout/base.html" %}
+
+{% block title %}Matchs{% endblock %}
+{% block header_title %}Matchs{% endblock %}
+
+{% block content %}
+<div class="space-y-6">
+
+    <!-- FILTERS -->
+    <!-- HEADER -->
+    <!-- FILTER BAR -->
+    <div class="flex flex-col md:flex-row items-center justify-between gap-4 mb-6">
+        <!-- Competition Filters -->
+        <div class="flex flex-wrap gap-2">
+            <a href="/matches"
+                class="px-4 py-2 rounded-full text-sm font-bold transition-colors {{ 'bg-atlas-brand text-white shadow-lg shadow-atlas-brand/20' if not selected_competition_id else 'bg-slate-800 text-slate-400 hover:bg-slate-700 hover:text-white' }}">
+                Global
+            </a>
+            {% for comp in competitions_list %}
+            <a href="/matches?competition_id={{ comp.id }}"
+                class="px-4 py-2 rounded-full text-sm font-bold transition-colors {{ 'bg-atlas-brand text-white shadow-lg shadow-atlas-brand/20' if selected_competition_id == comp.id else 'bg-slate-800 text-slate-400 hover:bg-slate-700 hover:text-white' }}">
+                {{ comp.name }}
+            </a>
+            {% endfor %}
+        </div>
+
+        <div class="text-slate-400 text-sm">
+            {{ matches|length }} matchs trouvés
+        </div>
+    </div>
+
+    <!-- MATCHES LIST -->
+    <div class="space-y-4">
+        {% for match in matches %}
+        <a href="/matches/{{ match.id }}"
+            class="card-premium p-4 flex flex-col md:flex-row items-center justify-between gap-4 hover:scale-[1.01] transition-transform block group relative">
+
+            <!-- Date & Comp -->
+            <div class="flex flex-col md:w-32 text-center md:text-left shrink-0">
+                <span class="text-sm font-bold text-white">{{ match.date.strftime('%d %b') }}</span>
+                <span class="text-xs text-slate-500">{{ match.date.strftime('%H:%M') }}</span>
+                <span class="text-[10px] uppercase text-atlas-brand mt-1">{{ match.competition.name }}</span>
+            </div>
+
+            <!-- Teams & Score Section -->
+            <div class="flex-1 flex items-center justify-center gap-4 md:gap-8 w-full">
+
+                <!-- Home Team -->
+                <div class="flex items-center gap-3 w-1/3 justify-end text-right">
+                    <span class="font-bold text-white hidden md:block">{{ match.home_team.name }}</span>
+                    <span class="font-bold text-white md:hidden">{{ match.home_team.name[:3].upper() }}</span>
+
+                    <!-- Hex Logo -->
+                    <div class="relative w-12 h-8 drop-shadow-md filter shrink-0">
+                        <div
+                            class="absolute inset-0 bg-white [clip-path:polygon(15%_0%,85%_0%,100%_50%,85%_100%,15%_100%,0%_50%)]">
+                        </div>
+                        <div
+                            class="absolute inset-[1px] bg-slate-900 [clip-path:polygon(15%_0%,85%_0%,100%_50%,85%_100%,15%_100%,0%_50%)] flex items-center justify-center overflow-hidden">
+                            {% if match.home_team.logo %}
+                            <img src="{{ match.home_team.logo }}" class="w-full h-full object-cover">
+                            {% else %}
+                            <span class="text-[10px] font-bold text-white">{{ match.home_team.name[:3].upper() }}</span>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Score Board -->
+                <div class="flex flex-col items-center shrink-0">
+                    <div
+                        class="bg-slate-900/80 rounded px-4 py-1 border border-slate-700/50 flex items-center gap-2 shadow-inner">
+                        <span
+                            class="text-xl font-bold {{ 'text-atlas-brand' if match.home_score is none else 'text-white' }}">
+                            {{ match.home_score if match.home_score is not none else '-' }}
+                        </span>
+                        <span class="text-slate-500 text-xs">:</span>
+                        <span
+                            class="text-xl font-bold {{ 'text-atlas-brand' if match.away_score is none else 'text-white' }}">
+                            {{ match.away_score if match.away_score is not none else '-' }}
+                        </span>
+                    </div>
+                    <span class="text-[10px] text-emerald-500 font-bold mt-1">
+                        {{ 'FT' if match.home_score is not none else 'Upcoming' }}
+                    </span>
+                </div>
+
+                <!-- Away Team -->
+                <div class="flex items-center gap-3 w-1/3 justify-start text-left">
+                    <!-- Hex Logo -->
+                    <div class="relative w-12 h-8 drop-shadow-md filter shrink-0">
+                        <div
+                            class="absolute inset-0 bg-white [clip-path:polygon(15%_0%,85%_0%,100%_50%,85%_100%,15%_100%,0%_50%)]">
+                        </div>
+                        <div
+                            class="absolute inset-[1px] bg-slate-900 [clip-path:polygon(15%_0%,85%_0%,100%_50%,85%_100%,15%_100%,0%_50%)] flex items-center justify-center overflow-hidden">
+                            {% if match.away_team.logo %}
+                            <img src="{{ match.away_team.logo }}" class="w-full h-full object-cover">
+                            {% else %}
+                            <span class="text-[10px] font-bold text-white">{{ match.away_team.name[:3].upper() }}</span>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <span class="font-bold text-white hidden md:block">{{ match.away_team.name }}</span>
+                    <span class="font-bold text-white md:hidden">{{ match.away_team.name[:3].upper() }}</span>
+                </div>
+            </div>
+
+            <!-- FT Badge (Optional, added positioned absolute for clarity) -->
+            <span
+                class="absolute top-2 right-2 md:hidden text-[9px] font-bold bg-slate-700 px-1.5 py-0.5 rounded text-slate-300">
+                {{ 'FT' if match.home_score is not none else 'Upcoming' }}
+            </span>
+        </a>
+        {% else %}
+        <div class="text-center py-10 text-slate-500">Aucun match trouvé.</div>
+        {% endfor %}
+        {% endblock %}

@@ -1,0 +1,615 @@
+[
+    {
+        "player": {
+            "id": 354753,
+            "name": "O. Diomande",
+            "firstname": "Ousmane",
+            "lastname": "Diomande",
+            "age": 22,
+            "birth": {
+                "date": "2003-12-04",
+                "place": "Abidjan",
+                "country": "Côte d'Ivoire"
+            },
+            "nationality": "Côte d'Ivoire",
+            "height": "190",
+            "weight": "86",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/354753.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 228,
+                    "name": "Sporting CP",
+                    "logo": "https://media.api-sports.io/football/teams/228.png"
+                },
+                "league": {
+                    "id": 94,
+                    "name": "Primeira Liga",
+                    "country": "Portugal",
+                    "logo": "https://media.api-sports.io/football/leagues/94.png",
+                    "flag": "https://media.api-sports.io/flags/pt.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 28,
+                    "lineups": 26,
+                    "minutes": 2118,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "7.019230",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 2,
+                    "out": null,
+                    "bench": null
+                },
+                "shots": {
+                    "total": 14,
+                    "on": 5
+                },
+                "goals": {
+                    "total": 2,
+                    "conceded": 0,
+                    "assists": 1,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 1720,
+                    "key": 7,
+                    "accuracy": 60
+                },
+                "tackles": {
+                    "total": 39,
+                    "blocks": 7,
+                    "interceptions": 15
+                },
+                "duels": {
+                    "total": 168,
+                    "won": 113
+                },
+                "dribbles": {
+                    "attempts": 11,
+                    "success": 9,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 18,
+                    "committed": 26
+                },
+                "cards": {
+                    "yellow": 7,
+                    "yellowred": null,
+                    "red": 1
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 228,
+                    "name": "Sporting CP",
+                    "logo": "https://media.api-sports.io/football/teams/228.png"
+                },
+                "league": {
+                    "id": 97,
+                    "name": "Taça da Liga",
+                    "country": "Portugal",
+                    "logo": "https://media.api-sports.io/football/leagues/97.png",
+                    "flag": "https://media.api-sports.io/flags/pt.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 14,
+                    "lineups": 12,
+                    "minutes": 822,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.866666",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 2,
+                    "out": null,
+                    "bench": null
+                },
+                "shots": {
+                    "total": 7,
+                    "on": 2
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 829,
+                    "key": 2,
+                    "accuracy": 62
+                },
+                "tackles": {
+                    "total": 19,
+                    "blocks": 3,
+                    "interceptions": 11
+                },
+                "duels": {
+                    "total": 76,
+                    "won": 38
+                },
+                "dribbles": {
+                    "attempts": 4,
+                    "success": 3,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 3,
+                    "committed": 12
+                },
+                "cards": {
+                    "yellow": 3,
+                    "yellowred": null,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 228,
+                    "name": "Sporting CP",
+                    "logo": "https://media.api-sports.io/football/teams/228.png"
+                },
+                "league": {
+                    "id": 96,
+                    "name": "Taça de Portugal",
+                    "country": "Portugal",
+                    "logo": "https://media.api-sports.io/football/leagues/96.png",
+                    "flag": "https://media.api-sports.io/flags/pt.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 2,
+                    "minutes": 185,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 1,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 228,
+                    "name": "Sporting CP",
+                    "logo": "https://media.api-sports.io/football/teams/228.png"
+                },
+                "league": {
+                    "id": 3,
+                    "name": "UEFA Europa League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/3.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 8,
+                    "lineups": 7,
+                    "minutes": 606,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.687500",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 1,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": 2,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 441,
+                    "key": 2,
+                    "accuracy": 49
+                },
+                "tackles": {
+                    "total": 10,
+                    "blocks": 2,
+                    "interceptions": 8
+                },
+                "duels": {
+                    "total": 47,
+                    "won": 29
+                },
+                "dribbles": {
+                    "attempts": 3,
+                    "success": 2,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 8,
+                    "committed": 8
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1501,
+                    "name": "Ivory Coast",
+                    "logo": "https://media.api-sports.io/football/teams/1501.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 90,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 4
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1501,
+                    "name": "Ivory Coast",
+                    "logo": "https://media.api-sports.io/football/teams/1501.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 90,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.900000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 91,
+                    "key": null,
+                    "accuracy": 88
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": 1,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 4,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": 2
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1501,
+                    "name": "Ivory Coast",
+                    "logo": "https://media.api-sports.io/football/teams/1501.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 167,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": "6.800000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 2
+                },
+                "shots": {
+                    "total": 1,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 126,
+                    "key": null,
+                    "accuracy": 57
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 20,
+                    "won": 13
+                },
+                "dribbles": {
+                    "attempts": 1,
+                    "success": 1,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 6,
+                    "committed": 2
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 1501,
+                    "name": "Ivory Coast",
+                    "logo": "https://media.api-sports.io/football/teams/1501.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 2,
+                    "minutes": 180,
+                    "number": null,
+                    "position": "Defender",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            }
+        ]
+    }
+]

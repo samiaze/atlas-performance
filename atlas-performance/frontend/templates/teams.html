@@ -1,0 +1,130 @@
+{% extends "layout/base.html" %}
+
+{% block title %}Équipes{% endblock %}
+{% block header_title %}Équipes{% endblock %}
+
+{% block content %}
+<div class="space-y-6">
+
+    <!-- FILTERS BAR -->
+    <div class="flex flex-col md:flex-row items-center justify-between gap-4 mb-6">
+        <!-- Search -->
+        <div class="w-full md:w-auto relative">
+            <i class="fas fa-search absolute left-3 top-1/2 -translate-y-1/2 text-slate-500"></i>
+            <input type="text" name="search" placeholder="Rechercher une équipe..."
+                value="{{ request.query_params.get('search', '') }}"
+                class="w-full md:w-64 bg-slate-800 border-none rounded-lg py-2 pl-10 pr-4 text-slate-200 focus:ring-1 focus:ring-atlas-brand placeholder-slate-600 transition-all">
+        </div>
+
+        <!-- Competition Filters -->
+        <div class="flex flex-wrap gap-2">
+            <a href="/teams"
+                class="px-4 py-2 rounded-full text-sm font-bold transition-colors {{ 'bg-atlas-brand text-white shadow-lg shadow-atlas-brand/20' if not selected_competition_id else 'bg-slate-800 text-slate-400 hover:bg-slate-700 hover:text-white' }}">
+                Global
+            </a>
+            {% for comp in competitions_list %}
+            <a href="/teams?competition_id={{ comp.id }}"
+                class="px-4 py-2 rounded-full text-sm font-bold transition-colors {{ 'bg-atlas-brand text-white shadow-lg shadow-atlas-brand/20' if selected_competition_id == comp.id else 'bg-slate-800 text-slate-400 hover:bg-slate-700 hover:text-white' }}">
+                {{ comp.name }}
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- TEAMS GRID -->
+    <div id="teams-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        {% for team in teams %}
+        <a href="/teams/{{ team.id }}{% if selected_competition_id %}?competition_id={{ selected_competition_id }}{% endif %}"
+            class="card-premium p-6 flex flex-col items-center hover:border-atlas-brand/50 transition-colors group relative overflow-hidden">
+            <!-- Background Glow -->
+            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent pointer-events-none"></div>
+
+            <!-- Logo -->
+            <!-- Logo -->
+            <div
+                class="relative w-36 h-24 mb-4 z-10 transition-transform group-hover:scale-110 duration-300 drop-shadow-2xl filter">
+                <div
+                    class="absolute inset-0 bg-white [clip-path:polygon(15%_0%,85%_0%,100%_50%,85%_100%,15%_100%,0%_50%)]">
+                </div>
+                <div
+                    class="absolute inset-[4px] bg-slate-900 [clip-path:polygon(15%_0%,85%_0%,100%_50%,85%_100%,15%_100%,0%_50%)] flex items-center justify-center overflow-hidden">
+                    {% if team.logo %}
+                    <img src="{{ team.logo }}" alt="{{ team.name }}" class="w-full h-full object-cover">
+                    {% else %}
+                    <span class="text-2xl font-bold text-white">{{ team.name[:2].upper() }}</span>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- Name -->
+            <h3 class="text-xl font-bold text-white mb-1 text-center relative z-10">{{ team.name }}</h3>
+
+            <!-- Rating Badge -->
+            <div
+                class="relative z-10 mb-4 px-3 py-1 rounded-full text-xs font-bold {{ 'bg-emerald-500/20 text-emerald-500' if team.stats.avg_rating >= 7 else 'bg-amber-500/20 text-amber-500' }}">
+                {{ team.stats.avg_rating }}
+            </div>
+
+            <!-- Country -->
+            <span class="text-xs text-slate-400 mb-4 bg-slate-800 px-2 py-0.5 rounded border border-slate-700">{{
+                team.country or 'International' }}</span>
+
+            <!-- Mini Stats -->
+            <div class="grid grid-cols-3 w-full border-t border-slate-700/50 pt-4 mt-2">
+                <div class="text-center">
+                    <span class="block text-lg font-bold text-white">{{ team.stats.matches_played or 0 }}</span>
+                    <span class="text-[10px] text-slate-500 uppercase tracking-wider">Matchs</span>
+                </div>
+                <div class="text-center border-l border-slate-700/50">
+                    <span class="block text-lg font-bold text-atlas-green">{{ team.stats.goals_scored or 0 }}</span>
+                    <span class="text-[10px] text-slate-500 uppercase tracking-wider">Buts</span>
+                </div>
+                <div class="text-center border-l border-slate-700/50">
+                    <span class="block text-lg font-bold text-atlas-gold">{{ team.stats.avg_rating or '0.0' }}</span>
+                    <span class="text-[10px] text-slate-500 uppercase tracking-wider">Note</span>
+                </div>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+
+</div>
+
+<script>
+    {% if not request.headers.get('HX-Request') %}
+    // Dynamic Search Script
+    const searchInput = document.querySelector('input[name="search"]');
+    let debounceTimer;
+
+    if (searchInput) {
+        searchInput.addEventListener('input', function (e) {
+            clearTimeout(debounceTimer);
+            const val = e.target.value;
+
+            debounceTimer = setTimeout(() => {
+                const url = new URL(window.location);
+                url.searchParams.set('search', val);
+
+                // Fetch and replace grid
+                fetch(url)
+                    .then(response => response.text())
+                    .then(html => {
+                        const parser = new DOMParser();
+                        const doc = parser.parseFromString(html, 'text/html');
+                        const newGrid = doc.querySelector('#teams-grid');
+                        const currentGrid = document.querySelector('#teams-grid');
+
+                        if (newGrid && currentGrid) {
+                            currentGrid.innerHTML = newGrid.innerHTML;
+                        }
+
+                        // Update URL without reload (optional but good for UX)
+                        window.history.pushState({}, '', url);
+                    })
+                    .catch(err => console.error('Search failed', err));
+            }, 300); // 300ms debounce
+        });
+    }
+    {% endif %}
+</script>
+{% endblock %}

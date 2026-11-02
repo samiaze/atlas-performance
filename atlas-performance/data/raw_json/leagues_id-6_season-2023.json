@@ -1,0 +1,39 @@
+[
+    {
+        "league": {
+            "id": 6,
+            "name": "Africa Cup of Nations",
+            "type": "Cup",
+            "logo": "https://media.api-sports.io/football/leagues/6.png"
+        },
+        "country": {
+            "name": "World",
+            "code": null,
+            "flag": null
+        },
+        "seasons": [
+            {
+                "year": 2023,
+                "start": "2024-01-13",
+                "end": "2024-02-11",
+                "current": false,
+                "coverage": {
+                    "fixtures": {
+                        "events": true,
+                        "lineups": true,
+                        "statistics_fixtures": true,
+                        "statistics_players": true
+                    },
+                    "standings": true,
+                    "players": true,
+                    "top_scorers": true,
+                    "top_assists": true,
+                    "top_cards": true,
+                    "injuries": false,
+                    "predictions": true,
+                    "odds": false
+                }
+            }
+        ]
+    }
+]

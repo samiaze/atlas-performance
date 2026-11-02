@@ -1,0 +1,615 @@
+[
+    {
+        "player": {
+            "id": 18767,
+            "name": "A. Lookman",
+            "firstname": "Ademola Lookman Olajade",
+            "lastname": "Alade Aylola Lookman",
+            "age": 28,
+            "birth": {
+                "date": "1997-10-20",
+                "place": "London",
+                "country": "England"
+            },
+            "nationality": "Nigeria",
+            "height": "174",
+            "weight": "71",
+            "injured": false,
+            "photo": "https://media.api-sports.io/football/players/18767.png"
+        },
+        "statistics": [
+            {
+                "team": {
+                    "id": 499,
+                    "name": "Atalanta",
+                    "logo": "https://media.api-sports.io/football/teams/499.png"
+                },
+                "league": {
+                    "id": 135,
+                    "name": "Serie A",
+                    "country": "Italy",
+                    "logo": "https://media.api-sports.io/football/leagues/135.png",
+                    "flag": "https://media.api-sports.io/flags/it.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 31,
+                    "lineups": 22,
+                    "minutes": 1900,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "7.270000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 9,
+                    "out": 18,
+                    "bench": 10
+                },
+                "shots": {
+                    "total": 49,
+                    "on": 24
+                },
+                "goals": {
+                    "total": 11,
+                    "conceded": 0,
+                    "assists": 7,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 749,
+                    "key": 50,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 19,
+                    "blocks": null,
+                    "interceptions": 8
+                },
+                "duels": {
+                    "total": 245,
+                    "won": 109
+                },
+                "dribbles": {
+                    "attempts": 75,
+                    "success": 39,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 33,
+                    "committed": 27
+                },
+                "cards": {
+                    "yellow": 4,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 499,
+                    "name": "Atalanta",
+                    "logo": "https://media.api-sports.io/football/teams/499.png"
+                },
+                "league": {
+                    "id": 137,
+                    "name": "Coppa Italia",
+                    "country": "Italy",
+                    "logo": "https://media.api-sports.io/football/leagues/137.png",
+                    "flag": "https://media.api-sports.io/flags/it.svg",
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 3,
+                    "lineups": 2,
+                    "minutes": 187,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "7.533333",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 1,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": 4,
+                    "on": 2
+                },
+                "goals": {
+                    "total": 1,
+                    "conceded": 0,
+                    "assists": 1,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 76,
+                    "key": 4,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 3,
+                    "blocks": null,
+                    "interceptions": 1
+                },
+                "duels": {
+                    "total": 24,
+                    "won": 9
+                },
+                "dribbles": {
+                    "attempts": 6,
+                    "success": 3,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": 2
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 499,
+                    "name": "Atalanta",
+                    "logo": "https://media.api-sports.io/football/teams/499.png"
+                },
+                "league": {
+                    "id": 3,
+                    "name": "UEFA Europa League",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/3.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 11,
+                    "lineups": 9,
+                    "minutes": 722,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "7.318181",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 2,
+                    "out": 7,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": 15,
+                    "on": 9
+                },
+                "goals": {
+                    "total": 5,
+                    "conceded": 0,
+                    "assists": 1,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 295,
+                    "key": 12,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 8,
+                    "blocks": null,
+                    "interceptions": 3
+                },
+                "duels": {
+                    "total": 101,
+                    "won": 47
+                },
+                "dribbles": {
+                    "attempts": 38,
+                    "success": 16,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 18,
+                    "committed": 10
+                },
+                "cards": {
+                    "yellow": 2,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 499,
+                    "name": "Atalanta",
+                    "logo": "https://media.api-sports.io/football/teams/499.png"
+                },
+                "league": {
+                    "id": 667,
+                    "name": "Friendlies Clubs",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/667.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 1,
+                    "lineups": 1,
+                    "minutes": 67,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 1,
+                    "bench": 0
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 19,
+                    "name": "Nigeria",
+                    "logo": "https://media.api-sports.io/football/teams/19.png"
+                },
+                "league": {
+                    "id": 6,
+                    "name": "Africa Cup of Nations",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/6.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 7,
+                    "lineups": 7,
+                    "minutes": 539,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "7.242857",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": null,
+                    "bench": null
+                },
+                "shots": {
+                    "total": 8,
+                    "on": 4
+                },
+                "goals": {
+                    "total": 3,
+                    "conceded": 0,
+                    "assists": 1,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 118,
+                    "key": 14,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 8,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 81,
+                    "won": 30
+                },
+                "dribbles": {
+                    "attempts": 10,
+                    "success": 2,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 17,
+                    "committed": 21
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": null,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 19,
+                    "name": "Nigeria",
+                    "logo": "https://media.api-sports.io/football/teams/19.png"
+                },
+                "league": {
+                    "id": null,
+                    "name": "Africa Cup of Nations Qualification",
+                    "country": null,
+                    "logo": null,
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 4,
+                    "lineups": 3,
+                    "minutes": 216,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": "7.800000",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 2,
+                    "bench": 3
+                },
+                "shots": {
+                    "total": 3,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 2,
+                    "conceded": 0,
+                    "assists": 1,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 63,
+                    "key": 4,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 4,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 13,
+                    "won": 6
+                },
+                "dribbles": {
+                    "attempts": 1,
+                    "success": 1,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": 5
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 19,
+                    "name": "Nigeria",
+                    "logo": "https://media.api-sports.io/football/teams/19.png"
+                },
+                "league": {
+                    "id": 10,
+                    "name": "Friendlies",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/10.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 2,
+                    "lineups": 1,
+                    "minutes": 95,
+                    "number": null,
+                    "position": "Attacker",
+                    "rating": null,
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 1,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": null,
+                    "on": null
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": null,
+                    "assists": null,
+                    "saves": null
+                },
+                "passes": {
+                    "total": null,
+                    "key": null,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": null,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": null,
+                    "won": null
+                },
+                "dribbles": {
+                    "attempts": null,
+                    "success": null,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": null,
+                    "committed": null
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": null,
+                    "missed": null,
+                    "saved": null
+                }
+            },
+            {
+                "team": {
+                    "id": 19,
+                    "name": "Nigeria",
+                    "logo": "https://media.api-sports.io/football/teams/19.png"
+                },
+                "league": {
+                    "id": 29,
+                    "name": "World Cup - Qualification Africa",
+                    "country": "World",
+                    "logo": "https://media.api-sports.io/football/leagues/29.png",
+                    "flag": null,
+                    "season": 2023
+                },
+                "games": {
+                    "appearences": 10,
+                    "lineups": 10,
+                    "minutes": 188,
+                    "number": 7,
+                    "position": "Attacker",
+                    "rating": "7.1",
+                    "captain": false
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 5,
+                    "bench": 1
+                },
+                "shots": {
+                    "total": 3,
+                    "on": 1
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": 0,
+                    "saves": null
+                },
+                "passes": {
+                    "total": 60,
+                    "key": 3,
+                    "accuracy": null
+                },
+                "tackles": {
+                    "total": 1,
+                    "blocks": null,
+                    "interceptions": null
+                },
+                "duels": {
+                    "total": 15,
+                    "won": 8
+                },
+                "dribbles": {
+                    "attempts": 4,
+                    "success": 2,
+                    "past": null
+                },
+                "fouls": {
+                    "drawn": 4,
+                    "committed": 4
+                },
+                "cards": {
+                    "yellow": 2,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": null,
+                    "commited": null,
+                    "scored": 0,
+                    "missed": 0,
+                    "saved": null
+                }
+            }
+        ]
+    }
+]

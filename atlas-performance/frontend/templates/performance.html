@@ -1,0 +1,478 @@
+{% extends "layout/base.html" %}
+
+{% block header_title %}Pro Analytics{% endblock %}
+{% block header_subtitle %}Advanced Metrics & Scouting{% endblock %}
+
+{% block content %}
+<div class="space-y-8">
+
+    <!-- 1. FILTER BAR (Glassmorphism) -->
+    <div class="glass-panel p-4 rounded-xl sticky top-0 z-30 mb-6 backdrop-blur-xl border-b border-slate-700/50">
+        <form method="GET" action="/performance" class="grid grid-cols-1 md:grid-cols-5 gap-4 items-end">
+
+            <!-- Competition -->
+            <div>
+                <label class="block text-xs font-bold text-slate-400 mb-1">COMPETITION</label>
+                <select name="competition_id"
+                    class="w-full bg-slate-900 border border-slate-700 text-white text-sm rounded-lg p-2.5 focus:ring-1 focus:ring-atlas-cyan"
+                    onchange="this.form.submit()">
+                    <option value="">All Competitions</option>
+                    {% for c in filters.competitions %}
+                    <option value="{{ c.id }}" {% if filters.selected_comp==c.id %}selected{% endif %}>{{ c.name }}
+                    </option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <!-- Team -->
+            <div>
+                <label class="block text-xs font-bold text-slate-400 mb-1">TEAM</label>
+                <select name="team_id"
+                    class="w-full bg-slate-900 border border-slate-700 text-white text-sm rounded-lg p-2.5 focus:ring-1 focus:ring-atlas-cyan"
+                    onchange="this.form.submit()">
+                    <option value="">All Teams</option>
+                    {% for t in filters.teams %}
+                    <option value="{{ t.id }}" {% if filters.selected_team==t.id %}selected{% endif %}>{{ t.name }}
+                    </option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <!-- Position -->
+            <div>
+                <label class="block text-xs font-bold text-slate-400 mb-1">POSITION</label>
+                <select name="position"
+                    class="w-full bg-slate-900 border border-slate-700 text-white text-sm rounded-lg p-2.5 focus:ring-1 focus:ring-atlas-cyan"
+                    onchange="this.form.submit()">
+                    <option value="">All Positions</option>
+                    {% for p in filters.positions %}
+                    <option value="{{ p }}" {% if filters.selected_pos==p %}selected{% endif %}>{{ p }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <!-- Min Minutes Slider -->
+            <div>
+                <label class="block text-xs font-bold text-slate-400 mb-1">MIN MINUTES: <span id="min-val">{{
+                        request.query_params.get('min_minutes', 90) }}</span></label>
+                <input type="range" name="min_minutes" min="0" max="1000"
+                    value="{{ request.query_params.get('min_minutes', 90) }}"
+                    class="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-atlas-cyan"
+                    oninput="document.getElementById('min-val').innerText = this.value" onchange="this.form.submit()">
+            </div>
+
+            <!-- Reset Button (Replaces Apply) -->
+            <div class="flex gap-2">
+                <a href="/performance"
+                    class="w-full flex items-center justify-center px-3 py-2.5 bg-slate-800 text-slate-400 rounded-lg hover:text-white border border-slate-700 hover:bg-slate-700 transition-all font-medium text-sm">
+                    <i class="fas fa-rotate-left mr-2"></i> Reset
+                </a>
+            </div>
+        </form>
+    </div>
+
+    <!-- 2. KPI Cards (Filtered) -->
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <div class="card-premium p-4 rounded-xl flex items-center justify-between">
+            <div>
+                <p class="text-slate-500 text-xs font-bold uppercase">Matches Scope</p>
+                <h3 class="text-2xl font-bold text-white">{{ kpis.total_matches }}</h3>
+            </div>
+            <div class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400">
+                <i class="fas fa-list"></i>
+            </div>
+        </div>
+        <div class="card-premium p-4 rounded-xl flex items-center justify-between">
+            <div>
+                <p class="text-slate-500 text-xs font-bold uppercase">Avg Rating</p>
+                <h3 class="text-2xl font-bold text-white">{{ kpis.avg_rating }}</h3>
+            </div>
+            <div class="w-10 h-10 rounded-full bg-purple-900/20 flex items-center justify-center text-purple-400">
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+        <div class="card-premium p-4 rounded-xl flex items-center justify-between">
+            <div>
+                <p class="text-slate-500 text-xs font-bold uppercase">Goals Recorded</p>
+                <h3 class="text-2xl font-bold text-white">{{ kpis.total_goals }}</h3>
+            </div>
+            <div class="w-10 h-10 rounded-full bg-emerald-900/20 flex items-center justify-center text-emerald-400">
+                <i class="fas fa-futbol"></i>
+            </div>
+        </div>
+        <div
+            class="card-premium p-4 rounded-xl flex items-center justify-between group cursor-pointer hover:border-atlas-cyan">
+            <div>
+                <p class="text-slate-500 text-xs font-bold uppercase">Export Data</p>
+                <h3 class="text-sm font-bold text-atlas-cyan mt-1">Download CSV</h3>
+            </div>
+            <div class="w-10 h-10 rounded-full bg-atlas-cyan/10 flex items-center justify-center text-atlas-cyan group-hover:bg-atlas-cyan group-hover:text-white transition-all"
+                onclick="exportTableToCSV('atlas_analytics.csv')">
+                <i class="fas fa-download"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3. PRO CHARTS -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+
+        <!-- Scatter: Productivity (Mins vs Rating) -->
+        <div class="card-premium p-6 rounded-2xl border border-slate-700/50">
+            <h4 class="text-lg font-bold text-white mb-2 flex items-center justify-between">
+                <span><i class="fas fa-bullseye mr-3 text-atlas-cyan"></i> Productivity Scatter</span>
+                <div class="flex items-center gap-2">
+                    <span class="text-xs font-normal text-slate-500">Size = Goals Scored</span>
+                    <button onclick="resetZoom('chart-scatter')"
+                        class="ml-2 w-6 h-6 flex items-center justify-center rounded bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition-colors"
+                        title="Reset Zoom">
+                        <i class="fas fa-compress text-xs"></i>
+                    </button>
+                </div>
+            </h4>
+            <div id="chart-scatter" class="w-full h-80"></div>
+        </div>
+
+        <!-- Bar: Discipline per 90 (Team) -->
+        <div class="card-premium p-6 rounded-2xl border border-slate-700/50">
+            <h4 class="text-lg font-bold text-white mb-2 flex items-center justify-between">
+                <span><i class="fas fa-gavel mr-3 text-red-500"></i> Team Discipline Score / 90 min</span>
+                <button onclick="resetZoom('chart-discipline')"
+                    class="w-6 h-6 flex items-center justify-center rounded bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition-colors"
+                    title="Reset Zoom">
+                    <i class="fas fa-compress text-xs"></i>
+                </button>
+            </h4>
+            <p class="text-xs text-slate-500 mb-4">Weighted: Yellow=1, Red=3. Normalized by team minutes.</p>
+            <div id="chart-discipline" class="w-full h-80"></div>
+        </div>
+    </div>
+
+    <!-- 4. DATA TABLE (Pro) -->
+    <div class="card-premium rounded-2xl border border-slate-700 overflow-hidden">
+        <div class="p-6 border-b border-slate-700 flex justify-between items-center">
+            <div>
+                <h4 class="text-lg font-bold text-white">Player Performance Index</h4>
+                <p class="text-xs text-slate-400 mt-1">Ranked by GPI (Global Performance Index) v1.</p>
+            </div>
+            <input type="text" id="tableSearch" placeholder="Search player..."
+                class="bg-slate-900 border border-slate-700 text-white text-xs rounded-lg p-2 focus:ring-1 focus:ring-atlas-cyan w-48">
+        </div>
+
+        <div class="overflow-x-auto max-h-[600px]">
+            <table class="w-full text-sm text-left text-slate-400" id="proTable">
+                <thead class="text-xs text-slate-500 uppercase bg-slate-900/50 sticky top-0 backdrop-blur-sm z-10">
+                    <tr>
+                        <th class="px-6 py-3 cursor-pointer hover:text-white" onclick="sortTable(0)">Player <i
+                                class="fas fa-sort ml-1"></i></th>
+                        <th class="px-6 py-3">Team</th>
+                        <th class="px-6 py-3">Pos</th>
+                        <th class="px-6 py-3 text-right cursor-pointer hover:text-white" onclick="sortTable(3)">Mins <i
+                                class="fas fa-sort ml-1"></i></th>
+                        <th class="px-6 py-3 text-right cursor-pointer hover:text-white" onclick="sortTable(4)">Rating
+                            <i class="fas fa-sort ml-1"></i></th>
+                        <th class="px-6 py-3 text-right cursor-pointer hover:text-white" onclick="sortTable(5)">Goals/90
+                            <i class="fas fa-sort ml-1"></i></th>
+                        <th class="px-6 py-3 text-right cursor-pointer hover:text-white" onclick="sortTable(6)">Ast/90
+                            <i class="fas fa-sort ml-1"></i></th>
+                        <th class="px-6 py-3 text-right font-bold text-atlas-cyan cursor-pointer hover:text-white"
+                            onclick="sortTable(7)">GPI <i class="fas fa-sort ml-1"></i></th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-slate-800">
+                    {% for p in pro_table %}
+                    <tr class="hover:bg-slate-800/50 transition-colors group cursor-pointer"
+                        onclick="window.location.href='/players/{{ p.id }}'">
+                        <td class="px-6 py-3 font-medium text-white group-hover:text-atlas-cyan">
+                            <a href="/players/{{ p.id }}" class="flex items-center gap-3">
+                                {% if p.photo %}
+                                <img src="{{ p.photo }}" alt="{{ p.name }}"
+                                    class="w-8 h-8 rounded-full object-cover border border-slate-700 bg-slate-800">
+                                {% else %}
+                                <div
+                                    class="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center text-gray-500 border border-slate-700">
+                                    <i class="fas fa-user text-xs"></i>
+                                </div>
+                                {% endif %}
+                                <span>{{ p.name }}</span>
+                            </a>
+                        </td>
+                        <td class="px-6 py-3 text-xs">{{ p.team }}</td>
+                        <td class="px-6 py-3 text-xs flex items-center">
+                            <span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700">{{
+                                p.position }}</span>
+                        </td>
+                        <td class="px-6 py-3 text-right text-slate-300">{{ p.minutes }}</td>
+                        <td class="px-6 py-3 text-right font-semibold text-purple-400">{{ p.rating }}</td>
+                        <td class="px-6 py-3 text-right text-emerald-400">{{ p.g_p90 }}</td>
+                        <td class="px-6 py-3 text-right text-blue-400">{{ p.a_p90 }}</td>
+                        <td class="px-6 py-3 text-right font-bold text-atlas-cyan text-lg">{{ p.gpi }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+
+<!-- DATA INJECTION SAFE ZONE -->
+<script type="application/json" id="chart-data">
+    {{ charts | tojson | safe }}
+</script>
+
+<!-- Plotly JS & Sort Logic -->
+<script>
+    // --- 1. Table Utilities ---
+
+    // Multi-Column Sort Logic (Stack based, max 3 levels)
+    // Index 0 in Stack = Primary Sort Key
+    let sortStack = [];
+    let originalRows = [];
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const tbody = document.querySelector("#proTable tbody");
+        if (tbody) {
+            originalRows = Array.from(tbody.rows);
+        }
+    });
+
+    function sortTable(n) {
+        const table = document.getElementById("proTable");
+        const tbody = table.querySelector("tbody");
+        let rows = Array.from(tbody.rows);
+
+        // Update Stack
+        // Check if column 'n' is already in stack
+        const existingIndex = sortStack.findIndex(s => s.column === n);
+
+        // Logic: Clicking a column always moves it to PRIMARY (index 0).
+        // If it was already in stack, we cycle its direction, then move/keep at top.
+        // Cycle: Asc -> Desc -> Default (Remove)
+
+        let newDir = 'asc';
+        if (existingIndex !== -1) {
+            const currentDir = sortStack[existingIndex].direction;
+            if (currentDir === 'asc') {
+                newDir = 'desc';
+                // Remove old, add new to top
+                sortStack.splice(existingIndex, 1);
+                sortStack.unshift({ column: n, direction: newDir });
+            } else {
+                // Remove from stack (return to default for this column)
+                sortStack.splice(existingIndex, 1);
+            }
+        } else {
+            // New column: add to top (Primary)
+            sortStack.unshift({ column: n, direction: 'asc' });
+        }
+
+        // Limit stack size to 3
+        if (sortStack.length > 3) {
+            sortStack.length = 3;
+        }
+
+        // Apply Sort
+        if (sortStack.length === 0) {
+            // Restore original order
+            const fragment = document.createDocumentFragment();
+            originalRows.forEach(row => fragment.appendChild(row));
+            tbody.appendChild(fragment);
+        } else {
+            rows.sort((a, b) => {
+                // Iterate through stack for comparison (Primary -> Secondary -> ...)
+                for (let i = 0; i < sortStack.length; i++) {
+                    const criteria = sortStack[i];
+                    const colIdx = criteria.column;
+                    const dir = criteria.direction;
+
+                    let x = a.getElementsByTagName("TD")[colIdx].innerText.trim();
+                    let y = b.getElementsByTagName("TD")[colIdx].innerText.trim();
+
+                    // Numerical Check
+                    const xNum = parseFloat(x);
+                    const yNum = parseFloat(y);
+                    const isNumeric = !isNaN(xNum) && !isNaN(yNum) && x !== "" && y !== "";
+
+                    if (isNumeric) {
+                        if (xNum !== yNum) {
+                            return dir === 'asc' ? xNum - yNum : yNum - xNum;
+                        }
+                    } else {
+                        if (x !== y) {
+                            return dir === 'asc' ? x.localeCompare(y) : y.localeCompare(x);
+                        }
+                    }
+                    // If equal, continue loop to next criteria (sub-sort)
+                }
+                return 0; // All criteria equal
+            });
+
+            // Re-append sorted rows
+            const fragment = document.createDocumentFragment();
+            rows.forEach(row => fragment.appendChild(row));
+            tbody.appendChild(fragment);
+        }
+
+        updateSortIcons();
+    }
+
+    function updateSortIcons() {
+        // Reset all icons
+        document.querySelectorAll('th i').forEach(icon => {
+            icon.className = 'fas fa-sort ml-1 text-slate-600';
+            icon.style.opacity = '0.3';
+        });
+
+        // Loop through active stack to update icons
+        // The stack index 0 is Primary. We can visually distinguish if needed, but for now simple color is enough.
+        sortStack.forEach((criteria, index) => {
+            const headers = document.querySelectorAll('th');
+            if (headers[criteria.column]) {
+                const icon = headers[criteria.column].querySelector('i');
+                if (icon) {
+                    icon.className = `fas fa-sort-${criteria.direction === 'asc' ? 'up' : 'down'} ml-1 text-atlas-cyan`;
+                    icon.style.opacity = '1';
+                }
+            }
+        });
+    }
+
+    // Search (Dynamic on 'input')
+    const searchInput = document.getElementById('tableSearch');
+    if (searchInput) {
+        searchInput.addEventListener('input', function () {
+            let filter = this.value.toUpperCase();
+            let rows = document.getElementById("proTable").getElementsByTagName("tr");
+
+            for (let i = 1; i < rows.length; i++) {
+                let cells = rows[i].getElementsByTagName("td");
+                let nameCell = cells[0];
+                let teamCell = cells[1];
+                if (nameCell || teamCell) {
+                    let txtValue = (nameCell.textContent || nameCell.innerText) + (teamCell.textContent || teamCell.innerText);
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        rows[i].style.display = "";
+                    } else {
+                        rows[i].style.display = "none";
+                    }
+                }
+            }
+        });
+    }
+
+    // CSV Export
+    function exportTableToCSV(filename) {
+        let csv = [];
+        let rows = document.querySelectorAll("#proTable tr");
+
+        for (let i = 0; i < rows.length; i++) {
+            let row = [], cols = rows[i].querySelectorAll("td, th");
+            if (rows[i].style.display === "none") continue;
+
+            for (let j = 0; j < cols.length; j++)
+                row.push('"' + cols[j].innerText + '"');
+
+            csv.push(row.join(","));
+        }
+        downloadCSV(csv.join("\n"), filename);
+    }
+
+    function downloadCSV(csv, filename) {
+        let csvFile;
+        let downloadLink;
+        csvFile = new Blob([csv], { type: "text/csv" });
+        downloadLink = document.createElement("a");
+        downloadLink.download = filename;
+        downloadLink.href = window.URL.createObjectURL(csvFile);
+        downloadLink.style.display = "none";
+        document.body.appendChild(downloadLink);
+        downloadLink.click();
+    }
+
+    // Charts Reset Zoom
+    function resetZoom(chartId) {
+        try {
+            const update = {
+                'xaxis.autorange': true,
+                'yaxis.autorange': true
+            };
+            Plotly.relayout(chartId, update);
+        } catch (e) {
+            console.error("Zoom reset failed", e);
+        }
+    }
+
+    // --- 2. Charts Init (Protected) ---
+    try {
+        const rawData = document.getElementById('chart-data').textContent;
+        const chartData = JSON.parse(rawData);
+
+        if (chartData && chartData.scatter_minutes) {
+            // SCATTER: Productivity
+            const scatterTrace = {
+                x: JSON.parse(chartData.scatter_minutes),
+                y: JSON.parse(chartData.scatter_rating),
+                text: JSON.parse(chartData.scatter_names),
+                mode: 'markers',
+                marker: {
+                    size: JSON.parse(chartData.scatter_goals),
+                    color: JSON.parse(chartData.scatter_rating),
+                    colorscale: 'Viridis',
+                    showscale: false,
+                    opacity: 0.8
+                }
+            };
+
+            const scatterLayout = {
+                paper_bgcolor: 'rgba(0,0,0,0)',
+                plot_bgcolor: 'rgba(0,0,0,0)',
+                font: { color: '#94a3b8' },
+                margin: { t: 20, l: 40, r: 20, b: 40 },
+                xaxis: {
+                    title: 'Minutes Played',
+                    gridcolor: '#334155',
+                    color: '#cbd5e1'
+                },
+                yaxis: {
+                    title: 'Avg Rating',
+                    gridcolor: '#334155',
+                    range: [5, 10],
+                    color: '#cbd5e1'
+                },
+                hovermode: 'closest'
+            };
+
+            if (document.getElementById('chart-scatter')) {
+                Plotly.newPlot('chart-scatter', [scatterTrace], scatterLayout, { displayModeBar: false });
+            }
+        }
+
+        if (chartData && chartData.disc_labels) {
+            // BAR: Discipline
+            const discTrace = {
+                x: JSON.parse(chartData.disc_labels),
+                y: JSON.parse(chartData.disc_data),
+                type: 'bar',
+                marker: {
+                    color: '#f43f5e',
+                }
+            };
+
+            const discLayout = {
+                paper_bgcolor: 'rgba(0,0,0,0)',
+                plot_bgcolor: 'rgba(0,0,0,0)',
+                font: { color: '#94a3b8' },
+                margin: { t: 10, l: 40, r: 20, b: 80 },
+                xaxis: { gridcolor: '#334155', tickangle: -45 },
+                yaxis: { title: 'Weighted Cards / 90', gridcolor: '#334155' }
+            };
+
+            if (document.getElementById('chart-discipline')) {
+                Plotly.newPlot('chart-discipline', [discTrace], discLayout, { displayModeBar: false });
+            }
+        }
+    } catch (error) {
+        console.error("Charts Init Error:", error);
+    }
+</script>
+{% endblock %}

@@ -1,0 +1,439 @@
+{% extends "layout/base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+{% block header_title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="space-y-6">
+
+    <!-- FILTER BAR -->
+    <div class="flex flex-wrap gap-2 mb-2">
+        <a href="/dashboard"
+            class="px-4 py-2 rounded-full text-sm font-bold transition-all {{ 'bg-atlas-cyan text-white shadow-lg shadow-cyan-500/20' if not selected_competition_id else 'bg-slate-800 text-slate-400 hover:bg-slate-700 hover:text-white' }}">
+            Global
+        </a>
+        {% for comp in competitions_list %}
+        <a href="/dashboard?competition_id={{ comp.id }}"
+            class="px-4 py-2 rounded-full text-sm font-bold transition-all {{ 'bg-atlas-cyan text-white shadow-lg shadow-cyan-500/20' if selected_competition_id == comp.id else 'bg-slate-800 text-slate-400 hover:bg-slate-700 hover:text-white' }}">
+            {{ comp.name }}
+        </a>
+        {% endfor %}
+    </div>
+
+    <!-- KPI CARDS (BENTO ROW 1) -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Matchs Joués -->
+        <a href="/matches{% if selected_competition_id %}?competition_id={{ selected_competition_id }}{% endif %}"
+            class="card-premium p-6 relative overflow-hidden group block hover:scale-[1.02] transition-transform">
+            <div class="absolute right-0 top-0 p-4 opacity-5 group-hover:opacity-10 transition-opacity">
+                <i class="fas fa-futbol text-6xl text-white"></i>
+            </div>
+            <!-- Glow Effect -->
+            <div
+                class="absolute top-0 right-0 w-32 h-32 bg-cyan-500/10 blur-3xl rounded-full -mr-10 -mt-10 pointer-events-none">
+            </div>
+
+            <div class="flex items-center space-x-4 relative z-10">
+                <div
+                    class="w-14 h-14 rounded-2xl bg-gradient-to-br from-atlas-cyan to-blue-600 flex items-center justify-center shadow-lg shadow-cyan-500/20 group-hover:shadow-cyan-500/40 transition-shadow">
+                    <i class="fas fa-whistle text-2xl text-white"></i>
+                </div>
+                <div>
+                    <h3 class="text-slate-400 text-sm font-medium">Matchs Joués</h3>
+                    <div class="flex items-baseline space-x-2">
+                        <span class="text-2xl font-bold text-white">{{ stats.matches_played }}</span>
+
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <!-- Buts Total -->
+        <div class="card-premium p-6 relative overflow-hidden group hover:scale-[1.02] transition-transform">
+            <div class="absolute right-0 top-0 p-4 opacity-5 group-hover:opacity-10 transition-opacity">
+                <i class="fas fa-bullseye text-6xl text-white"></i>
+            </div>
+            <!-- Glow Effect -->
+            <div
+                class="absolute top-0 right-0 w-32 h-32 bg-emerald-500/10 blur-3xl rounded-full -mr-10 -mt-10 pointer-events-none">
+            </div>
+
+            <div class="flex items-center space-x-4 relative z-10">
+                <div
+                    class="w-14 h-14 rounded-2xl bg-gradient-to-br from-emerald-400 to-emerald-600 flex items-center justify-center shadow-lg shadow-emerald-500/20 group-hover:shadow-emerald-500/40 transition-shadow">
+                    <i class="fas fa-bullseye text-2xl text-white"></i>
+                </div>
+                <div>
+                    <h3 class="text-slate-400 text-sm font-medium">Buts Marqués</h3>
+                    <div class="flex items-baseline space-x-2">
+                        <span class="text-2xl font-bold text-white">{{ stats.goals_scored }}</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cartons Jaunes -->
+        <div class="card-premium p-6 relative overflow-hidden group hover:scale-[1.02] transition-transform">
+            <div class="absolute right-0 top-0 p-4 opacity-5 group-hover:opacity-10 transition-opacity">
+                <i class="fas fa-copy text-6xl text-white"></i>
+            </div>
+            <!-- Glow Effect -->
+            <div
+                class="absolute top-0 right-0 w-32 h-32 bg-amber-500/10 blur-3xl rounded-full -mr-10 -mt-10 pointer-events-none">
+            </div>
+
+            <div class="flex items-center space-x-4 relative z-10">
+                <div
+                    class="w-14 h-14 rounded-2xl bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center shadow-lg shadow-amber-500/20 group-hover:shadow-amber-500/40 transition-shadow">
+                    <i class="fas fa-square text-2xl text-white"></i>
+                </div>
+                <div>
+                    <h3 class="text-slate-400 text-sm font-medium">Cartons Jaunes</h3>
+                    <div class="flex items-baseline space-x-2">
+                        <span class="text-2xl font-bold text-white">{{ stats.yellow_cards }}</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cartons Rouges -->
+        <div class="card-premium p-6 relative overflow-hidden group hover:scale-[1.02] transition-transform">
+            <div class="absolute right-0 top-0 p-4 opacity-5 group-hover:opacity-10 transition-opacity">
+                <i class="fas fa-square text-6xl text-white"></i>
+            </div>
+            <!-- Glow Effect -->
+            <div
+                class="absolute top-0 right-0 w-32 h-32 bg-rose-500/10 blur-3xl rounded-full -mr-10 -mt-10 pointer-events-none">
+            </div>
+
+            <div class="flex items-center space-x-4 relative z-10">
+                <div
+                    class="w-14 h-14 rounded-2xl bg-gradient-to-br from-rose-500 to-red-600 flex items-center justify-center shadow-lg shadow-rose-500/20 group-hover:shadow-rose-500/40 transition-shadow">
+                    <i class="fas fa-square text-2xl text-white"></i>
+                </div>
+                <div>
+                    <h3 class="text-slate-400 text-sm font-medium">Cartons Rouges</h3>
+                    <div class="flex items-baseline space-x-2">
+                        <span class="text-2xl font-bold text-white">{{ stats.red_cards }}</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RECENT MATCHES (BENTO GRID - Strictly 4) -->
+    <div class="w-full">
+        <div class="flex items-center justify-between mb-4">
+            <h2 class="text-lg font-semibold text-white">Matchs Récents</h2>
+        </div>
+
+        <!-- GRID for exactly 4 items -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            {% for match in recent_matches[:4] %}
+            <a href="/matches/{{ match.id }}"
+                class="card-premium p-4 flex flex-col items-center justify-center relative hover:scale-[1.02] transition-transform block group border border-slate-800 hover:border-atlas-cyan/50">
+                <span
+                    class="absolute top-2 right-2 text-[10px] font-bold bg-slate-700/50 px-2 py-0.5 rounded text-slate-300 group-hover:bg-atlas-cyan group-hover:text-white transition-colors">FT</span>
+
+                <div class="flex items-center justify-between w-full mt-2 gap-2">
+                    <!-- Home -->
+                    <div class="flex flex-col items-center w-1/3">
+                        <!-- Wide Landscape Hexagon -->
+                        <div
+                            class="relative w-[90px] h-[55px] mb-2 shrink-0 flex items-center justify-center drop-shadow-lg">
+                            <div
+                                class="absolute inset-0 bg-white flex items-center justify-center [clip-path:polygon(25%_0%,75%_0%,100%_50%,75%_100%,25%_100%,0%_50%)]">
+                                {% if match.home_team.logo %}
+                                <img src="{{ match.home_team.logo }}"
+                                    class="w-[86px] h-[51px] object-cover [clip-path:polygon(25%_0%,75%_0%,100%_50%,75%_100%,25%_100%,0%_50%)] transform group-hover:scale-110 transition-transform duration-500">
+                                {% else %}
+                                <div
+                                    class="w-[86px] h-[51px] bg-slate-800 flex items-center justify-center [clip-path:polygon(25%_0%,75%_0%,100%_50%,75%_100%,25%_100%,0%_50%)]">
+                                    <span class="text-[10px] font-bold text-white">{{ match.home_team.name[:3].upper()
+                                        }}</span>
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                        <span
+                            class="font-bold text-sm truncate w-full text-center text-slate-300 group-hover:text-white transition-colors">{{
+                            match.home_team.name }}</span>
+                    </div>
+
+                    <!-- Score -->
+                    <div class="flex flex-col items-center px-1">
+                        <span class="text-2xl font-bold text-white whitespace-nowrap tracking-wider">
+                            {{ match.home_score if match.home_score is not none else '-' }} - {{ match.away_score if
+                            match.away_score is not none else '-' }}
+                        </span>
+                        <span class="text-[10px] text-atlas-cyan font-bold uppercase tracking-wider mt-1">{{
+                            match.date.strftime('%d %b') }}</span>
+                    </div>
+
+                    <!-- Away -->
+                    <div class="flex flex-col items-center w-1/3">
+                        <!-- Wide Landscape Hexagon -->
+                        <div
+                            class="relative w-[90px] h-[55px] mb-2 shrink-0 flex items-center justify-center drop-shadow-lg">
+                            <div
+                                class="absolute inset-0 bg-white flex items-center justify-center [clip-path:polygon(25%_0%,75%_0%,100%_50%,75%_100%,25%_100%,0%_50%)]">
+                                {% if match.away_team.logo %}
+                                <img src="{{ match.away_team.logo }}"
+                                    class="w-[86px] h-[51px] object-cover [clip-path:polygon(25%_0%,75%_0%,100%_50%,75%_100%,25%_100%,0%_50%)] transform group-hover:scale-110 transition-transform duration-500">
+                                {% else %}
+                                <div
+                                    class="w-[86px] h-[51px] bg-slate-800 flex items-center justify-center [clip-path:polygon(25%_0%,75%_0%,100%_50%,75%_100%,25%_100%,0%_50%)]">
+                                    <span class="text-[10px] font-bold text-white">{{ match.away_team.name[:3].upper()
+                                        }}</span>
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                        <span
+                            class="font-bold text-sm text-slate-300 truncate w-full text-center group-hover:text-white transition-colors">{{
+                            match.away_team.name }}</span>
+                    </div>
+                </div>
+            </a>
+            {% endfor %}
+
+            {% if recent_matches|length == 0 %}
+            <div class="col-span-4 w-full text-center py-10 text-slate-500">Aucun match récent.</div>
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- MAIN GRID (BENTO ROW 3) -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+        <!-- TOP SCORERS (2/3 width) -->
+        <div class="lg:col-span-2 card-premium p-6">
+            <div class="flex items-center justify-between mb-6">
+                <h2 class="text-lg font-semibold text-white">Classement des Buteurs</h2>
+            </div>
+
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="text-xs text-slate-500 uppercase border-b border-slate-700">
+                            <th class="py-3 pl-2">#</th>
+                            <th class="py-3">Joueur</th>
+                            <th class="py-3">Équipe</th>
+                            <th class="py-3 text-center">Matchs</th>
+                            <th class="py-3 text-center">Buts</th>
+                            <th class="py-3 text-center">Note</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-sm">
+                        {% for scorer in top_scorers %}
+                        <tr onclick="window.location='/players/{{ scorer.id }}'"
+                            class="hover:bg-slate-800/50 transition-colors border-b border-slate-800 cursor-pointer group">
+                            <td class="py-3 pl-2 text-slate-400 font-mono">{{ loop.index }}</td>
+                            <td class="py-3 flex items-center space-x-3">
+                                <div
+                                    class="w-9 h-9 rounded-full bg-slate-800 overflow-hidden ring-2 ring-slate-700 group-hover:ring-atlas-cyan transition">
+                                    {% if scorer.photo %}
+                                    <img src="{{ scorer.photo }}" alt="{{ scorer.name }}"
+                                        class="w-full h-full object-cover">
+                                    {% else %}
+                                    <img src="https://ui-avatars.com/api/?name={{ scorer.name }}&background=random"
+                                        alt="Avatar" class="w-full h-full object-cover">
+                                    {% endif %}
+                                </div>
+                                <span class="font-medium text-white group-hover:text-atlas-cyan transition">{{
+                                    scorer.name }}</span>
+                            </td>
+                            <td class="py-3 text-slate-400">{{ scorer.team_name }}</td>
+                            <td class="py-3 text-center text-slate-400">{{ scorer.matches_played }}</td>
+                            <td class="py-3 text-center">
+                                <span
+                                    class="bg-atlas-green/10 text-atlas-green font-bold px-2 py-0.5 rounded border border-atlas-green/20">{{
+                                    scorer.total_goals }}</span>
+                            </td>
+                            <td
+                                class="py-3 text-center font-bold {{ 'text-atlas-cyan' if scorer.avg_rating >= 7.0 else 'text-slate-400' }}">
+                                {{ "%.2f"|format(scorer.avg_rating) }}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- TEAM OF THE WEEK (1/3 width) -->
+        <div class="card-premium h-[600px] flex flex-col relative overflow-hidden group">
+            <!-- Background Image -->
+            <div class="absolute inset-0">
+                <img src="/static/images/stadium_pitch.png"
+                    class="w-full h-full object-cover opacity-100 group-hover:scale-105 transition-transform duration-700 mix-blend-overlay">
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/60 to-slate-900/40">
+                </div>
+            </div>
+
+            <div class="relative z-10 p-6 flex flex-col h-full">
+                <div class="flex items-center justify-between mb-2">
+                    <h2 class="text-xl font-bold text-white drop-shadow-md">Meilleure équipe</h2>
+                    <span
+                        class="px-2 py-1 bg-atlas-gold text-slate-900 text-xs font-bold rounded uppercase tracking-wider shadow-lg shadow-atlas-gold/20">4-3-3</span>
+                </div>
+
+                <!-- Dynamic Formation 4-3-3 -->
+                <div class="flex flex-col flex-1 justify-between py-4 perspective-[800px]">
+
+                    <!-- Attack -->
+                    <div class="flex justify-around items-end px-2">
+                        {% for p in team_of_week.att %}
+                        <a href="/players/{{ p.id }}"
+                            class="flex flex-col items-center group cursor-pointer hover:scale-110 transition-transform duration-300">
+                            <div class="relative">
+                                <div
+                                    class="w-14 h-14 rounded-full border-2 border-atlas-green bg-slate-800 flex items-center justify-center overflow-hidden shadow-lg shadow-black/50 group-hover:shadow-atlas-green/30 transition-shadow">
+                                    {% if p.photo %}
+                                    <img src="{{ p.photo }}" class="w-full h-full object-cover">
+                                    {% else %}
+                                    <span class="text-xs font-bold text-white">{{ p.name[:2] }}</span>
+                                    {% endif %}
+                                </div>
+                                <!-- Badge on Photo -->
+                                {% if p.team_logo %}
+                                <div
+                                    class="absolute -bottom-1 -right-1 w-5 h-5 bg-white rounded-full flex items-center justify-center overflow-hidden border border-slate-900 shadow z-10">
+                                    <img src="{{ p.team_logo }}" class="w-full h-full object-contain">
+                                </div>
+                                {% endif %}
+                            </div>
+
+                            <div class="mt-2 flex flex-col items-center">
+                                <span
+                                    class="px-2 py-0.5 bg-black/50 backdrop-blur-sm rounded text-[10px] text-white font-bold truncate max-w-[80px] border border-white/10">{{
+                                    p.name }}</span>
+                                <div
+                                    class="px-1.5 py-0.5 bg-emerald-500 text-white text-[9px] font-bold rounded-full mt-[-4px] z-20 shadow-md">
+                                    {{ p.rating }}
+                                </div>
+                            </div>
+                        </a>
+                        {% else %}
+                        <span class="text-xs text-white/50 w-full text-center italic">Pas d'attaquants</span>
+                        {% endfor %}
+                    </div>
+
+                    <!-- Midfield -->
+                    <div class="flex justify-around items-center px-6">
+                        {% for p in team_of_week.mid %}
+                        <a href="/players/{{ p.id }}"
+                            class="flex flex-col items-center group cursor-pointer hover:scale-110 transition-transform duration-300">
+                            <div class="relative">
+                                <div
+                                    class="w-14 h-14 rounded-full border-2 border-atlas-cyan bg-slate-800 flex items-center justify-center overflow-hidden shadow-lg shadow-black/50 group-hover:shadow-atlas-cyan/30 transition-shadow">
+                                    {% if p.photo %}
+                                    <img src="{{ p.photo }}" class="w-full h-full object-cover">
+                                    {% else %}
+                                    <span class="text-xs font-bold text-white">{{ p.name[:2] }}</span>
+                                    {% endif %}
+                                </div>
+                                {% if p.team_logo %}
+                                <div
+                                    class="absolute -bottom-1 -right-1 w-5 h-5 bg-white rounded-full flex items-center justify-center overflow-hidden border border-slate-900 shadow z-10">
+                                    <img src="{{ p.team_logo }}" class="w-full h-full object-contain">
+                                </div>
+                                {% endif %}
+                            </div>
+                            <div class="mt-2 flex flex-col items-center">
+                                <span
+                                    class="px-2 py-0.5 bg-black/50 backdrop-blur-sm rounded text-[10px] text-white font-bold truncate max-w-[80px] border border-white/10">{{
+                                    p.name }}</span>
+                                <div
+                                    class="px-2 py-0.5 bg-emerald-500 text-white text-[10px] font-bold rounded-full mt-[-6px] z-20 shadow-md border border-slate-900">
+                                    {{ p.rating }}
+                                </div>
+                            </div>
+                        </a>
+                        {% else %}
+                        <span class="text-xs text-white/50 w-full text-center italic">Pas de milieux</span>
+                        {% endfor %}
+                    </div>
+
+                    <!-- Defense -->
+                    <div class="flex justify-around items-center px-4">
+                        {% for p in team_of_week.def %}
+                        <a href="/players/{{ p.id }}"
+                            class="flex flex-col items-center group cursor-pointer hover:scale-110 transition-transform duration-300">
+                            <div class="relative">
+                                <div
+                                    class="w-14 h-14 rounded-full border-2 border-slate-400 bg-slate-800 flex items-center justify-center overflow-hidden shadow-lg shadow-black/50 group-hover:shadow-white/20 transition-shadow">
+                                    {% if p.photo %}
+                                    <img src="{{ p.photo }}" class="w-full h-full object-cover">
+                                    {% else %}
+                                    <span class="text-xs font-bold text-white">{{ p.name[:2] }}</span>
+                                    {% endif %}
+                                </div>
+                                {% if p.team_logo %}
+                                <div
+                                    class="absolute -bottom-1 -right-1 w-5 h-5 bg-white rounded-full flex items-center justify-center overflow-hidden border border-slate-900 shadow z-10">
+                                    <img src="{{ p.team_logo }}" class="w-full h-full object-contain">
+                                </div>
+                                {% endif %}
+                            </div>
+                            <div class="mt-2 flex flex-col items-center">
+                                <span
+                                    class="px-2 py-0.5 bg-black/50 backdrop-blur-sm rounded text-[10px] text-white font-bold truncate max-w-[80px] border border-white/10">{{
+                                    p.name }}</span>
+                                <div
+                                    class="px-2 py-0.5 bg-emerald-500 text-white text-[10px] font-bold rounded-full mt-[-6px] z-20 shadow-md border border-slate-900">
+                                    {{ p.rating }}
+                                </div>
+                            </div>
+                        </a>
+                        {% else %}
+                        <span class="text-xs text-white/50 w-full text-center italic">Pas de défenseurs</span>
+                        {% endfor %}
+                    </div>
+
+                    <!-- GK -->
+                    <div class="flex justify-center items-end pb-2">
+                        {% for p in team_of_week.gk %}
+                        <a href="/players/{{ p.id }}"
+                            class="flex flex-col items-center group cursor-pointer hover:scale-110 transition-transform duration-300">
+                            <div class="relative">
+                                <div
+                                    class="w-14 h-14 rounded-full border-2 border-atlas-gold bg-slate-800 flex items-center justify-center overflow-hidden shadow-lg shadow-black/50 group-hover:shadow-atlas-gold/30 transition-shadow">
+                                    {% if p.photo %}
+                                    <img src="{{ p.photo }}" class="w-full h-full object-cover">
+                                    {% else %}
+                                    <span class="text-xs font-bold text-white">{{ p.name[:2] }}</span>
+                                    {% endif %}
+                                </div>
+                                {% if p.team_logo %}
+                                <div
+                                    class="absolute -bottom-1 -right-1 w-5 h-5 bg-white rounded-full flex items-center justify-center overflow-hidden border border-slate-900 shadow z-10">
+                                    <img src="{{ p.team_logo }}" class="w-full h-full object-contain">
+                                </div>
+                                {% endif %}
+                            </div>
+                            <div class="mt-2 flex flex-col items-center">
+                                <span
+                                    class="px-2 py-0.5 bg-black/50 backdrop-blur-sm rounded text-[10px] text-white font-bold truncate max-w-[80px] border border-white/10">{{
+                                    p.name }}</span>
+                                <div
+                                    class="px-2 py-0.5 bg-emerald-500 text-white text-[10px] font-bold rounded-full mt-[-6px] z-20 shadow-md border border-slate-900">
+                                    {{ p.rating }}
+                                </div>
+                            </div>
+                        </a>
+                        {% else %}
+                        <span class="text-xs text-white/50 w-full text-center italic">Pas de gardien</span>
+                        {% endfor %}
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+{% endblock %}

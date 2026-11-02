@@ -1,0 +1,260 @@
+{% extends "layout/base.html" %}
+
+{% block title %}Détail du Match{% endblock %}
+{% block header_title %}Détail du Match{% endblock %}
+
+{% block content %}
+<div class="space-y-6">
+
+    <!-- HEADER SCORE -->
+    <div class="card-premium p-6 md:p-8">
+        <div class="flex flex-col md:flex-row items-center justify-between gap-6 md:gap-12">
+
+            <!-- Home -->
+            <div class="flex flex-col items-center gap-4 flex-1">
+                <a href="/teams/{{ match.home_team.id }}"
+                    class="group relative w-28 h-20 md:w-36 md:h-24 drop-shadow-xl filter block">
+                    <!-- Border/Bg Layer -->
+                    <div
+                        class="absolute inset-0 bg-white [clip-path:polygon(15%_0%,85%_0%,100%_50%,85%_100%,15%_100%,0%_50%)] group-hover:bg-atlas-brand transition-colors duration-300">
+                    </div>
+                    <!-- Image Layer -->
+                    <div
+                        class="absolute inset-[3px] bg-slate-900 [clip-path:polygon(15%_0%,85%_0%,100%_50%,85%_100%,15%_100%,0%_50%)] flex items-center justify-center overflow-hidden">
+                        {% if match.home_team.logo %}
+                        <img src="{{ match.home_team.logo }}"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                        {% else %}
+                        <span class="text-xl font-bold text-white">{{ match.home_team.name[:2] }}</span>
+                        {% endif %}
+                    </div>
+                </a>
+                <a href="/teams/{{ match.home_team.id }}"
+                    class="text-xl md:text-2xl font-bold text-white text-center hover:text-atlas-brand transition-colors">{{
+                    match.home_team.name }}</a>
+            </div>
+
+            <!-- Score & Info -->
+            <div class="flex flex-col items-center gap-2 md:w-1/3">
+                <span class="text-atlas-brand text-xs md:text-sm uppercase tracking-wider font-bold">{{
+                    match.competition.name }}</span>
+                <span class="text-slate-400 text-xs">{{ match.date.strftime('%d %B %Y - %H:%M') }}</span>
+
+                <div
+                    class="bg-slate-900/80 rounded-lg border border-slate-700 px-6 py-3 flex items-center gap-4 md:gap-6 mt-2 shadow-inner">
+                    <span
+                        class="text-4xl md:text-5xl font-bold {{ 'text-atlas-brand' if match.home_score is none else 'text-white' }}">
+                        {{ match.home_score if match.home_score is not none else '-' }}
+                    </span>
+                    <span class="text-slate-600 text-2xl">:</span>
+                    <span
+                        class="text-4xl md:text-5xl font-bold {{ 'text-atlas-brand' if match.away_score is none else 'text-white' }}">
+                        {{ match.away_score if match.away_score is not none else '-' }}
+                    </span>
+                </div>
+
+                <span
+                    class="text-xs md:text-sm font-bold mt-2 {{ 'text-emerald-500' if match.home_score is not none else 'text-amber-500' }}">
+                    {{ 'Terminé' if match.home_score is not none else 'À venir' }}
+                </span>
+            </div>
+
+            <!-- Away -->
+            <div class="flex flex-col items-center gap-4 flex-1">
+                <a href="/teams/{{ match.away_team.id }}"
+                    class="group relative w-28 h-20 md:w-36 md:h-24 drop-shadow-xl filter block">
+                    <!-- Border/Bg Layer -->
+                    <div
+                        class="absolute inset-0 bg-white [clip-path:polygon(15%_0%,85%_0%,100%_50%,85%_100%,15%_100%,0%_50%)] group-hover:bg-atlas-brand transition-colors duration-300">
+                    </div>
+                    <!-- Image Layer -->
+                    <div
+                        class="absolute inset-[3px] bg-slate-900 [clip-path:polygon(15%_0%,85%_0%,100%_50%,85%_100%,15%_100%,0%_50%)] flex items-center justify-center overflow-hidden">
+                        {% if match.away_team.logo %}
+                        <img src="{{ match.away_team.logo }}"
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
+                        {% else %}
+                        <span class="text-xl font-bold text-white">{{ match.away_team.name[:2] }}</span>
+                        {% endif %}
+                    </div>
+                </a>
+                <a href="/teams/{{ match.away_team.id }}"
+                    class="text-xl md:text-2xl font-bold text-white text-center hover:text-atlas-brand transition-colors">{{
+                    match.away_team.name }}</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- STATS & LINEUPS GRID -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+        <!-- LINEUP HOME -->
+        <div class="card-premium p-4">
+            <h3 class="text-lg font-bold text-white border-b border-slate-700 pb-2 mb-4 flex items-center gap-2">
+                <span class="w-2 h-8 bg-atlas-brand rounded-sm"></span>
+                Composition
+                <span class="text-slate-500 text-sm font-normal">{{ match.home_team.name }}</span>
+            </h3>
+
+            <div class="space-y-2 pr-2">
+                {% if home_lineup %}
+                {% for p in home_lineup %}
+                <a href="/players/{{ p.id }}"
+                    class="flex items-center justify-between p-2 rounded hover:bg-slate-800/50 transition border border-transparent hover:border-slate-700 block group">
+                    <div class="flex items-center gap-3">
+                        {% if p.photo %}
+                        <img src="{{ p.photo }}"
+                            class="w-8 h-8 rounded-full object-cover border border-slate-700 bg-slate-800 group-hover:border-atlas-brand transition-colors"
+                            alt="{{ p.name }}">
+                        {% else %}
+                        <div
+                            class="w-8 h-8 rounded-full bg-slate-700 flex items-center justify-center text-xs font-bold text-slate-400 group-hover:border group-hover:border-atlas-brand transition-colors">
+                            {{ p.position[:2] }}
+                        </div>
+                        {% endif %}
+                        <div class="flex flex-col">
+                            <span class="text-sm font-bold text-white group-hover:text-atlas-brand transition-colors">{{
+                                p.name }}</span>
+                            <span class="text-[10px] text-slate-500">{{ p.minutes }}' jouées</span>
+                        </div>
+                    </div>
+                    {% if p.rating != "-" %}
+                    <div
+                        class="px-2 py-0.5 rounded text-xs font-bold {{ 'bg-emerald-500/20 text-emerald-500' if p.rating >= 7 else 'bg-slate-700 text-slate-400' }}">
+                        {{ p.rating }}
+                    </div>
+                    {% endif %}
+                </a>
+                {% endfor %}
+                {% else %}
+                <div class="text-slate-500 text-sm text-center py-4">Pas de données</div>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- MATCH STATS CENTER -->
+        <div class="card-premium p-4">
+            <h3 class="text-lg font-bold text-white border-b border-slate-700 pb-2 mb-4 text-center">Statistiques</h3>
+
+            <div class="space-y-6">
+                <!-- Stat Item Helper -->
+                {% macro stat_bar(label, val_home, val_away, total, color_home='bg-atlas-brand',
+                color_away='bg-amber-500') %}
+                <div class="flex flex-col gap-1">
+                    <div class="flex justify-between text-xs font-bold text-slate-400">
+                        <span>{{ val_home }}</span>
+                        <span class="text-white">{{ label }}</span>
+                        <span>{{ val_away }}</span>
+                    </div>
+                    <!-- Single Continuous Bar -->
+                    <div class="flex h-2 bg-slate-800 rounded-full overflow-hidden">
+                        {% if total > 0 %}
+                        <div class="{{ color_home }} h-full transition-all duration-500"
+                            style="width: {{ (val_home / total * 100) }}%">
+                        </div>
+                        <div class="{{ color_away }} h-full transition-all duration-500"
+                            style="width: {{ (val_away / total * 100) }}%">
+                        </div>
+                        {% else %}
+                        <!-- 50/50 Split for 0-0 stats -->
+                        <div class="{{ color_home }} h-full transition-all duration-500 opacity-50" style="width: 50%">
+                        </div>
+                        <div class="{{ color_away }} h-full transition-all duration-500 opacity-50" style="width: 50%">
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endmacro %}
+
+                {{ stat_bar("Possession (%)", home_stats.poss, away_stats.poss, home_stats.poss + away_stats.poss) }}
+                {{ stat_bar("Buts", home_stats.goals, away_stats.goals, home_stats.goals + away_stats.goals) }}
+
+                {{ stat_bar("Tirs Total", home_stats.shots, away_stats.shots, home_stats.shots + away_stats.shots) }}
+                {{ stat_bar("Tirs Cadrés", home_stats.shots_target, away_stats.shots_target, home_stats.shots_target +
+                away_stats.shots_target) }}
+                {{ stat_bar("Tirs Non Cadrés", home_stats.shots_off, away_stats.shots_off, home_stats.shots_off +
+                away_stats.shots_off) }}
+                {{ stat_bar("Tirs Bloqués", home_stats.blocked, away_stats.blocked, home_stats.blocked +
+                away_stats.blocked) }}
+                {{ stat_bar("Surface de réparation", home_stats.inside, away_stats.inside, home_stats.inside +
+                away_stats.inside) }}
+                {{ stat_bar("Extérieur Surface", home_stats.outside, away_stats.outside, home_stats.outside +
+                away_stats.outside) }}
+
+                {{ stat_bar("Passes", home_stats.passes, away_stats.passes, home_stats.passes + away_stats.passes) }}
+                {{ stat_bar("Fautes", home_stats.fouls, away_stats.fouls, home_stats.fouls + away_stats.fouls) }}
+                {{ stat_bar("Corners", home_stats.corners, away_stats.corners, home_stats.corners + away_stats.corners)
+                }}
+                {{ stat_bar("Hors-jeu", home_stats.offsides, away_stats.offsides, home_stats.offsides +
+                away_stats.offsides) }}
+
+                <div class="flex flex-col gap-1 mt-2">
+                    {{ stat_bar("Cartons Jaunes", home_stats.yellow, away_stats.yellow, home_stats.yellow +
+                    away_stats.yellow, "bg-yellow-400", "bg-yellow-400") }}
+                </div>
+
+                <div class="flex flex-col gap-1 mt-2">
+                    {{ stat_bar("Cartons Rouges", home_stats.red, away_stats.red, home_stats.red + away_stats.red,
+                    "bg-red-500", "bg-red-500") }}
+                </div>
+
+                {{ stat_bar("Arrêts Gardien", home_stats.saves, away_stats.saves, home_stats.saves + away_stats.saves)
+                }}
+            </div>
+        </div>
+
+        <!-- LINEUP AWAY -->
+        <div class="card-premium p-4">
+            <h3
+                class="text-lg font-bold text-white border-b border-slate-700 pb-2 mb-4 flex items-center justify-end gap-2 text-right">
+                <span class="text-slate-500 text-sm font-normal">{{ match.away_team.name }}</span>
+                Composition
+                <span class="w-2 h-8 bg-amber-500 rounded-sm"></span>
+            </h3>
+
+            <div class="space-y-2 pl-2" dir="rtl">
+                {% if away_lineup %}
+                {% for p in away_lineup %}
+                <a href="/players/{{ p.id }}"
+                    class="flex items-center justify-between p-2 rounded hover:bg-slate-800/50 transition border border-transparent hover:border-slate-700 block group"
+                    dir="ltr">
+                    <!-- Flipped for Right Alignment Visual but content LTR -->
+                    {% if p.rating != "-" %}
+                    <div
+                        class="px-2 py-0.5 rounded text-xs font-bold {{ 'bg-emerald-500/20 text-emerald-500' if p.rating >= 7 else 'bg-slate-700 text-slate-400' }}">
+                        {{ p.rating }}
+                    </div>
+                    {% else %}
+                    <div></div>
+                    {% endif %}
+
+                    <div class="flex items-center gap-3 flex-row-reverse text-right">
+                        {% if p.photo %}
+                        <img src="{{ p.photo }}"
+                            class="w-8 h-8 rounded-full object-cover border border-slate-700 bg-slate-800 group-hover:border-atlas-brand transition-colors"
+                            alt="{{ p.name }}">
+                        {% else %}
+                        <div
+                            class="w-8 h-8 rounded-full bg-slate-700 flex items-center justify-center text-xs font-bold text-slate-400 group-hover:border group-hover:border-atlas-brand transition-colors">
+                            {{ p.position[:2] }}
+                        </div>
+                        {% endif %}
+                        <div class="flex flex-col">
+                            <span class="text-sm font-bold text-white group-hover:text-atlas-brand transition-colors">{{
+                                p.name }}</span>
+                            <span class="text-[10px] text-slate-500">{{ p.minutes }}' jouées</span>
+                        </div>
+                    </div>
+                </a>
+                {% endfor %}
+                {% else %}
+                <div class="text-slate-500 text-sm text-center py-4" dir="ltr">Pas de données</div>
+                {% endif %}
+            </div>
+        </div>
+
+    </div>
+
+</div>
+{% endblock %}

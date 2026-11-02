@@ -1,0 +1,161 @@
+{% extends "layout/base.html" %}
+
+{% block title %}{{ team.name }}{% endblock %}
+{% block header_title %}Détail Équipe{% endblock %}
+
+{% block content %}
+<div class="space-y-6">
+
+    <!-- HERO SECTION -->
+    <div class="card-premium relative overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]">
+        </div>
+        <div class="absolute right-0 top-0 h-full w-1/3 bg-gradient-to-l from-atlas-brand/20 to-transparent"></div>
+
+        <div class="relative p-6 lg:p-10 flex flex-col md:flex-row items-center md:items-start gap-8">
+            <!-- Logo -->
+            <!-- Logo -->
+            <div
+                class="relative w-48 h-32 md:w-56 md:h-36 mb-4 shrink-0 drop-shadow-2xl filter transform hover:scale-105 transition-transform duration-500">
+                <!-- Border/Bg Layer -->
+                <div
+                    class="absolute inset-0 bg-white [clip-path:polygon(15%_0%,85%_0%,100%_50%,85%_100%,15%_100%,0%_50%)]">
+                </div>
+                <!-- Image Layer -->
+                <div
+                    class="absolute inset-[4px] bg-slate-900 [clip-path:polygon(15%_0%,85%_0%,100%_50%,85%_100%,15%_100%,0%_50%)] flex items-center justify-center overflow-hidden">
+                    {% if team.logo %}
+                    <img src="{{ team.logo }}" alt="{{ team.name }}" class="w-full h-full object-cover">
+                    {% else %}
+                    <span class="text-4xl font-bold text-white">{{ team.name[:2].upper() }}</span>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- Info -->
+            <div class="text-center md:text-left flex-1">
+                <div class="flex items-center justify-center md:justify-start gap-3 mb-2">
+                    <h1 class="text-3xl md:text-5xl font-bold text-white tracking-tight">{{ team.name }}</h1>
+                    <span
+                        class="px-3 py-1 rounded bg-slate-700/50 border border-slate-600 text-slate-300 font-mono text-sm uppercase">{{
+                        team.country }}</span>
+                </div>
+                <p class="text-xl text-atlas-brand font-medium mb-4">Équipe Nationale</p>
+
+                <div class="flex flex-wrap justify-center md:justify-start gap-6 text-sm text-slate-400">
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-users text-slate-500"></i>
+                        <span>{{ players|length }} Joueurs</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Global Stats Block -->
+            <div class="flex gap-4">
+                <div
+                    class="flex flex-col items-center justify-center p-4 bg-slate-800/50 rounded-xl border border-slate-700/50 backdrop-blur-sm min-w-[100px]">
+                    <span class="text-slate-400 text-xs uppercase tracking-wider mb-1">Matchs</span>
+                    <span class="text-3xl font-bold text-white">{{ stats.matches_played }}</span>
+                </div>
+                <div
+                    class="flex flex-col items-center justify-center p-4 bg-slate-800/50 rounded-xl border border-slate-700/50 backdrop-blur-sm min-w-[100px]">
+                    <span class="text-slate-400 text-xs uppercase tracking-wider mb-1">Note</span>
+                    <span
+                        class="text-3xl font-bold {{ 'text-emerald-500' if stats.avg_rating >= 7 else 'text-amber-500' }}">{{
+                        stats.avg_rating }}</span>
+                </div>
+                <div
+                    class="flex flex-col items-center justify-center p-4 bg-slate-800/50 rounded-xl border border-slate-700/50 backdrop-blur-sm min-w-[100px]">
+                    <span class="text-slate-400 text-xs uppercase tracking-wider mb-1">Buts</span>
+                    <span class="text-3xl font-bold text-atlas-green">{{ stats.goals_scored }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TABS -->
+    <!-- (Simplifié: on affiche tout en sections l'une sous l'autre pour l'instant) -->
+
+    <!-- SQUAD LIST -->
+    <div class="card-premium p-6">
+        <h2 class="text-xl font-bold text-white mb-6 flex items-center gap-2">
+            <i class="fas fa-users text-atlas-brand"></i> Effectif
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+            {% for player in players %}
+            <a href="/players/{{ player.id }}{% if selected_competition_id %}?competition_id={{ selected_competition_id }}{% endif %}"
+                class="flex items-center gap-4 p-3 rounded-lg bg-slate-800/50 hover:bg-slate-700 transition border border-slate-700/50 hover:border-atlas-brand/50 group">
+                <div class="w-12 h-12 rounded-full overflow-hidden bg-slate-600 border border-slate-500">
+                    {% if player.photo %}
+                    <img src="{{ player.photo }}" class="w-full h-full object-cover">
+                    {% else %}
+                    <img src="https://ui-avatars.com/api/?name={{ player.name }}&background=random"
+                        class="w-full h-full object-cover">
+                    {% endif %}
+                </div>
+                <div>
+                    <h4 class="font-bold text-slate-200 group-hover:text-white transition">{{ player.name }}</h4>
+                    <div class="flex items-center gap-2 text-xs text-slate-400">
+                        <span>{{ player.position }}</span>
+                        {% if player.rating %}
+                        <span class="px-1.5 py-0.5 rounded bg-slate-700 text-atlas-gold font-bold">{{ player.rating
+                            }}</span>
+                        {% endif %}
+                    </div>
+                </div>
+            </a>
+            {% else %}
+            <p class="text-slate-500 col-span-full">Aucun joueur trouvé.</p>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- RECENT MATCHES -->
+    <div class="card-premium p-6">
+        <h2 class="text-xl font-bold text-white mb-6 flex items-center gap-2">
+            <i class="fas fa-calendar-alt text-atlas-brand"></i> Matchs Récents
+        </h2>
+
+        <div class="overflow-x-auto">
+            <table class="w-full text-left border-collapse">
+                <thead>
+                    <tr class="text-xs text-slate-500 uppercase border-b border-slate-700">
+                        <th class="py-3 pl-2">Date</th>
+                        <th class="py-3 text-center">Score</th>
+                        <th class="py-3">Adversaire</th>
+                        <th class="py-3 text-center">Compétition</th>
+                    </tr>
+                </thead>
+                <tbody class="text-sm">
+                    {% for match in matches %}
+                    <tr onclick="window.location='/matches/{{ match.id }}'"
+                        class="hover:bg-slate-700/50 transition-colors border-b border-slate-800 cursor-pointer">
+                        <td class="py-3 pl-2 text-slate-400">{{ match.date.strftime('%d %b %Y') }}</td>
+                        <td class="py-3 text-center font-bold text-white tracking-widest">
+                            <span
+                                class="{{ 'text-atlas-green' if match.result == 'W' else ('text-rose-500' if match.result == 'L' else 'text-slate-300') }}">
+                                {{ match.score }}
+                            </span>
+                        </td>
+                        <td class="py-3 flex items-center gap-2">
+                            {% if match.opponent_logo %}
+                            <img src="{{ match.opponent_logo }}" class="w-6 h-6 object-contain">
+                            {% endif %}
+                            <span class="text-slate-300">{{ match.opponent }}</span>
+                        </td>
+                        <td class="py-3 text-center text-slate-500">{{ match.competition }}</td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="4" class="py-4 text-center text-slate-500">Aucun match récent.</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
